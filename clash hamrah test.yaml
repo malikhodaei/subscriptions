@@ -21,7 +21,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"irancell trojan (hel)","type":"trojan","server":"maltest.ddns.net","port":443,"udp":true,"password":"6UgmhqPoX0","sni":"hel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"hel1.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
+  - {"name":"irancell trojan (hel)","type":"trojan","server":"maltestmci.ddns.net","port":443,"udp":true,"password":"6UgmhqPoX0","sni":"hel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"hel1.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
   - {"name":"🚀 irancell trojan-grpc (de)","type":"trojan","server":"maltestmci.ddns.net","port":2053,"udp":true,"password":"EQ2qHVYOdK2i_21gvHserw","sni":"mar3.malikhodaei.online","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"},"alpn":["h2"]}
   - {"name":"🚀 irancell trojan-ws (de)","type":"trojan","server":"maltestmci.ddns.net","port":2053,"udp":true,"password":"EQ2qHVYOdK2i_21gvHserw","sni":"mar3.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"mar3.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
   - {"name":"🚀 Irancell trojan-ws(hel)","type":"trojan","server":"maltestmci.ddns.net","port":2053,"udp":true,"password":"4bMSlOYO_sr3tg7hLo6zjg","sni":"marhel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marhel1.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
