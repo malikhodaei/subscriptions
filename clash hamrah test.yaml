@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：28-03-2023 00:37:14
+# 创建时间：29-03-2023 12:20:01
 # 使用模版：V2RaySE 默认模版
 # 节点数量：12
 ####################################
@@ -21,123 +21,123 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"hamrah trojan (hel)","type":"trojan","server":"maltestmci.ddns.net","port":443,"udp":true,"password":"6UgmhqPoX0","sni":"hel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"hel1.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
-  - {"name":"🚀 hamrah trojan-grpc (de)","type":"trojan","server":"maltestmci.ddns.net","port":2053,"udp":true,"password":"EQ2qHVYOdK2i_21gvHserw","sni":"mar3.malikhodaei.online","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"},"alpn":["h2"]}
-  - {"name":"🚀 hamrah trojan-ws (de)","type":"trojan","server":"maltestmci.ddns.net","port":2053,"udp":true,"password":"EQ2qHVYOdK2i_21gvHserw","sni":"mar3.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"mar3.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
-  - {"name":"🚀 hamrah trojan-ws(hel)","type":"trojan","server":"maltestmci.ddns.net","port":2053,"udp":true,"password":"4bMSlOYO_sr3tg7hLo6zjg","sni":"marhel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marhel1.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
-  - {"name":"hamrah trojan (de)","type":"trojan","server":"maltestmci.ddns.net","port":443,"udp":true,"password":"3aVs7AEdyp","sni":"nur3.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"nur3.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
-  - {"name":"🚀 hamrah trojan-grpc(hel)","type":"trojan","server":"maltestmci.ddns.net","port":2053,"udp":true,"password":"4bMSlOYO_sr3tg7hLo6zjg","sni":"marhel1.malikhodaei.online","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"},"alpn":["h2","http/1.1"]}
-  - {"name":"🚀hamrah vmess-grpc(hel)","type":"vmess","server":"maltest.ddns.net","port":2053,"cipher":"auto","uuid":"41749f62-5499-4cdb-ad55-435077db7638","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marhel1.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"none"}}
+  - {"name":"🚀hamrah vmess-grpc(hel)","type":"vmess","server":"maltestmci.ddns.net","port":2053,"cipher":"auto","uuid":"41749f62-5499-4cdb-ad55-435077db7638","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marhel1.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
   - {"name":"🚀hamrah vmess-ws(de)","type":"vmess","server":"maltestmci.ddns.net","port":2053,"cipher":"auto","uuid":"b5a39213-827e-4bba-a4ab-2f71d3a4cf1f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mar3.malikhodaei.online","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"mar3.malikhodaei.online"}}}
   - {"name":"🚀hamrah vmess-ws (hel)","type":"vmess","server":"maltestmci.ddns.net","port":2053,"cipher":"auto","uuid":"41749f62-5499-4cdb-ad55-435077db7638","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marhel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marhel1.malikhodaei.online"}}}
   - {"name":"🚀hamrah vmess-grcp(de)","type":"vmess","server":"maltestmci.ddns.net","port":2053,"cipher":"auto","uuid":"b5a39213-827e-4bba-a4ab-2f71d3a4cf1f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mar3.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
   - {"name":"hamrah vmess-ws(hel)","type":"vmess","server":"maltestmci.ddns.net","port":443,"cipher":"auto","uuid":"b1f56415-7990-458f-db8b-5a03db5f7f81","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"hel1.malikhodaei.online"}}}
   - {"name":"hamrah vmess-ws (de)","type":"vmess","server":"maltestmci.ddns.net","port":443,"cipher":"auto","uuid":"3761e8bf-0da7-4546-ef03-566ac9fad69b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nur3.malikhodaei.online","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"nur3.malikhodaei.online"}}}
+  - {"name":"hamrah trojan (hel)","type":"trojan","server":"maltestmci.ddns.net","port":443,"udp":true,"password":"6UgmhqPoX0","sni":"hel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"hel1.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
+  - {"name":"🚀 hamrah trojan-grpc (de)","type":"trojan","server":"maltestmci.ddns.net","port":2053,"udp":true,"password":"EQ2qHVYOdK2i_21gvHserw","sni":"mar3.malikhodaei.online","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"},"alpn":["h2"]}
+  - {"name":"🚀 hamrah trojan-grpc(hel)","type":"trojan","server":"maltestmci.ddns.net","port":2053,"udp":true,"password":"4bMSlOYO_sr3tg7hLo6zjg","sni":"marhel1.malikhodaei.online","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"},"alpn":["h2","http/1.1"]}
+  - {"name":"🚀 hamrah trojan-ws (de)","type":"trojan","server":"maltestmci.ddns.net","port":2053,"udp":true,"password":"EQ2qHVYOdK2i_21gvHserw","sni":"mar3.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"mar3.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
+  - {"name":"🚀 hamrah trojan-ws(hel)","type":"trojan","server":"maltestmci.ddns.net","port":2053,"udp":true,"password":"4bMSlOYO_sr3tg7hLo6zjg","sni":"marhel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marhel1.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
+  - {"name":"hamrah trojan (de)","type":"trojan","server":"maltestmci.ddns.net","port":443,"udp":true,"password":"3aVs7AEdyp","sni":"nur3.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"nur3.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - hamrah trojan (hel)
-      - 🚀 hamrah trojan-grpc (de)
-      - 🚀 hamrah trojan-ws (de)
-      - 🚀 hamrah trojan-ws(hel)
-      - hamrah trojan (de)
-      - 🚀 hamrah trojan-grpc(hel)
       - 🚀hamrah vmess-grpc(hel)
       - 🚀hamrah vmess-ws(de)
       - 🚀hamrah vmess-ws (hel)
       - 🚀hamrah vmess-grcp(de)
       - hamrah vmess-ws(hel)
       - hamrah vmess-ws (de)
+      - hamrah trojan (hel)
+      - 🚀 hamrah trojan-grpc (de)
+      - 🚀 hamrah trojan-grpc(hel)
+      - 🚀 hamrah trojan-ws (de)
+      - 🚀 hamrah trojan-ws(hel)
+      - hamrah trojan (de)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - hamrah trojan (hel)
-      - 🚀 hamrah trojan-grpc (de)
-      - 🚀 hamrah trojan-ws (de)
-      - 🚀 hamrah trojan-ws(hel)
-      - hamrah trojan (de)
-      - 🚀 hamrah trojan-grpc(hel)
       - 🚀hamrah vmess-grpc(hel)
       - 🚀hamrah vmess-ws(de)
       - 🚀hamrah vmess-ws (hel)
       - 🚀hamrah vmess-grcp(de)
       - hamrah vmess-ws(hel)
       - hamrah vmess-ws (de)
+      - hamrah trojan (hel)
+      - 🚀 hamrah trojan-grpc (de)
+      - 🚀 hamrah trojan-grpc(hel)
+      - 🚀 hamrah trojan-ws (de)
+      - 🚀 hamrah trojan-ws(hel)
+      - hamrah trojan (de)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - hamrah trojan (hel)
-      - 🚀 hamrah trojan-grpc (de)
-      - 🚀 hamrah trojan-ws (de)
-      - 🚀 hamrah trojan-ws(hel)
-      - hamrah trojan (de)
-      - 🚀 hamrah trojan-grpc(hel)
       - 🚀hamrah vmess-grpc(hel)
       - 🚀hamrah vmess-ws(de)
       - 🚀hamrah vmess-ws (hel)
       - 🚀hamrah vmess-grcp(de)
       - hamrah vmess-ws(hel)
       - hamrah vmess-ws (de)
+      - hamrah trojan (hel)
+      - 🚀 hamrah trojan-grpc (de)
+      - 🚀 hamrah trojan-grpc(hel)
+      - 🚀 hamrah trojan-ws (de)
+      - 🚀 hamrah trojan-ws(hel)
+      - hamrah trojan (de)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - hamrah trojan (hel)
-      - 🚀 hamrah trojan-grpc (de)
-      - 🚀 hamrah trojan-ws (de)
-      - 🚀 hamrah trojan-ws(hel)
-      - hamrah trojan (de)
-      - 🚀 hamrah trojan-grpc(hel)
       - 🚀hamrah vmess-grpc(hel)
       - 🚀hamrah vmess-ws(de)
       - 🚀hamrah vmess-ws (hel)
       - 🚀hamrah vmess-grcp(de)
       - hamrah vmess-ws(hel)
       - hamrah vmess-ws (de)
+      - hamrah trojan (hel)
+      - 🚀 hamrah trojan-grpc (de)
+      - 🚀 hamrah trojan-grpc(hel)
+      - 🚀 hamrah trojan-ws (de)
+      - 🚀 hamrah trojan-ws(hel)
+      - hamrah trojan (de)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - hamrah trojan (hel)
-      - 🚀 hamrah trojan-grpc (de)
-      - 🚀 hamrah trojan-ws (de)
-      - 🚀 hamrah trojan-ws(hel)
-      - hamrah trojan (de)
-      - 🚀 hamrah trojan-grpc(hel)
       - 🚀hamrah vmess-grpc(hel)
       - 🚀hamrah vmess-ws(de)
       - 🚀hamrah vmess-ws (hel)
       - 🚀hamrah vmess-grcp(de)
       - hamrah vmess-ws(hel)
       - hamrah vmess-ws (de)
+      - hamrah trojan (hel)
+      - 🚀 hamrah trojan-grpc (de)
+      - 🚀 hamrah trojan-grpc(hel)
+      - 🚀 hamrah trojan-ws (de)
+      - 🚀 hamrah trojan-ws(hel)
+      - hamrah trojan (de)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - hamrah trojan (hel)
-      - 🚀 hamrah trojan-grpc (de)
-      - 🚀 hamrah trojan-ws (de)
-      - 🚀 hamrah trojan-ws(hel)
-      - hamrah trojan (de)
-      - 🚀 hamrah trojan-grpc(hel)
       - 🚀hamrah vmess-grpc(hel)
       - 🚀hamrah vmess-ws(de)
       - 🚀hamrah vmess-ws (hel)
       - 🚀hamrah vmess-grcp(de)
       - hamrah vmess-ws(hel)
       - hamrah vmess-ws (de)
+      - hamrah trojan (hel)
+      - 🚀 hamrah trojan-grpc (de)
+      - 🚀 hamrah trojan-grpc(hel)
+      - 🚀 hamrah trojan-ws (de)
+      - 🚀 hamrah trojan-ws(hel)
+      - hamrah trojan (de)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -160,18 +160,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - hamrah trojan (hel)
-      - 🚀 hamrah trojan-grpc (de)
-      - 🚀 hamrah trojan-ws (de)
-      - 🚀 hamrah trojan-ws(hel)
-      - hamrah trojan (de)
-      - 🚀 hamrah trojan-grpc(hel)
       - 🚀hamrah vmess-grpc(hel)
       - 🚀hamrah vmess-ws(de)
       - 🚀hamrah vmess-ws (hel)
       - 🚀hamrah vmess-grcp(de)
       - hamrah vmess-ws(hel)
       - hamrah vmess-ws (de)
+      - hamrah trojan (hel)
+      - 🚀 hamrah trojan-grpc (de)
+      - 🚀 hamrah trojan-grpc(hel)
+      - 🚀 hamrah trojan-ws (de)
+      - 🚀 hamrah trojan-ws(hel)
+      - hamrah trojan (de)
 
 rules:
 # 本地/局域网地址
