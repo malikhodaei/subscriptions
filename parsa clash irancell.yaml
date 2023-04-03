@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：03-04-2023 16:01:08
+# 创建时间：03-04-2023 16:22:47
 # 使用模版：V2RaySE 默认模版
-# 节点数量：12
-####################################
+# 节点数量：7
+####################################  
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -21,123 +21,88 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🚀 irancell (parsa) [ws]_1","type":"trojan","server":"maliran.malikhodaei.online","port":2053,"udp":true,"password":"CwKxYO0mwnd-Cyvc3GTCXQ","sni":"rom.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"rom.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
-  - {"name":"🚀 irancell (parsa) [grpc]_1","type":"trojan","server":"maliran.malikhodaei.online","port":2053,"udp":true,"password":"CwKxYO0mwnd-Cyvc3GTCXQ","sni":"rom.malikhodaei.online","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"},"alpn":["h2","http/1.1"]}
-  - {"name":"🚀 irancell (parsa) [tcp]_1","type":"vless","server":"maliran.malikhodaei.online","port":2053,"uuid":"3c51a240-cfdd-49f2-b380-bc4bf51e3640","tls":true,"servername":"rom.malikhodaei.online","network":"tcp"}
-  - {"name":"🚀 irancell (parsa) [ws]_2","type":"vless","server":"maliran.malikhodaei.online","port":2053,"uuid":"3c51a240-cfdd-49f2-b380-bc4bf51e3640","tls":true,"servername":"rom.malikhodaei.online","network":"ws","ws-opts":{"path":"/lw","headers":{"host":"rom.malikhodaei.online"}}}
-  - {"name":"🚀 irancell (parsa) [grpc]_2","type":"vless","server":"maliran.malikhodaei.online","port":2053,"uuid":"3c51a240-cfdd-49f2-b380-bc4bf51e3640","tls":true,"servername":"rom.malikhodaei.online","network":"grpc"}
-  - {"name":"🚀 irancell (parsa) [tcp]_2","type":"vmess","server":"maliran.malikhodaei.online","port":2053,"cipher":"auto","uuid":"3cfcb1b6-be5a-4cde-bfb5-fc8d4d4a50aa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rom.malikhodaei.online","network":"tcp"}
-  - {"name":"🚀 irancell (parsa) [ws]_3","type":"vmess","server":"maliran.malikhodaei.online","port":2053,"cipher":"auto","uuid":"3cfcb1b6-be5a-4cde-bfb5-fc8d4d4a50aa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rom.malikhodaei.online","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"rom.malikhodaei.online"}}}
-  - {"name":"🚀 irancell (parsa) [grpc]_3","type":"vmess","server":"maliran.malikhodaei.online","port":2053,"cipher":"auto","uuid":"3cfcb1b6-be5a-4cde-bfb5-fc8d4d4a50aa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rom.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
+  - {"name":"🚀 irancell (parsa) [tcp]","type":"vmess","server":"maliran.malikhodaei.online","port":2053,"cipher":"auto","uuid":"3cfcb1b6-be5a-4cde-bfb5-fc8d4d4a50aa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rom.malikhodaei.online","network":"tcp"}
+  - {"name":"🚀 irancell (parsa) [ws]_1","type":"vmess","server":"maliran.malikhodaei.online","port":2053,"cipher":"auto","uuid":"3cfcb1b6-be5a-4cde-bfb5-fc8d4d4a50aa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rom.malikhodaei.online","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"rom.malikhodaei.online"}}}
+  - {"name":"🚀 irancell (parsa) [grpc]_1","type":"vmess","server":"maliran.malikhodaei.online","port":2053,"cipher":"auto","uuid":"3cfcb1b6-be5a-4cde-bfb5-fc8d4d4a50aa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rom.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
   - {"name":"vmess ro-parsa irancell","type":"vmess","server":"maliran.malikhodaei.online","port":443,"cipher":"auto","uuid":"04b1222d-1580-4149-bb91-c66dd3fc5df8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rom.malikhodaei.online","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"rom.malikhodaei.online"}}}
-  - {"name":"vless ro-vless irancell ","type":"vless","server":"maliran.malikhodaei.online","port":443,"uuid":"7d657273-8117-4e9f-c68c-ef07056da458","tls":true,"servername":"rom.malikhodaei.online","network":"ws","ws-opts":{"path":"/vlessws","headers":{"host":"rom.malikhodaei.online"}}}
+  - {"name":"🚀 irancell (parsa) [ws]_2","type":"trojan","server":"maliran.malikhodaei.online","port":2053,"udp":true,"password":"CwKxYO0mwnd-Cyvc3GTCXQ","sni":"rom.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"rom.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
+  - {"name":"🚀 irancell (parsa) [grpc]_2","type":"trojan","server":"maliran.malikhodaei.online","port":2053,"udp":true,"password":"CwKxYO0mwnd-Cyvc3GTCXQ","sni":"rom.malikhodaei.online","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"},"alpn":["h2","http/1.1"]}
   - {"name":"trojan ro-trojan irancell ","type":"trojan","server":"maliran.malikhodaei.online","port":443,"udp":true,"password":"ELihg2UYbx","sni":"rom.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"rom.malikhodaei.online"}},"alpn":["h2","http/1.1"]}
-  - {"name":"shadow ro-shadow irancell ","type":"vless","server":"maliran.malikhodaei.online","port":443,"uuid":"a3bbd139-702a-41a9-ab4b-da7d451dfdca","tls":true,"servername":"rom.malikhodaei.online","network":"ws","ws-opts":{"path":"/shadow","headers":{"host":"rom.malikhodaei.online"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🚀 irancell (parsa) [tcp]
       - 🚀 irancell (parsa) [ws]_1
       - 🚀 irancell (parsa) [grpc]_1
-      - 🚀 irancell (parsa) [tcp]_1
+      - vmess ro-parsa irancell
       - 🚀 irancell (parsa) [ws]_2
       - 🚀 irancell (parsa) [grpc]_2
-      - 🚀 irancell (parsa) [tcp]_2
-      - 🚀 irancell (parsa) [ws]_3
-      - 🚀 irancell (parsa) [grpc]_3
-      - vmess ro-parsa irancell
-      - 'vless ro-vless irancell '
       - 'trojan ro-trojan irancell '
-      - 'shadow ro-shadow irancell '
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🚀 irancell (parsa) [tcp]
       - 🚀 irancell (parsa) [ws]_1
       - 🚀 irancell (parsa) [grpc]_1
-      - 🚀 irancell (parsa) [tcp]_1
+      - vmess ro-parsa irancell
       - 🚀 irancell (parsa) [ws]_2
       - 🚀 irancell (parsa) [grpc]_2
-      - 🚀 irancell (parsa) [tcp]_2
-      - 🚀 irancell (parsa) [ws]_3
-      - 🚀 irancell (parsa) [grpc]_3
-      - vmess ro-parsa irancell
-      - 'vless ro-vless irancell '
       - 'trojan ro-trojan irancell '
-      - 'shadow ro-shadow irancell '
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🚀 irancell (parsa) [tcp]
       - 🚀 irancell (parsa) [ws]_1
       - 🚀 irancell (parsa) [grpc]_1
-      - 🚀 irancell (parsa) [tcp]_1
+      - vmess ro-parsa irancell
       - 🚀 irancell (parsa) [ws]_2
       - 🚀 irancell (parsa) [grpc]_2
-      - 🚀 irancell (parsa) [tcp]_2
-      - 🚀 irancell (parsa) [ws]_3
-      - 🚀 irancell (parsa) [grpc]_3
-      - vmess ro-parsa irancell
-      - 'vless ro-vless irancell '
       - 'trojan ro-trojan irancell '
-      - 'shadow ro-shadow irancell '
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🚀 irancell (parsa) [tcp]
       - 🚀 irancell (parsa) [ws]_1
       - 🚀 irancell (parsa) [grpc]_1
-      - 🚀 irancell (parsa) [tcp]_1
+      - vmess ro-parsa irancell
       - 🚀 irancell (parsa) [ws]_2
       - 🚀 irancell (parsa) [grpc]_2
-      - 🚀 irancell (parsa) [tcp]_2
-      - 🚀 irancell (parsa) [ws]_3
-      - 🚀 irancell (parsa) [grpc]_3
-      - vmess ro-parsa irancell
-      - 'vless ro-vless irancell '
       - 'trojan ro-trojan irancell '
-      - 'shadow ro-shadow irancell '
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🚀 irancell (parsa) [tcp]
       - 🚀 irancell (parsa) [ws]_1
       - 🚀 irancell (parsa) [grpc]_1
-      - 🚀 irancell (parsa) [tcp]_1
+      - vmess ro-parsa irancell
       - 🚀 irancell (parsa) [ws]_2
       - 🚀 irancell (parsa) [grpc]_2
-      - 🚀 irancell (parsa) [tcp]_2
-      - 🚀 irancell (parsa) [ws]_3
-      - 🚀 irancell (parsa) [grpc]_3
-      - vmess ro-parsa irancell
-      - 'vless ro-vless irancell '
       - 'trojan ro-trojan irancell '
-      - 'shadow ro-shadow irancell '
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🚀 irancell (parsa) [tcp]
       - 🚀 irancell (parsa) [ws]_1
       - 🚀 irancell (parsa) [grpc]_1
-      - 🚀 irancell (parsa) [tcp]_1
+      - vmess ro-parsa irancell
       - 🚀 irancell (parsa) [ws]_2
       - 🚀 irancell (parsa) [grpc]_2
-      - 🚀 irancell (parsa) [tcp]_2
-      - 🚀 irancell (parsa) [ws]_3
-      - 🚀 irancell (parsa) [grpc]_3
-      - vmess ro-parsa irancell
-      - 'vless ro-vless irancell '
       - 'trojan ro-trojan irancell '
-      - 'shadow ro-shadow irancell '
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -160,18 +125,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🚀 irancell (parsa) [tcp]
       - 🚀 irancell (parsa) [ws]_1
       - 🚀 irancell (parsa) [grpc]_1
-      - 🚀 irancell (parsa) [tcp]_1
+      - vmess ro-parsa irancell
       - 🚀 irancell (parsa) [ws]_2
       - 🚀 irancell (parsa) [grpc]_2
-      - 🚀 irancell (parsa) [tcp]_2
-      - 🚀 irancell (parsa) [ws]_3
-      - 🚀 irancell (parsa) [grpc]_3
-      - vmess ro-parsa irancell
-      - 'vless ro-vless irancell '
       - 'trojan ro-trojan irancell '
-      - 'shadow ro-shadow irancell '
 
 rules:
 # 本地/局域网地址
