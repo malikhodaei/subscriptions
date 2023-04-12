@@ -21,7 +21,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"irancell trojan (hel)","type":"trojan","server":"malirantest.malikhodaei.online","port":443,"udp":true,"password":"6UgmhqPoX0","sni":"hel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"hel1.malikhodaei.online"}}}
+  - {"name":"irancell trojan (hel)","type":"trojan","server":"malirantest.malikhodaei.online","port":443,"udp":true,"password":"Ecs9HvDj40","sni":"hel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"hel1.malikhodaei.online"}}}
   - {"name":"🚀irancell vmess-ws(de)","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"auto","uuid":"b5a39213-827e-4bba-a4ab-2f71d3a4cf1f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mar3.malikhodaei.online","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"mar3.malikhodaei.online"}}}
   - {"name":"🚀Irancell vmess-ws (hel)","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"auto","uuid":"41749f62-5499-4cdb-ad55-435077db7638","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marhel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marhel1.malikhodaei.online"}}}
   - {"name":"🚀 Irancell trojan-grpc(hel)","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"4bMSlOYO_sr3tg7hLo6zjg","sni":"marhel1.malikhodaei.online","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"},"alpn":["h2","http/1.1"]}
