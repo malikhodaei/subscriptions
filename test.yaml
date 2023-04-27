@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：27-04-2023 22:33:30
+# 创建时间：27-04-2023 22:34:56
 # 使用模版：V2RaySE 默认模版
 # 节点数量：7
 ####################################
@@ -25,7 +25,6 @@ dns:
     - https://9.9.9.9/dns-query
     - tls://1.0.0.1:853
     - tls://dns.google:853
-
 
 proxies:
   - {"name":"🚀 Irancell  (tur) trojan-grpc","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"a3o7-FT1v3lklI5-Pzr7og","sni":"turm.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
