@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：27-04-2023 22:31:29
+# 创建时间：27-04-2023 22:33:30
 # 使用模版：V2RaySE 默认模版
-# 节点数量：10
+# 节点数量：7
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -31,9 +31,6 @@ proxies:
   - {"name":"🚀 Irancell  (tur) trojan-grpc","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"a3o7-FT1v3lklI5-Pzr7og","sni":"turm.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
   - {"name":"🚀 Irancell (tur) trojan-ws","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"a3o7-FT1v3lklI5-Pzr7og","sni":"turm.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"turm.shanty.tech"}},"alpn":["h2","http/1.1"]}
   - {"name":"trojan grpc tur-ali","type":"trojan","server":"malirantest.malikhodaei.online","port":2087,"udp":true,"password":"kckE38RKIR","sni":"turx.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"turx.shanty.tech"},"alpn":["h2","http/1.1"]}
-  - {"name":"🚀 Irancell  (tur) vless-ws","type":"vless","server":"malirantest.malikhodaei.online","port":2053,"uuid":"aec1f476-74c3-4e9f-93e9-cfa1594afd58","tls":true,"servername":"turm.shanty.tech","network":"ws","ws-opts":{"path":"/lw","headers":{"host":"turm.shanty.tech"}}}
-  - {"name":"🚀 Irancell  (tur) vless-grpc","type":"vless","server":"malirantest.malikhodaei.online","port":2053,"uuid":"aec1f476-74c3-4e9f-93e9-cfa1594afd58","tls":true,"servername":"turm.shanty.tech","network":"grpc"}
-  - {"name":"vless grpc tur-ali3","type":"vless","server":"malirantest.malikhodaei.online","port":2096,"uuid":"00fb4087-de4d-4f58-f814-6a4b36757fd2","tls":true,"servername":"turx.shanty.tech","network":"grpc"}
   - {"name":"🚀 Irancell  (tur) vmess-ws","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"auto","uuid":"4e7546c3-6bd6-4df1-b364-8dcb36f098e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"turm.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"turm.shanty.tech"}}}
   - {"name":"🚀 Irancell  (tur) vmess-grcp","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"auto","uuid":"4e7546c3-6bd6-4df1-b364-8dcb36f098e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"turm.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
   - {"name":"vmess grcp tur-ali2","type":"vmess","server":"malirantest.malikhodaei.online","port":2083,"cipher":"auto","uuid":"9ac94f44-a31e-4ef4-9063-a1ebbe476625","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"turx.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"turx.shanty.tech","grpc-mode":"gun"}}
@@ -47,9 +44,6 @@ proxy-groups:
       - 🚀 Irancell  (tur) trojan-grpc
       - 🚀 Irancell (tur) trojan-ws
       - trojan grpc tur-ali
-      - 🚀 Irancell  (tur) vless-ws
-      - 🚀 Irancell  (tur) vless-grpc
-      - vless grpc tur-ali3
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
       - vmess grcp tur-ali2
@@ -63,9 +57,6 @@ proxy-groups:
       - 🚀 Irancell  (tur) trojan-grpc
       - 🚀 Irancell (tur) trojan-ws
       - trojan grpc tur-ali
-      - 🚀 Irancell  (tur) vless-ws
-      - 🚀 Irancell  (tur) vless-grpc
-      - vless grpc tur-ali3
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
       - vmess grcp tur-ali2
@@ -79,9 +70,6 @@ proxy-groups:
       - 🚀 Irancell  (tur) trojan-grpc
       - 🚀 Irancell (tur) trojan-ws
       - trojan grpc tur-ali
-      - 🚀 Irancell  (tur) vless-ws
-      - 🚀 Irancell  (tur) vless-grpc
-      - vless grpc tur-ali3
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
       - vmess grcp tur-ali2
@@ -94,9 +82,6 @@ proxy-groups:
       - 🚀 Irancell  (tur) trojan-grpc
       - 🚀 Irancell (tur) trojan-ws
       - trojan grpc tur-ali
-      - 🚀 Irancell  (tur) vless-ws
-      - 🚀 Irancell  (tur) vless-grpc
-      - vless grpc tur-ali3
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
       - vmess grcp tur-ali2
@@ -109,9 +94,6 @@ proxy-groups:
       - 🚀 Irancell  (tur) trojan-grpc
       - 🚀 Irancell (tur) trojan-ws
       - trojan grpc tur-ali
-      - 🚀 Irancell  (tur) vless-ws
-      - 🚀 Irancell  (tur) vless-grpc
-      - vless grpc tur-ali3
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
       - vmess grcp tur-ali2
@@ -124,9 +106,6 @@ proxy-groups:
       - 🚀 Irancell  (tur) trojan-grpc
       - 🚀 Irancell (tur) trojan-ws
       - trojan grpc tur-ali
-      - 🚀 Irancell  (tur) vless-ws
-      - 🚀 Irancell  (tur) vless-grpc
-      - vless grpc tur-ali3
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
       - vmess grcp tur-ali2
@@ -156,9 +135,6 @@ proxy-groups:
       - 🚀 Irancell  (tur) trojan-grpc
       - 🚀 Irancell (tur) trojan-ws
       - trojan grpc tur-ali
-      - 🚀 Irancell  (tur) vless-ws
-      - 🚀 Irancell  (tur) vless-grpc
-      - vless grpc tur-ali3
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
       - vmess grcp tur-ali2
