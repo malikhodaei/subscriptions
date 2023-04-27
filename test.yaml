@@ -42,7 +42,7 @@ proxy-groups:
       - DIRECT
       - 🚀 Irancell  (tur) trojan-grpc
       - 🚀 Irancell (tur) trojan-ws
-      - trojan grpc tur-ali
+      - trojan grpc tur-ali 
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
       - vmess grcp tur-ali2
