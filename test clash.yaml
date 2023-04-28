@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：28-04-2023 09:36:06
+# 创建时间：28-04-2023 09:49:06
 # 使用模版：V2RaySE 默认模版
 # 节点数量：27
 ####################################
@@ -9,20 +9,14 @@ mixed-port: 7890
 allow-lan: true
 log-level: info
 external-controller: 0.0.0.0:9090
-tcp-concurrent: 4
-
 dns:
   enabled: true
   nameserver:
-    - 78.157.42.100
-    - https://1.1.1.1/dns-query
-    - https://9.9.9.9/dns-query
-    - 8.8.8.8
-    
+    - 119.29.29.29
+    - 223.5.5.5
   fallback:
-    - 78.157.42.100
-    - https://1.1.1.1/dns-query
-    - https://9.9.9.9/dns-query
+    - 8.8.8.8
+    - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
 
@@ -35,7 +29,7 @@ proxies:
   - {"name":"🚀  Irancell (pol) trojan grcp","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"sZGJdoE3fIMxmS8YOExGxw","sni":"polm.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
   - {"name":"🚀  Irancell (pol) trojan ws","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"sZGJdoE3fIMxmS8YOExGxw","sni":"polm.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"polm.shanty.tech"}}}
   - {"name":" Irancell (pol) trojan-grpc","type":"trojan","server":"malirantest.malikhodaei.online","port":2087,"udp":true,"password":"kn2mmWVAqY","sni":"polx.shanty.tech","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1"]}
-  - {"name":" Irancell (de) trojan-grpc","type":"trojan","server":"malirantest.malikhodaei.online","port":2087,"udp":true,"password":"uKLBklav90","sni":"nur3.malikhodaei.online","skip-cert-verify":true,"network":"grpc"}
+  - {"name":" Irancell (de) trojan-grpc","type":"trojan","server":"malirantest.malikhodaei.online","port":2087,"udp":true,"password":"uKLBklav90","sni":"nur3.malikhodaei.online","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1"]}
   - {"name":"irancell vmess-ws(hel)","type":"vmess","server":"malirantest.malikhodaei.online","port":443,"cipher":"auto","uuid":"b1f56415-7990-458f-db8b-5a03db5f7f81","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"hel1.malikhodaei.online"}}}
   - {"name":"🚀 irancell vmess [ws](de)","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"auto","uuid":"83a29c71-4d51-49c5-b76d-d22bf00aaac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mar3.malikhodaei.online","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"mar3.malikhodaei.online"}}}
   - {"name":"🚀 irancell vmess [grpc](de)","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"auto","uuid":"83a29c71-4d51-49c5-b76d-d22bf00aaac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mar3.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
@@ -44,8 +38,8 @@ proxies:
   - {"name":"🚀  Irancell (pol) vmess ws","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"chacha20-poly1305","uuid":"4324837e-6b07-468d-8dbc-7328cb9481e0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"polm.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"polm.shanty.tech"}}}
   - {"name":"🚀  Irancell (pol) vmess grcp","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"chacha20-poly1305","uuid":"4324837e-6b07-468d-8dbc-7328cb9481e0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"polm.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
   - {"name":"Irancell (pol)vmess-ws","type":"vmess","server":"malirantest.malikhodaei.online","port":443,"cipher":"chacha20-poly1305","uuid":"b51d6094-4947-4ca7-fa59-db418f24d3fe","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"polx.shanty.tech","network":"ws","ws-opts":{"path":"/","headers":{"host":"polx.shanty.tech"}}}
-  - {"name":"Irancell (pol)vmess-grpc","type":"vmess","server":"malirantest.malikhodaei.online","port":2083,"cipher":"auto","uuid":"320eaf66-9bea-4299-ad0f-c1d0c9b73cc7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"polx.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
-  - {"name":"Irancell (de) vmess-grpc","type":"vmess","server":"malirantest.malikhodaei.online","port":2083,"cipher":"auto","uuid":"f073258f-3397-4ea4-e976-6e1f80876050","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nur3.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"Irancell (pol)vmess-grpc","type":"vmess","server":"malirantest.malikhodaei.online","port":2083,"cipher":"chacha20-poly1305","uuid":"320eaf66-9bea-4299-ad0f-c1d0c9b73cc7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"polx.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"Irancell (de) vmess-grpc","type":"vmess","server":"malirantest.malikhodaei.online","port":2083,"cipher":"chacha20-poly1305","uuid":"f073258f-3397-4ea4-e976-6e1f80876050","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nur3.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
   - {"name":"Irancell (de) vmess-ws","type":"vmess","server":"malirantest.malikhodaei.online","port":443,"cipher":"chacha20-poly1305","uuid":"7ee68a78-33d7-42bc-f032-175c754aaa6d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nur3.malikhodaei.online","network":"ws","ws-opts":{"path":"/","headers":{"host":"nur3.malikhodaei.online"}}}
   - {"name":"🚀 Irancell  (tur) trojan-grpc","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"a3o7-FT1v3lklI5-Pzr7og","sni":"turm.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
   - {"name":"🚀 Irancell (tur) trojan-ws","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"a3o7-FT1v3lklI5-Pzr7og","sni":"turm.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"turm.shanty.tech"}}}
