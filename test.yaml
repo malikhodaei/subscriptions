@@ -9,20 +9,14 @@ mixed-port: 7890
 allow-lan: true
 log-level: info
 external-controller: 0.0.0.0:9090
-tcp-concurrent: 4
-
 dns:
   enabled: true
   nameserver:
-    - 78.157.42.100
-    - https://1.1.1.1/dns-query
-    - https://9.9.9.9/dns-query
-    - 8.8.8.8
-    
+    - 119.29.29.29
+    - 223.5.5.5
   fallback:
-    - 78.157.42.100
-    - https://1.1.1.1/dns-query
-    - https://9.9.9.9/dns-query
+    - 8.8.8.8
+    - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
 
