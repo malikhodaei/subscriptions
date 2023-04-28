@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：28-04-2023 10:01:01
+# 创建时间：28-04-2023 10:30:48
 # 使用模版：V2RaySE 默认模版
 # 节点数量：27
 ####################################
@@ -9,17 +9,22 @@ mixed-port: 7890
 allow-lan: true
 log-level: info
 external-controller: 0.0.0.0:9090
+tcp-concurrent: 4
+
 dns:
   enabled: true
   nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback:
+    - 78.157.42.100
+    - https://1.1.1.1/dns-query
+    - https://9.9.9.9/dns-query
     - 8.8.8.8
-    - 8.8.4.4
+    
+  fallback:
+    - 78.157.42.100
+    - https://1.1.1.1/dns-query
+    - https://9.9.9.9/dns-query
     - tls://1.0.0.1:853
     - tls://dns.google:853
-
 proxies:
   - {"name":"irancell trojan (hel)","type":"trojan","server":"malirantest.malikhodaei.online","port":443,"udp":true,"password":"Ecs9HvDj40","sni":"hel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"hel1.malikhodaei.online"}}}
   - {"name":"🚀 irancell trojan [ws](de)","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"N8naAmwoyhQJfF7VWgt4xA","sni":"mar3.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"mar3.malikhodaei.online"}}}
@@ -28,8 +33,8 @@ proxies:
   - {"name":"🚀 irancell trojan [grpc] (hel)","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"U-T7Kvt6pLnaXWl5HGVy4Q","sni":"marhel1.malikhodaei.online","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
   - {"name":"🚀  Irancell (pol) trojan grcp","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"sZGJdoE3fIMxmS8YOExGxw","sni":"polm.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
   - {"name":"🚀  Irancell (pol) trojan ws","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"sZGJdoE3fIMxmS8YOExGxw","sni":"polm.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"polm.shanty.tech"}}}
-  - {"name":" Irancell (pol) trojan-grpc","type":"trojan","server":"malirantest.malikhodaei.online","port":2087,"udp":true,"password":"kn2mmWVAqY","sni":"polx.shanty.tech","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1"]}
-  - {"name":" Irancell (de) trojan-grpc","type":"trojan","server":"malirantest.malikhodaei.online","port":2087,"udp":true,"password":"uKLBklav90","sni":"nur3.malikhodaei.online","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1"]}
+  - {"name":" Irancell (pol) trojan-grpc","type":"trojan","server":"malirantest.malikhodaei.online","port":2087,"udp":true,"password":"kn2mmWVAqY","sni":"polx.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"polx.shanty.tech"}}
+  - {"name":" Irancell (de) trojan-grpc","type":"trojan","server":"malirantest.malikhodaei.online","port":2087,"udp":true,"password":"uKLBklav90","sni":"nur3.malikhodaei.online","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"nur3.malikhodaei.online"}}
   - {"name":"irancell vmess-ws(hel)","type":"vmess","server":"malirantest.malikhodaei.online","port":443,"cipher":"auto","uuid":"b1f56415-7990-458f-db8b-5a03db5f7f81","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"hel1.malikhodaei.online"}}}
   - {"name":"🚀 irancell vmess [ws](de)","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"auto","uuid":"83a29c71-4d51-49c5-b76d-d22bf00aaac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mar3.malikhodaei.online","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"mar3.malikhodaei.online"}}}
   - {"name":"🚀 irancell vmess [grpc](de)","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"auto","uuid":"83a29c71-4d51-49c5-b76d-d22bf00aaac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mar3.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
@@ -38,16 +43,16 @@ proxies:
   - {"name":"🚀  Irancell (pol) vmess ws","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"chacha20-poly1305","uuid":"4324837e-6b07-468d-8dbc-7328cb9481e0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"polm.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"polm.shanty.tech"}}}
   - {"name":"🚀  Irancell (pol) vmess grcp","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"chacha20-poly1305","uuid":"4324837e-6b07-468d-8dbc-7328cb9481e0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"polm.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
   - {"name":"Irancell (pol)vmess-ws","type":"vmess","server":"malirantest.malikhodaei.online","port":443,"cipher":"chacha20-poly1305","uuid":"b51d6094-4947-4ca7-fa59-db418f24d3fe","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"polx.shanty.tech","network":"ws","ws-opts":{"path":"/","headers":{"host":"polx.shanty.tech"}}}
-  - {"name":"Irancell (pol)vmess-grpc","type":"vmess","server":"malirantest.malikhodaei.online","port":2083,"cipher":"auto","uuid":"320eaf66-9bea-4299-ad0f-c1d0c9b73cc7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"polx.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
-  - {"name":"Irancell (de) vmess-grpc","type":"vmess","server":"malirantest.malikhodaei.online","port":2083,"cipher":"auto","uuid":"f073258f-3397-4ea4-e976-6e1f80876050","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nur3.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"Irancell (pol)vmess-grpc","type":"vmess","server":"malirantest.malikhodaei.online","port":2083,"cipher":"auto","uuid":"320eaf66-9bea-4299-ad0f-c1d0c9b73cc7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"polx.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"polx.shanty.tech","grpc-mode":"gun"}}
+  - {"name":"Irancell (de) vmess-grpc","type":"vmess","server":"malirantest.malikhodaei.online","port":2083,"cipher":"auto","uuid":"f073258f-3397-4ea4-e976-6e1f80876050","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nur3.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"nur3.malikhodaei.online","grpc-mode":"gun"}}
   - {"name":"Irancell (de) vmess-ws","type":"vmess","server":"malirantest.malikhodaei.online","port":443,"cipher":"chacha20-poly1305","uuid":"7ee68a78-33d7-42bc-f032-175c754aaa6d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nur3.malikhodaei.online","network":"ws","ws-opts":{"path":"/","headers":{"host":"nur3.malikhodaei.online"}}}
   - {"name":"🚀 Irancell  (tur) trojan-grpc","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"a3o7-FT1v3lklI5-Pzr7og","sni":"turm.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
   - {"name":"🚀 Irancell (tur) trojan-ws","type":"trojan","server":"malirantest.malikhodaei.online","port":2053,"udp":true,"password":"a3o7-FT1v3lklI5-Pzr7og","sni":"turm.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"turm.shanty.tech"}}}
-  - {"name":"trojan grpc tur-ali","type":"trojan","server":"malirantest.malikhodaei.online","port":2087,"udp":true,"password":"kckE38RKIR","sni":"turx.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"turx.shanty.tech"},"alpn":["h2","http/1.1"]}
+  - {"name":"trojan grpc tur-ali","type":"trojan","server":"malirantest.malikhodaei.online","port":2087,"udp":true,"password":"kckE38RKIR","sni":"turx.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"turx.shanty.tech"}}
   - {"name":"🚀 Irancell  (tur) vmess-ws","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"auto","uuid":"4e7546c3-6bd6-4df1-b364-8dcb36f098e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"turm.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"turm.shanty.tech"}}}
   - {"name":"🚀 Irancell  (tur) vmess-grcp","type":"vmess","server":"malirantest.malikhodaei.online","port":2053,"cipher":"auto","uuid":"4e7546c3-6bd6-4df1-b364-8dcb36f098e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"turm.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
-  - {"name":"vmess grcp tur-ali2","type":"vmess","server":"malirantest.malikhodaei.online","port":2083,"cipher":"auto","uuid":"9ac94f44-a31e-4ef4-9063-a1ebbe476625","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"turx.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"turx.shanty.tech","grpc-mode":"gun"}}
-  - {"name":"vmess ws tur-ali4","type":"vmess","server":"malirantest.malikhodaei.online","port":443,"cipher":"chacha20-poly1305","uuid":"e8763ea1-4d04-415f-9b57-a57c1a6f0512","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"turx.shanty.tech","network":"ws","ws-opts":{"path":"/","headers":{"host":"turx.shanty.tech"}}}
+  - {"name":"vmess grcp tur","type":"vmess","server":"malirantest.malikhodaei.online","port":2083,"cipher":"auto","uuid":"9ac94f44-a31e-4ef4-9063-a1ebbe476625","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"turx.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"turx.shanty.tech","grpc-mode":"gun"}}
+  - {"name":"vmess ws tur","type":"vmess","server":"malirantest.malikhodaei.online","port":443,"cipher":"chacha20-poly1305","uuid":"e8763ea1-4d04-415f-9b57-a57c1a6f0512","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"turx.shanty.tech","network":"ws","ws-opts":{"path":"/","headers":{"host":"turx.shanty.tech"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -79,8 +84,8 @@ proxy-groups:
       - trojan grpc tur-ali
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
-      - vmess grcp tur-ali2
-      - vmess ws tur-ali4
+      - vmess grcp tur
+      - vmess ws tur
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -112,8 +117,8 @@ proxy-groups:
       - trojan grpc tur-ali
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
-      - vmess grcp tur-ali2
-      - vmess ws tur-ali4
+      - vmess grcp tur
+      - vmess ws tur
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -145,8 +150,8 @@ proxy-groups:
       - trojan grpc tur-ali
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
-      - vmess grcp tur-ali2
-      - vmess ws tur-ali4
+      - vmess grcp tur
+      - vmess ws tur
   - name: 📲 电报信息
     type: select
     proxies:
@@ -177,8 +182,8 @@ proxy-groups:
       - trojan grpc tur-ali
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
-      - vmess grcp tur-ali2
-      - vmess ws tur-ali4
+      - vmess grcp tur
+      - vmess ws tur
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -209,8 +214,8 @@ proxy-groups:
       - trojan grpc tur-ali
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
-      - vmess grcp tur-ali2
-      - vmess ws tur-ali4
+      - vmess grcp tur
+      - vmess ws tur
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -241,8 +246,8 @@ proxy-groups:
       - trojan grpc tur-ali
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
-      - vmess grcp tur-ali2
-      - vmess ws tur-ali4
+      - vmess grcp tur
+      - vmess ws tur
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -290,8 +295,8 @@ proxy-groups:
       - trojan grpc tur-ali
       - 🚀 Irancell  (tur) vmess-ws
       - 🚀 Irancell  (tur) vmess-grcp
-      - vmess grcp tur-ali2
-      - vmess ws tur-ali4
+      - vmess grcp tur
+      - vmess ws tur
 
 rules:
 # 本地/局域网地址
