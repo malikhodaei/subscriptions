@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：16-05-2023 22:34:53
+# 创建时间：16-05-2023 23:04:44
 # 使用模版：V2RaySE 默认模版
-# 节点数量：6
+# 节点数量：7
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -27,81 +27,88 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🚀 Marz (ali) [tcp]_1","type":"trojan","server":"maliran.malikhodaei.online","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"tcp","ws-opts":{"headers":{"host":"marde.shanty.tech"}}}
-  - {"name":"🚀 Marz (ali) [ws]_1","type":"trojan","server":"maliran.malikhodaei.online","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marde.shanty.tech"}}}
-  - {"name":"🚀 Marz (ali) [grpc]_1","type":"trojan","server":"maliran.malikhodaei.online","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
-  - {"name":"🚀 Marz (ali) [tcp]_2","type":"vmess","server":"maliran.malikhodaei.online","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"tcp"}
-  - {"name":"🚀 Marz (ali) [ws]_2","type":"vmess","server":"maliran.malikhodaei.online","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marde.shanty.tech"}}}
-  - {"name":"🚀 Marz (ali) [grpc]_2","type":"vmess","server":"maliran.malikhodaei.online","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"none"}}
+  - {"name":"🚀 irancell trojan [ws](de)","type":"trojan","server":"maliran.malikhodaei.online","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marde.shanty.tech"}}}
+  - {"name":"🚀 irancell trojan [grpc](de)","type":"trojan","server":"maliran.malikhodaei.online","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
+  - {"name":"🚀 irancell vmess [ws](de)","type":"vmess","server":"maliran.malikhodaei.online","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marde.shanty.tech"}}}
+  - {"name":"🚀 irancell vmess [grpc](de)","type":"vmess","server":"maliran.malikhodaei.online","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"none"}}
+  - {"name":"trojan grpc de-ali1","type":"trojan","server":"maliran.malikhodaei.online","port":2087,"udp":true,"password":"s8ZcVxaiWf","sni":"fsde.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"fsde.shanty.tech"},"alpn":["h2","http/1.1"]}
+  - {"name":"vmess grpc de-ali2","type":"vmess","server":"maliran.malikhodaei.online","port":2083,"cipher":"auto","uuid":"be5ac3a2-166c-4b05-ea98-4e322a5332f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"fsde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"fsde.shanty.tech","grpc-mode":"none"}}
+  - {"name":"vmess ws de-ali3","type":"vmess","server":"maliran.malikhodaei.online","port":443,"cipher":"auto","uuid":"518d8d32-5aaf-442e-d966-33fa1564ed5e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"fsde.shanty.tech","network":"ws","ws-opts":{"path":"/"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🚀 Marz (ali) [tcp]_1
-      - 🚀 Marz (ali) [ws]_1
-      - 🚀 Marz (ali) [grpc]_1
-      - 🚀 Marz (ali) [tcp]_2
-      - 🚀 Marz (ali) [ws]_2
-      - 🚀 Marz (ali) [grpc]_2
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 irancell trojan [grpc](de)
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
+      - trojan grpc de-ali1
+      - vmess grpc de-ali2
+      - vmess ws de-ali3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🚀 Marz (ali) [tcp]_1
-      - 🚀 Marz (ali) [ws]_1
-      - 🚀 Marz (ali) [grpc]_1
-      - 🚀 Marz (ali) [tcp]_2
-      - 🚀 Marz (ali) [ws]_2
-      - 🚀 Marz (ali) [grpc]_2
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 irancell trojan [grpc](de)
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
+      - trojan grpc de-ali1
+      - vmess grpc de-ali2
+      - vmess ws de-ali3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🚀 Marz (ali) [tcp]_1
-      - 🚀 Marz (ali) [ws]_1
-      - 🚀 Marz (ali) [grpc]_1
-      - 🚀 Marz (ali) [tcp]_2
-      - 🚀 Marz (ali) [ws]_2
-      - 🚀 Marz (ali) [grpc]_2
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 irancell trojan [grpc](de)
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
+      - trojan grpc de-ali1
+      - vmess grpc de-ali2
+      - vmess ws de-ali3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 Marz (ali) [tcp]_1
-      - 🚀 Marz (ali) [ws]_1
-      - 🚀 Marz (ali) [grpc]_1
-      - 🚀 Marz (ali) [tcp]_2
-      - 🚀 Marz (ali) [ws]_2
-      - 🚀 Marz (ali) [grpc]_2
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 irancell trojan [grpc](de)
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
+      - trojan grpc de-ali1
+      - vmess grpc de-ali2
+      - vmess ws de-ali3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🚀 Marz (ali) [tcp]_1
-      - 🚀 Marz (ali) [ws]_1
-      - 🚀 Marz (ali) [grpc]_1
-      - 🚀 Marz (ali) [tcp]_2
-      - 🚀 Marz (ali) [ws]_2
-      - 🚀 Marz (ali) [grpc]_2
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 irancell trojan [grpc](de)
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
+      - trojan grpc de-ali1
+      - vmess grpc de-ali2
+      - vmess ws de-ali3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 Marz (ali) [tcp]_1
-      - 🚀 Marz (ali) [ws]_1
-      - 🚀 Marz (ali) [grpc]_1
-      - 🚀 Marz (ali) [tcp]_2
-      - 🚀 Marz (ali) [ws]_2
-      - 🚀 Marz (ali) [grpc]_2
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 irancell trojan [grpc](de)
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
+      - trojan grpc de-ali1
+      - vmess grpc de-ali2
+      - vmess ws de-ali3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,12 +131,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🚀 Marz (ali) [tcp]_1
-      - 🚀 Marz (ali) [ws]_1
-      - 🚀 Marz (ali) [grpc]_1
-      - 🚀 Marz (ali) [tcp]_2
-      - 🚀 Marz (ali) [ws]_2
-      - 🚀 Marz (ali) [grpc]_2
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 irancell trojan [grpc](de)
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
+      - trojan grpc de-ali1
+      - vmess grpc de-ali2
+      - vmess ws de-ali3
 
 rules:
 # 本地/局域网地址
