@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：04-06-2023 02:20:40
+# 创建时间：04-06-2023 03:25:29
 # 使用模版：V2RaySE 默认模版
-# 节点数量：3
+# 节点数量：5
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -13,75 +13,83 @@ external-controller: 0.0.0.0:9090
 dns:
   enabled: true
   nameserver:
-    - 178.22.122.100
-    - 185.51.200.2
-    - https://1.1.1.1/dns-query
-    - https://9.9.9.9/dns-query
-    - 8.8.8.8
-    
+    - 119.29.29.29
+    - 223.5.5.5
   fallback:
-    - 178.22.122.100
-    - 185.51.200.2
-    - https://1.1.1.1/dns-query
-    - https://9.9.9.9/dns-query
+    - 8.8.8.8
+    - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🚀 Marz (ali) [VMess - tcp]","type":"vmess","server":"79.137.205.195","port":8081,"cipher":"auto","uuid":"ce57763e-9da6-4b5a-b221-6bf7fb93731d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🚀 Marz (ali) [VLESS - tcp]","type":"vless","server":"79.137.205.195","port":8443,"udp":true,"uuid":"d3f1dfb6-3c68-453b-aa97-7d66d89d8817","tls":true,"servername":"cdn-fastly-v6.deb.debian.org","network":"tcp","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
-  - {"name":"🚀 Marz (ali) [VLESS - grpc]","type":"vless","server":"79.137.205.195","port":2053,"udp":true,"uuid":"d3f1dfb6-3c68-453b-aa97-7d66d89d8817","tls":true,"servername":"ftp.ipv6.debian.org","network":"grpc","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
+  - {"name":"🚀 reality (AMD) [VMess - tcp]","type":"vmess","server":"79.137.205.195","port":8081,"cipher":"auto","uuid":"c2cc5536-bf27-443f-8d9e-eda4885ce522","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🚀 reality (AMD)[VMess - ws]","type":"vmess","server":"79.137.205.195","port":8080,"cipher":"auto","uuid":"c2cc5536-bf27-443f-8d9e-eda4885ce522","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"🚀 reality (AMD) [Trojan - ws]","type":"trojan","server":"79.137.205.195","port":2083,"udp":true,"password":"dhy0rSmE0aRBOOc3vSUF3w","sni":"gstatic.com","skip-cert-verify":true,"network":"ws"}
+  - {"name":"🚀 reality (AMD) [VLESS - tcp]","type":"vless","server":"79.137.205.195","port":8443,"udp":true,"uuid":"8a5495fa-dd16-457d-a5c4-409493bbd2b5","tls":true,"servername":"ftp.debian.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
+  - {"name":"🚀 reality (AMD) [VLESS - grpc]","type":"vless","server":"79.137.205.195","port":2053,"udp":true,"uuid":"8a5495fa-dd16-457d-a5c4-409493bbd2b5","tls":true,"servername":"ftp.ipv6.debian.org","network":"grpc","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🚀 Marz (ali) [VMess - tcp]
-      - 🚀 Marz (ali) [VLESS - tcp]
-      - 🚀 Marz (ali) [VLESS - grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🚀 Marz (ali) [VMess - tcp]
-      - 🚀 Marz (ali) [VLESS - tcp]
-      - 🚀 Marz (ali) [VLESS - grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🚀 Marz (ali) [VMess - tcp]
-      - 🚀 Marz (ali) [VLESS - tcp]
-      - 🚀 Marz (ali) [VLESS - grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 Marz (ali) [VMess - tcp]
-      - 🚀 Marz (ali) [VLESS - tcp]
-      - 🚀 Marz (ali) [VLESS - grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🚀 Marz (ali) [VMess - tcp]
-      - 🚀 Marz (ali) [VLESS - tcp]
-      - 🚀 Marz (ali) [VLESS - grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 Marz (ali) [VMess - tcp]
-      - 🚀 Marz (ali) [VLESS - tcp]
-      - 🚀 Marz (ali) [VLESS - grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -104,9 +112,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🚀 Marz (ali) [VMess - tcp]
-      - 🚀 Marz (ali) [VLESS - tcp]
-      - 🚀 Marz (ali) [VLESS - grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
 
 rules:
 # 本地/局域网地址
