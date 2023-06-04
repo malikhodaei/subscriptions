@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：04-06-2023 19:25:16
+# 创建时间：04-06-2023 20:27:55
 # 使用模版：V2RaySE 默认模版
-# 节点数量：15
+# 节点数量：11
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -29,144 +29,116 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🚀 reality (AMD) [Trojan - ws]","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"dhy0rSmE0aRBOOc3vSUF3w","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🚀 reality (DE)  [Trojan - ws]","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"F7qfR0V62MGR-Zklx9M4_w","sni":"a956e1d2403110d6.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"irancell1 AMD Trojan grpc","type":"trojan","server":"maliran.shanty.tech","port":2087,"udp":true,"password":"obsT9g7Ndl","sni":"sanamd.mishahana.fun","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1","h3"]}
-  - {"name":"irancell2 AMD Trojan grpc","type":"trojan","server":"maliran2.shanty.tech","port":2087,"udp":true,"password":"obsT9g7Ndl","sni":"sanamd.mishahana.fun","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1","h3"]}
-  - {"name":"irancell1 DE2 Trojan grpc","type":"trojan","server":"maliran.shanty.tech","port":2087,"udp":true,"password":"88VgBF7690","sni":"sande.mishahana.fun","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1","h3"]}
-  - {"name":"irancell2 DE2 Trojan grpc","type":"trojan","server":"maliran2.shanty.tech","port":2087,"udp":true,"password":"88VgBF7690","sni":"sande.mishahana.fun","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1","h3"]}
-  - {"name":"🚀 reality (DE)  [Shadowsocks - tcp]","type":"ss","server":"marde.mishahana.fun","port":1080,"password":"SiMRitS8jsPJ275-UWjQ5w","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🚀 reality (AMD) [VMess - tcp]","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2cc5536-bf27-443f-8d9e-eda4885ce522","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🚀 reality (AMD)[VMess - ws]","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2cc5536-bf27-443f-8d9e-eda4885ce522","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
   - {"name":"🚀 reality (DE) [VMess - tcp]","type":"vmess","server":"marde.mishahana.fun","port":8081,"cipher":"auto","uuid":"c278c656-09ea-410b-844a-bf4fd1305df5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🚀 reality (DE)  [VMess - ws]","type":"vmess","server":"marde.mishahana.fun","port":8080,"cipher":"auto","uuid":"c278c656-09ea-410b-844a-bf4fd1305df5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"irancell2 AMD vmess grcp","type":"vmess","server":"maliran2.shanty.tech","port":2096,"cipher":"auto","uuid":"d2c35d07-afbc-4674-db04-bb3aa150291a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sanamd.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
-  - {"name":"irancell1 AMD vmess grcp","type":"vmess","server":"maliran.shanty.tech","port":2096,"cipher":"auto","uuid":"d2c35d07-afbc-4674-db04-bb3aa150291a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sanamd.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
-  - {"name":"irancell1 DE2 Vmess grcp","type":"vmess","server":"maliran.shanty.tech","port":2096,"cipher":"auto","uuid":"4d96ef21-195a-400a-efc3-7a4e52b6376c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sande.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
-  - {"name":"irancell2 DE2 Vmess grcp","type":"vmess","server":"maliran2.shanty.tech","port":2096,"cipher":"auto","uuid":"4d96ef21-195a-400a-efc3-7a4e52b6376c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sande.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
+  - {"name":"irancell1 AMD vmess grcp","type":"vmess","server":"sanamd.mishahana.fun","port":2096,"cipher":"auto","uuid":"d2c35d07-afbc-4674-db04-bb3aa150291a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sanamd.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
+  - {"name":"irancell1 DE2 Vmess grcp","type":"vmess","server":"sanamd.mishahana.fun","port":2096,"cipher":"auto","uuid":"4d96ef21-195a-400a-efc3-7a4e52b6376c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sande.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
+  - {"name":"🚀 reality (DE)  [Shadowsocks - tcp]","type":"ss","server":"marde.mishahana.fun","port":1080,"password":"SiMRitS8jsPJ275-UWjQ5w","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚀 reality (AMD) [Trojan - ws]","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"dhy0rSmE0aRBOOc3vSUF3w","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🚀 reality (DE)  [Trojan - ws]","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"F7qfR0V62MGR-Zklx9M4_w","sni":"a956e1d2403110d6.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"irancell1 AMD Trojan grpc","type":"trojan","server":"sanamd.mishahana.fun","port":2087,"udp":true,"password":"obsT9g7Ndl","sni":"sanamd.mishahana.fun","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1"]}
+  - {"name":"irancell1 DE2 Trojan grpc","type":"trojan","server":"sanamd.mishahana.fun","port":2087,"udp":true,"password":"88VgBF7690","sni":"sande.mishahana.fun","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1"]}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - irancell1 AMD Trojan grpc
-      - irancell2 AMD Trojan grpc
-      - irancell1 DE2 Trojan grpc
-      - irancell2 DE2 Trojan grpc
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
-      - irancell2 AMD vmess grcp
       - irancell1 AMD vmess grcp
       - irancell1 DE2 Vmess grcp
-      - irancell2 DE2 Vmess grcp
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
+      - irancell1 AMD Trojan grpc
+      - irancell1 DE2 Trojan grpc
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - irancell1 AMD Trojan grpc
-      - irancell2 AMD Trojan grpc
-      - irancell1 DE2 Trojan grpc
-      - irancell2 DE2 Trojan grpc
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
-      - irancell2 AMD vmess grcp
       - irancell1 AMD vmess grcp
       - irancell1 DE2 Vmess grcp
-      - irancell2 DE2 Vmess grcp
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
+      - irancell1 AMD Trojan grpc
+      - irancell1 DE2 Trojan grpc
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - irancell1 AMD Trojan grpc
-      - irancell2 AMD Trojan grpc
-      - irancell1 DE2 Trojan grpc
-      - irancell2 DE2 Trojan grpc
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
-      - irancell2 AMD vmess grcp
       - irancell1 AMD vmess grcp
       - irancell1 DE2 Vmess grcp
-      - irancell2 DE2 Vmess grcp
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
+      - irancell1 AMD Trojan grpc
+      - irancell1 DE2 Trojan grpc
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - irancell1 AMD Trojan grpc
-      - irancell2 AMD Trojan grpc
-      - irancell1 DE2 Trojan grpc
-      - irancell2 DE2 Trojan grpc
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
-      - irancell2 AMD vmess grcp
       - irancell1 AMD vmess grcp
       - irancell1 DE2 Vmess grcp
-      - irancell2 DE2 Vmess grcp
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
+      - irancell1 AMD Trojan grpc
+      - irancell1 DE2 Trojan grpc
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - irancell1 AMD Trojan grpc
-      - irancell2 AMD Trojan grpc
-      - irancell1 DE2 Trojan grpc
-      - irancell2 DE2 Trojan grpc
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
-      - irancell2 AMD vmess grcp
       - irancell1 AMD vmess grcp
       - irancell1 DE2 Vmess grcp
-      - irancell2 DE2 Vmess grcp
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
+      - irancell1 AMD Trojan grpc
+      - irancell1 DE2 Trojan grpc
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - irancell1 AMD Trojan grpc
-      - irancell2 AMD Trojan grpc
-      - irancell1 DE2 Trojan grpc
-      - irancell2 DE2 Trojan grpc
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
-      - irancell2 AMD vmess grcp
       - irancell1 AMD vmess grcp
       - irancell1 DE2 Vmess grcp
-      - irancell2 DE2 Vmess grcp
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
+      - irancell1 AMD Trojan grpc
+      - irancell1 DE2 Trojan grpc
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -189,21 +161,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - irancell1 AMD Trojan grpc
-      - irancell2 AMD Trojan grpc
-      - irancell1 DE2 Trojan grpc
-      - irancell2 DE2 Trojan grpc
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
-      - irancell2 AMD vmess grcp
       - irancell1 AMD vmess grcp
       - irancell1 DE2 Vmess grcp
-      - irancell2 DE2 Vmess grcp
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
+      - irancell1 AMD Trojan grpc
+      - irancell1 DE2 Trojan grpc
 
 rules:
 # 本地/局域网地址
