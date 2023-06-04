@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：04-06-2023 13:02:31
+# 创建时间：04-06-2023 18:36:06
 # 使用模版：V2RaySE 默认模版
 # 节点数量：7
 ####################################
@@ -29,88 +29,88 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🚀 reality (AMD) [Trojan - ws]","type":"trojan","server":"79.137.205.195","port":2083,"udp":true,"password":"dhy0rSmE0aRBOOc3vSUF3w","sni":"gstatic.com","skip-cert-verify":true,"network":"ws"}
-  - {"name":"🚀 reality (DE)  [Trojan - ws]","type":"trojan","server":"5.75.197.254","port":2083,"udp":true,"password":"F7qfR0V62MGR-Zklx9M4_w","sni":"a956e1d2403110d6.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🚀 reality (DE)  [Shadowsocks - tcp]","type":"ss","server":"5.75.197.254","port":1080,"password":"SiMRitS8jsPJ275-UWjQ5w","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🚀 reality (AMD) [VMess - tcp]","type":"vmess","server":"79.137.205.195","port":8081,"cipher":"auto","uuid":"c2cc5536-bf27-443f-8d9e-eda4885ce522","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🚀 reality (AMD)[VMess - ws]","type":"vmess","server":"79.137.205.195","port":8080,"cipher":"auto","uuid":"c2cc5536-bf27-443f-8d9e-eda4885ce522","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🚀 reality (DE) [VMess - tcp]","type":"vmess","server":"5.75.197.254","port":8081,"cipher":"auto","uuid":"c278c656-09ea-410b-844a-bf4fd1305df5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🚀 reality (DE)  [VMess - ws]","type":"vmess","server":"5.75.197.254","port":8080,"cipher":"auto","uuid":"c278c656-09ea-410b-844a-bf4fd1305df5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"🚀 reality (AMD) [VMess - tcp]","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2cc5536-bf27-443f-8d9e-eda4885ce522","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🚀 reality (AMD)[VMess - ws]","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2cc5536-bf27-443f-8d9e-eda4885ce522","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"🚀 reality (DE) [VMess - tcp]","type":"vmess","server":"marde.mishahana.fun","port":8081,"cipher":"auto","uuid":"c278c656-09ea-410b-844a-bf4fd1305df5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🚀 reality (DE)  [VMess - ws]","type":"vmess","server":"marde.mishahana.fun","port":8080,"cipher":"auto","uuid":"c278c656-09ea-410b-844a-bf4fd1305df5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"🚀 reality (DE)  [Shadowsocks - tcp]","type":"ss","server":"marde.mishahana.fun","port":1080,"password":"SiMRitS8jsPJ275-UWjQ5w","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚀 reality (AMD) [Trojan - ws]","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"dhy0rSmE0aRBOOc3vSUF3w","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🚀 reality (DE)  [Trojan - ws]","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"F7qfR0V62MGR-Zklx9M4_w","sni":"a956e1d2403110d6.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -133,13 +133,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🚀 reality (AMD) [Trojan - ws]
-      - 🚀 reality (DE)  [Trojan - ws]
-      - 🚀 reality (DE)  [Shadowsocks - tcp]
       - 🚀 reality (AMD) [VMess - tcp]
       - 🚀 reality (AMD)[VMess - ws]
       - 🚀 reality (DE) [VMess - tcp]
       - 🚀 reality (DE)  [VMess - ws]
+      - 🚀 reality (DE)  [Shadowsocks - tcp]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - 🚀 reality (DE)  [Trojan - ws]
 
 rules:
 # 本地/局域网地址
