@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：23-05-2023 12:39:10
+# 创建时间：05-06-2023 07:34:08
 # 使用模版：V2RaySE 默认模版
-# 节点数量：23
+# 节点数量：24
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -28,23 +28,24 @@ proxies:
   - {"name":"🚀 irancell trojan [ws](de)","type":"trojan","server":"maliran.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marde.shanty.tech"}}}
   - {"name":"🚀 irancell trojan [grpc](de)","type":"trojan","server":"maliran.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
   - {"name":"trojan grpc de","type":"trojan","server":"maliran.shanty.tech","port":2087,"udp":true,"password":"s8ZcVxaiWf","sni":"fsde.shanty.tech","skip-cert-verify":true,"network":"grpc"}
-  - {"name":"🚀 irancell (amd) trojan [grpc]","type":"trojan","server":"maliran.shanty.tech","port":2053,"udp":true,"password":"qaTQq54lcsQ99RDLC6uqxQ","sni":"maramd.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
-  - {"name":"🚀 irancell (amd) trojan [ws]","type":"trojan","server":"maliran.shanty.tech","port":2053,"udp":true,"password":"qaTQq54lcsQ99RDLC6uqxQ","sni":"maramd.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"maramd.shanty.tech"}}}
+  - {"name":"🚀 reality (AMD) [Trojan - ws]","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"dhy0rSmE0aRBOOc3vSUF3w","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"irancell AMD Trojan grpc","type":"trojan","server":"sanamd.mishahana.fun","port":2087,"udp":true,"password":"obsT9g7Ndl","sni":"sanamd.mishahana.fun","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1","h3"]}
   - {"name":"irancell vless-ws(hel)","type":"vless","server":"maliran.shanty.tech","port":443,"uuid":"cce4cf79-ac15-4530-952c-377a882112f0","tls":true,"servername":"hel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/vlessws","headers":{"host":"hel1.malikhodaei.online"}}}
   - {"name":"🚀 irancell vless [ws] (hel)","type":"vless","server":"maliran.shanty.tech","port":2053,"uuid":"ecff1926-d881-4cda-af6a-ad5b467bde0d","tls":true,"servername":"marhel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/lw","headers":{"host":"marhel1.malikhodaei.online"}}}
   - {"name":"🚀 irancell vless [grpc] (hel)","type":"vless","server":"maliran.shanty.tech","port":2053,"uuid":"ecff1926-d881-4cda-af6a-ad5b467bde0d","tls":true,"servername":"marhel1.malikhodaei.online","network":"grpc"}
   - {"name":"🚀 irancell vless [ws](de)","type":"vless","server":"maliran.shanty.tech","port":2053,"uuid":"fa09fbee-e081-4b63-8493-afb893b9c346","tls":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/lw","headers":{"host":"marde.shanty.tech"}}}
   - {"name":"🚀 irancell vless [grpc](de)","type":"vless","server":"maliran.shanty.tech","port":2053,"uuid":"fa09fbee-e081-4b63-8493-afb893b9c346","tls":true,"servername":"marde.shanty.tech","network":"grpc"}
-  - {"name":"🚀 irancell (amd) vless [ws]","type":"vless","server":"maliran.shanty.tech","port":2053,"uuid":"db339dc5-eb13-4871-9cd0-cbe453a26cd7","tls":true,"servername":"maramd.shanty.tech","network":"ws","ws-opts":{"path":"/lw","headers":{"host":"maramd.shanty.tech"}}}
-  - {"name":"🚀 irancell (amd) vless [grpc]","type":"vless","server":"maliran.shanty.tech","port":2053,"uuid":"db339dc5-eb13-4871-9cd0-cbe453a26cd7","tls":true,"servername":"maramd.shanty.tech","network":"grpc"}
+  - {"name":"🚀 reality (AMD) [VLESS - tcp]","type":"vless","server":"maramd.mishahana.fun","port":8443,"udp":true,"uuid":"8a5495fa-dd16-457d-a5c4-409493bbd2b5","tls":true,"servername":"ftp.debian.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
+  - {"name":"🚀 reality (AMD) [VLESS - grpc]","type":"vless","server":"maramd.mishahana.fun","port":2053,"udp":true,"uuid":"8a5495fa-dd16-457d-a5c4-409493bbd2b5","tls":true,"servername":"ftp.ipv6.debian.org","network":"grpc","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
   - {"name":"irancell vmess-ws(hel)","type":"vmess","server":"maliran.shanty.tech","port":443,"cipher":"auto","uuid":"b1f56415-7990-458f-db8b-5a03db5f7f81","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"hel1.malikhodaei.online"}}}
   - {"name":"🚀 irancell vmess [ws] (hel)","type":"vmess","server":"maliran.shanty.tech","port":2053,"cipher":"auto","uuid":"5789929d-ebf2-4923-b42e-3c82b6e9bbf8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marhel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marhel1.malikhodaei.online"}}}
   - {"name":"🚀 irancell vmess [grpc] (hel)","type":"vmess","server":"maliran.shanty.tech","port":2053,"cipher":"auto","uuid":"5789929d-ebf2-4923-b42e-3c82b6e9bbf8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marhel1.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
   - {"name":"🚀 irancell vmess [ws](de)","type":"vmess","server":"maliran.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marde.shanty.tech"}}}
   - {"name":"🚀 irancell vmess [grpc](de)","type":"vmess","server":"maliran.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"none"}}
   - {"name":"vmess grpc de","type":"vmess","server":"maliran.shanty.tech","port":2083,"cipher":"auto","uuid":"be5ac3a2-166c-4b05-ea98-4e322a5332f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"fsde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
-  - {"name":"🚀 irancell (amd) vmess [ws]","type":"vmess","server":"maliran.shanty.tech","port":2053,"cipher":"auto","uuid":"644a8ae0-c394-4463-8a94-aabe61999231","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"maramd.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"maramd.shanty.tech"}}}
-  - {"name":"🚀 irancell (amd) vmess [grpc]","type":"vmess","server":"maliran.shanty.tech","port":2053,"cipher":"auto","uuid":"644a8ae0-c394-4463-8a94-aabe61999231","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"maramd.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"none"}}
+  - {"name":"🚀 reality (AMD) [VMess - tcp]","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2cc5536-bf27-443f-8d9e-eda4885ce522","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🚀 reality (AMD)[VMess - ws]","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2cc5536-bf27-443f-8d9e-eda4885ce522","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"irancell AMD vmess grcp","type":"vmess","server":"sanamd.mishahana.fun","port":2096,"cipher":"auto","uuid":"d2c35d07-afbc-4674-db04-bb3aa150291a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sanamd.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -57,23 +58,24 @@ proxy-groups:
       - 🚀 irancell trojan [ws](de)
       - 🚀 irancell trojan [grpc](de)
       - trojan grpc de
-      - 🚀 irancell (amd) trojan [grpc]
-      - 🚀 irancell (amd) trojan [ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - irancell AMD Trojan grpc
       - irancell vless-ws(hel)
       - 🚀 irancell vless [ws] (hel)
       - 🚀 irancell vless [grpc] (hel)
       - 🚀 irancell vless [ws](de)
       - 🚀 irancell vless [grpc](de)
-      - 🚀 irancell (amd) vless [ws]
-      - 🚀 irancell (amd) vless [grpc]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
       - irancell vmess-ws(hel)
       - 🚀 irancell vmess [ws] (hel)
       - 🚀 irancell vmess [grpc] (hel)
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
       - vmess grpc de
-      - 🚀 irancell (amd) vmess [ws]
-      - 🚀 irancell (amd) vmess [grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - irancell AMD vmess grcp
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -86,23 +88,24 @@ proxy-groups:
       - 🚀 irancell trojan [ws](de)
       - 🚀 irancell trojan [grpc](de)
       - trojan grpc de
-      - 🚀 irancell (amd) trojan [grpc]
-      - 🚀 irancell (amd) trojan [ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - irancell AMD Trojan grpc
       - irancell vless-ws(hel)
       - 🚀 irancell vless [ws] (hel)
       - 🚀 irancell vless [grpc] (hel)
       - 🚀 irancell vless [ws](de)
       - 🚀 irancell vless [grpc](de)
-      - 🚀 irancell (amd) vless [ws]
-      - 🚀 irancell (amd) vless [grpc]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
       - irancell vmess-ws(hel)
       - 🚀 irancell vmess [ws] (hel)
       - 🚀 irancell vmess [grpc] (hel)
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
       - vmess grpc de
-      - 🚀 irancell (amd) vmess [ws]
-      - 🚀 irancell (amd) vmess [grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - irancell AMD vmess grcp
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -115,23 +118,24 @@ proxy-groups:
       - 🚀 irancell trojan [ws](de)
       - 🚀 irancell trojan [grpc](de)
       - trojan grpc de
-      - 🚀 irancell (amd) trojan [grpc]
-      - 🚀 irancell (amd) trojan [ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - irancell AMD Trojan grpc
       - irancell vless-ws(hel)
       - 🚀 irancell vless [ws] (hel)
       - 🚀 irancell vless [grpc] (hel)
       - 🚀 irancell vless [ws](de)
       - 🚀 irancell vless [grpc](de)
-      - 🚀 irancell (amd) vless [ws]
-      - 🚀 irancell (amd) vless [grpc]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
       - irancell vmess-ws(hel)
       - 🚀 irancell vmess [ws] (hel)
       - 🚀 irancell vmess [grpc] (hel)
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
       - vmess grpc de
-      - 🚀 irancell (amd) vmess [ws]
-      - 🚀 irancell (amd) vmess [grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - irancell AMD vmess grcp
   - name: 📲 电报信息
     type: select
     proxies:
@@ -143,23 +147,24 @@ proxy-groups:
       - 🚀 irancell trojan [ws](de)
       - 🚀 irancell trojan [grpc](de)
       - trojan grpc de
-      - 🚀 irancell (amd) trojan [grpc]
-      - 🚀 irancell (amd) trojan [ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - irancell AMD Trojan grpc
       - irancell vless-ws(hel)
       - 🚀 irancell vless [ws] (hel)
       - 🚀 irancell vless [grpc] (hel)
       - 🚀 irancell vless [ws](de)
       - 🚀 irancell vless [grpc](de)
-      - 🚀 irancell (amd) vless [ws]
-      - 🚀 irancell (amd) vless [grpc]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
       - irancell vmess-ws(hel)
       - 🚀 irancell vmess [ws] (hel)
       - 🚀 irancell vmess [grpc] (hel)
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
       - vmess grpc de
-      - 🚀 irancell (amd) vmess [ws]
-      - 🚀 irancell (amd) vmess [grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - irancell AMD vmess grcp
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -171,23 +176,24 @@ proxy-groups:
       - 🚀 irancell trojan [ws](de)
       - 🚀 irancell trojan [grpc](de)
       - trojan grpc de
-      - 🚀 irancell (amd) trojan [grpc]
-      - 🚀 irancell (amd) trojan [ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - irancell AMD Trojan grpc
       - irancell vless-ws(hel)
       - 🚀 irancell vless [ws] (hel)
       - 🚀 irancell vless [grpc] (hel)
       - 🚀 irancell vless [ws](de)
       - 🚀 irancell vless [grpc](de)
-      - 🚀 irancell (amd) vless [ws]
-      - 🚀 irancell (amd) vless [grpc]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
       - irancell vmess-ws(hel)
       - 🚀 irancell vmess [ws] (hel)
       - 🚀 irancell vmess [grpc] (hel)
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
       - vmess grpc de
-      - 🚀 irancell (amd) vmess [ws]
-      - 🚀 irancell (amd) vmess [grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - irancell AMD vmess grcp
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -199,23 +205,24 @@ proxy-groups:
       - 🚀 irancell trojan [ws](de)
       - 🚀 irancell trojan [grpc](de)
       - trojan grpc de
-      - 🚀 irancell (amd) trojan [grpc]
-      - 🚀 irancell (amd) trojan [ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - irancell AMD Trojan grpc
       - irancell vless-ws(hel)
       - 🚀 irancell vless [ws] (hel)
       - 🚀 irancell vless [grpc] (hel)
       - 🚀 irancell vless [ws](de)
       - 🚀 irancell vless [grpc](de)
-      - 🚀 irancell (amd) vless [ws]
-      - 🚀 irancell (amd) vless [grpc]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
       - irancell vmess-ws(hel)
       - 🚀 irancell vmess [ws] (hel)
       - 🚀 irancell vmess [grpc] (hel)
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
       - vmess grpc de
-      - 🚀 irancell (amd) vmess [ws]
-      - 🚀 irancell (amd) vmess [grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - irancell AMD vmess grcp
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -244,23 +251,24 @@ proxy-groups:
       - 🚀 irancell trojan [ws](de)
       - 🚀 irancell trojan [grpc](de)
       - trojan grpc de
-      - 🚀 irancell (amd) trojan [grpc]
-      - 🚀 irancell (amd) trojan [ws]
+      - 🚀 reality (AMD) [Trojan - ws]
+      - irancell AMD Trojan grpc
       - irancell vless-ws(hel)
       - 🚀 irancell vless [ws] (hel)
       - 🚀 irancell vless [grpc] (hel)
       - 🚀 irancell vless [ws](de)
       - 🚀 irancell vless [grpc](de)
-      - 🚀 irancell (amd) vless [ws]
-      - 🚀 irancell (amd) vless [grpc]
+      - 🚀 reality (AMD) [VLESS - tcp]
+      - 🚀 reality (AMD) [VLESS - grpc]
       - irancell vmess-ws(hel)
       - 🚀 irancell vmess [ws] (hel)
       - 🚀 irancell vmess [grpc] (hel)
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
       - vmess grpc de
-      - 🚀 irancell (amd) vmess [ws]
-      - 🚀 irancell (amd) vmess [grpc]
+      - 🚀 reality (AMD) [VMess - tcp]
+      - 🚀 reality (AMD)[VMess - ws]
+      - irancell AMD vmess grcp
 
 rules:
 # 本地/局域网地址
