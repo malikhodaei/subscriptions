@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：05-06-2023 07:39:43
+# 创建时间：07-06-2023 13:08:51
 # 使用模版：V2RaySE 默认模版
-# 节点数量：24
+# 节点数量：23
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -23,29 +23,28 @@ dns:
 
 proxies:
   - {"name":"Hamrah vmess-ws(hel)","type":"vmess","server":"malmci2.shanty.tech","port":443,"cipher":"auto","uuid":"b1f56415-7990-458f-db8b-5a03db5f7f81","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"hel1.malikhodaei.online"}}}
-  - {"name":"🚀 Hamrah vmess [ws] (hel)","type":"vmess","server":"malmci2.shanty.tech","port":2053,"cipher":"auto","uuid":"5789929d-ebf2-4923-b42e-3c82b6e9bbf8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marhel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marhel1.malikhodaei.online"}}}
-  - {"name":"🚀 Hamrah vmess [grpc] (hel)","type":"vmess","server":"malmci2.shanty.tech","port":2053,"cipher":"auto","uuid":"5789929d-ebf2-4923-b42e-3c82b6e9bbf8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marhel1.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
-  - {"name":"🚀 Hamrah vmess [ws](de)","type":"vmess","server":"malmci2.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marde.shanty.tech"}}}
-  - {"name":"🚀 Hamrah vmess [grpc](de)","type":"vmess","server":"malmci2.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"none"}}
-  - {"name":"vmess grpc de","type":"vmess","server":"malmci2.shanty.tech","port":2083,"cipher":"auto","uuid":"be5ac3a2-166c-4b05-ea98-4e322a5332f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"fsde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
-  - {"name":"🚀 reality (AMD) [VMess - tcp]","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2cc5536-bf27-443f-8d9e-eda4885ce522","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🚀 reality (AMD)[VMess - ws]","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2cc5536-bf27-443f-8d9e-eda4885ce522","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"Hamrah AMD vmess grcp","type":"vmess","server":"sanamd.mishahana.fun","port":2096,"cipher":"auto","uuid":"d2c35d07-afbc-4674-db04-bb3aa150291a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sanamd.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
   - {"name":"Hamrah vless-ws(hel)","type":"vless","server":"malmci2.shanty.tech","port":443,"uuid":"cce4cf79-ac15-4530-952c-377a882112f0","tls":true,"servername":"hel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/vlessws","headers":{"host":"hel1.malikhodaei.online"}}}
-  - {"name":"🚀 Hamrah vless [ws] (hel)","type":"vless","server":"malmci2.shanty.tech","port":2053,"uuid":"ecff1926-d881-4cda-af6a-ad5b467bde0d","tls":true,"servername":"marhel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/lw","headers":{"host":"marhel1.malikhodaei.online"}}}
-  - {"name":"🚀 Hamrah vless [grpc] (hel)","type":"vless","server":"malmci2.shanty.tech","port":2053,"uuid":"ecff1926-d881-4cda-af6a-ad5b467bde0d","tls":true,"servername":"marhel1.malikhodaei.online","network":"grpc"}
-  - {"name":"🚀 Hamrah vless [ws](de)","type":"vless","server":"malmci2.shanty.tech","port":2053,"uuid":"fa09fbee-e081-4b63-8493-afb893b9c346","tls":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/lw","headers":{"host":"marde.shanty.tech"}}}
-  - {"name":"🚀 Hamrah vless [grpc](de)","type":"vless","server":"malmci2.shanty.tech","port":2053,"uuid":"fa09fbee-e081-4b63-8493-afb893b9c346","tls":true,"servername":"marde.shanty.tech","network":"grpc"}
-  - {"name":"🚀 reality (AMD) [VLESS - tcp]","type":"vless","server":"maramd.mishahana.fun","port":8443,"udp":true,"uuid":"8a5495fa-dd16-457d-a5c4-409493bbd2b5","tls":true,"servername":"ftp.debian.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
-  - {"name":"🚀 reality (AMD) [VLESS - grpc]","type":"vless","server":"maramd.mishahana.fun","port":2053,"udp":true,"uuid":"8a5495fa-dd16-457d-a5c4-409493bbd2b5","tls":true,"servername":"ftp.ipv6.debian.org","network":"grpc","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
   - {"name":"Hamrah trojan (hel)","type":"trojan","server":"malmci2.shanty.tech","port":443,"udp":true,"password":"Ecs9HvDj40","sni":"hel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"hel1.malikhodaei.online"}}}
-  - {"name":"🚀 Hamrah trojan [ws] (hel)","type":"trojan","server":"malmci2.shanty.tech","port":2053,"udp":true,"password":"U-T7Kvt6pLnaXWl5HGVy4Q","sni":"marhel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marhel1.malikhodaei.online"}}}
-  - {"name":"🚀 Hamrah trojan [grpc] (hel)","type":"trojan","server":"malmci2.shanty.tech","port":2053,"udp":true,"password":"U-T7Kvt6pLnaXWl5HGVy4Q","sni":"marhel1.malikhodaei.online","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
-  - {"name":"🚀 Hamrah trojan [ws](de)","type":"trojan","server":"malmci2.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marde.shanty.tech"}}}
-  - {"name":"🚀 Hamrah trojan [grpc](de)","type":"trojan","server":"malmci2.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
-  - {"name":"trojan grpc de","type":"trojan","server":"malmci2.shanty.tech","port":2087,"udp":true,"password":"s8ZcVxaiWf","sni":"fsde.shanty.tech","skip-cert-verify":true,"network":"grpc"}
-  - {"name":"🚀 reality (AMD) [Trojan - ws]","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"dhy0rSmE0aRBOOc3vSUF3w","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"Hamrah AMD vmess grcp","type":"vmess","server":"sanamd.mishahana.fun","port":2096,"cipher":"auto","uuid":"d2c35d07-afbc-4674-db04-bb3aa150291a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sanamd.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
   - {"name":"Hamrah AMD Trojan grpc","type":"trojan","server":"sanamd.mishahana.fun","port":2087,"udp":true,"password":"obsT9g7Ndl","sni":"sanamd.mishahana.fun","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1","h3"]}
+  - {"name":"🚀 Hamrah vmess [ws](de)","type":"vmess","server":"malmci2.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marde.shanty.tech"}}}
+  - {"name":"🚀 Hamrah vmess [ws] (hel)","type":"vmess","server":"malmci2.shanty.tech","port":2053,"cipher":"auto","uuid":"5789929d-ebf2-4923-b42e-3c82b6e9bbf8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marhel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marhel1.malikhodaei.online"}}}
+  - {"name":"🚀 Hamrah vmess [grpc](de)","type":"vmess","server":"malmci2.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"none"}}
+  - {"name":"🚀 Hamrah vmess [grpc] (hel)","type":"vmess","server":"malmci2.shanty.tech","port":2053,"cipher":"auto","uuid":"5789929d-ebf2-4923-b42e-3c82b6e9bbf8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marhel1.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
+  - {"name":"🚀 Hamrah vless [ws](de)","type":"vless","server":"malmci2.shanty.tech","port":2053,"uuid":"fa09fbee-e081-4b63-8493-afb893b9c346","tls":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/lw","headers":{"host":"marde.shanty.tech"}}}
+  - {"name":"🚀 Hamrah vless [ws] (hel)","type":"vless","server":"malmci2.shanty.tech","port":2053,"uuid":"ecff1926-d881-4cda-af6a-ad5b467bde0d","tls":true,"servername":"marhel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/lw","headers":{"host":"marhel1.malikhodaei.online"}}}
+  - {"name":"🚀 Hamrah vless [grpc](de)","type":"vless","server":"malmci2.shanty.tech","port":2053,"uuid":"fa09fbee-e081-4b63-8493-afb893b9c346","tls":true,"servername":"marde.shanty.tech","network":"grpc"}
+  - {"name":"🚀 Hamrah vless [grpc] (hel)","type":"vless","server":"malmci2.shanty.tech","port":2053,"uuid":"ecff1926-d881-4cda-af6a-ad5b467bde0d","tls":true,"servername":"marhel1.malikhodaei.online","network":"grpc"}
+  - {"name":"🚀 Hamrah trojan [ws](de)","type":"trojan","server":"malmci2.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marde.shanty.tech"}}}
+  - {"name":"🚀 Hamrah trojan [ws] (hel)","type":"trojan","server":"malmci2.shanty.tech","port":2053,"udp":true,"password":"U-T7Kvt6pLnaXWl5HGVy4Q","sni":"marhel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marhel1.malikhodaei.online"}}}
+  - {"name":"🚀 Hamrah trojan [grpc](de)","type":"trojan","server":"malmci2.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
+  - {"name":"🚀 Hamrah trojan [grpc] (hel)","type":"trojan","server":"malmci2.shanty.tech","port":2053,"udp":true,"password":"U-T7Kvt6pLnaXWl5HGVy4Q","sni":"marhel1.malikhodaei.online","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
+  - {"name":"🚀 AMD REALITY [VMess - ws]","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"AMD vmess ws REALITY2","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.expat.com"}}}
+  - {"name":"AMD vmess ws REALITY3","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"iranresearches.ir"}}}
+  - {"name":"AMD trojan ws REALITY2","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"www.expat.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"AMD  trojan ws REALITY3","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"iranresearches.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🚀 AMD REALITY [Trojan - ws]","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"f72bd7531f47902e.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -53,29 +52,28 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - Hamrah vmess-ws(hel)
-      - 🚀 Hamrah vmess [ws] (hel)
-      - 🚀 Hamrah vmess [grpc] (hel)
-      - 🚀 Hamrah vmess [ws](de)
-      - 🚀 Hamrah vmess [grpc](de)
-      - vmess grpc de
-      - 🚀 reality (AMD) [VMess - tcp]
-      - 🚀 reality (AMD)[VMess - ws]
-      - Hamrah AMD vmess grcp
       - Hamrah vless-ws(hel)
-      - 🚀 Hamrah vless [ws] (hel)
-      - 🚀 Hamrah vless [grpc] (hel)
-      - 🚀 Hamrah vless [ws](de)
-      - 🚀 Hamrah vless [grpc](de)
-      - 🚀 reality (AMD) [VLESS - tcp]
-      - 🚀 reality (AMD) [VLESS - grpc]
       - Hamrah trojan (hel)
-      - 🚀 Hamrah trojan [ws] (hel)
-      - 🚀 Hamrah trojan [grpc] (hel)
-      - 🚀 Hamrah trojan [ws](de)
-      - 🚀 Hamrah trojan [grpc](de)
-      - trojan grpc de
-      - 🚀 reality (AMD) [Trojan - ws]
+      - Hamrah AMD vmess grcp
       - Hamrah AMD Trojan grpc
+      - 🚀 Hamrah vmess [ws](de)
+      - 🚀 Hamrah vmess [ws] (hel)
+      - 🚀 Hamrah vmess [grpc](de)
+      - 🚀 Hamrah vmess [grpc] (hel)
+      - 🚀 Hamrah vless [ws](de)
+      - 🚀 Hamrah vless [ws] (hel)
+      - 🚀 Hamrah vless [grpc](de)
+      - 🚀 Hamrah vless [grpc] (hel)
+      - 🚀 Hamrah trojan [ws](de)
+      - 🚀 Hamrah trojan [ws] (hel)
+      - 🚀 Hamrah trojan [grpc](de)
+      - 🚀 Hamrah trojan [grpc] (hel)
+      - 🚀 AMD REALITY [VMess - ws]
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD trojan ws REALITY2
+      - AMD  trojan ws REALITY3
+      - 🚀 AMD REALITY [Trojan - ws]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -83,29 +81,28 @@ proxy-groups:
     tolerance: 50
     proxies:
       - Hamrah vmess-ws(hel)
-      - 🚀 Hamrah vmess [ws] (hel)
-      - 🚀 Hamrah vmess [grpc] (hel)
-      - 🚀 Hamrah vmess [ws](de)
-      - 🚀 Hamrah vmess [grpc](de)
-      - vmess grpc de
-      - 🚀 reality (AMD) [VMess - tcp]
-      - 🚀 reality (AMD)[VMess - ws]
-      - Hamrah AMD vmess grcp
       - Hamrah vless-ws(hel)
-      - 🚀 Hamrah vless [ws] (hel)
-      - 🚀 Hamrah vless [grpc] (hel)
-      - 🚀 Hamrah vless [ws](de)
-      - 🚀 Hamrah vless [grpc](de)
-      - 🚀 reality (AMD) [VLESS - tcp]
-      - 🚀 reality (AMD) [VLESS - grpc]
       - Hamrah trojan (hel)
-      - 🚀 Hamrah trojan [ws] (hel)
-      - 🚀 Hamrah trojan [grpc] (hel)
-      - 🚀 Hamrah trojan [ws](de)
-      - 🚀 Hamrah trojan [grpc](de)
-      - trojan grpc de
-      - 🚀 reality (AMD) [Trojan - ws]
+      - Hamrah AMD vmess grcp
       - Hamrah AMD Trojan grpc
+      - 🚀 Hamrah vmess [ws](de)
+      - 🚀 Hamrah vmess [ws] (hel)
+      - 🚀 Hamrah vmess [grpc](de)
+      - 🚀 Hamrah vmess [grpc] (hel)
+      - 🚀 Hamrah vless [ws](de)
+      - 🚀 Hamrah vless [ws] (hel)
+      - 🚀 Hamrah vless [grpc](de)
+      - 🚀 Hamrah vless [grpc] (hel)
+      - 🚀 Hamrah trojan [ws](de)
+      - 🚀 Hamrah trojan [ws] (hel)
+      - 🚀 Hamrah trojan [grpc](de)
+      - 🚀 Hamrah trojan [grpc] (hel)
+      - 🚀 AMD REALITY [VMess - ws]
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD trojan ws REALITY2
+      - AMD  trojan ws REALITY3
+      - 🚀 AMD REALITY [Trojan - ws]
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -113,116 +110,112 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Hamrah vmess-ws(hel)
-      - 🚀 Hamrah vmess [ws] (hel)
-      - 🚀 Hamrah vmess [grpc] (hel)
-      - 🚀 Hamrah vmess [ws](de)
-      - 🚀 Hamrah vmess [grpc](de)
-      - vmess grpc de
-      - 🚀 reality (AMD) [VMess - tcp]
-      - 🚀 reality (AMD)[VMess - ws]
-      - Hamrah AMD vmess grcp
       - Hamrah vless-ws(hel)
-      - 🚀 Hamrah vless [ws] (hel)
-      - 🚀 Hamrah vless [grpc] (hel)
-      - 🚀 Hamrah vless [ws](de)
-      - 🚀 Hamrah vless [grpc](de)
-      - 🚀 reality (AMD) [VLESS - tcp]
-      - 🚀 reality (AMD) [VLESS - grpc]
       - Hamrah trojan (hel)
-      - 🚀 Hamrah trojan [ws] (hel)
-      - 🚀 Hamrah trojan [grpc] (hel)
-      - 🚀 Hamrah trojan [ws](de)
-      - 🚀 Hamrah trojan [grpc](de)
-      - trojan grpc de
-      - 🚀 reality (AMD) [Trojan - ws]
+      - Hamrah AMD vmess grcp
       - Hamrah AMD Trojan grpc
+      - 🚀 Hamrah vmess [ws](de)
+      - 🚀 Hamrah vmess [ws] (hel)
+      - 🚀 Hamrah vmess [grpc](de)
+      - 🚀 Hamrah vmess [grpc] (hel)
+      - 🚀 Hamrah vless [ws](de)
+      - 🚀 Hamrah vless [ws] (hel)
+      - 🚀 Hamrah vless [grpc](de)
+      - 🚀 Hamrah vless [grpc] (hel)
+      - 🚀 Hamrah trojan [ws](de)
+      - 🚀 Hamrah trojan [ws] (hel)
+      - 🚀 Hamrah trojan [grpc](de)
+      - 🚀 Hamrah trojan [grpc] (hel)
+      - 🚀 AMD REALITY [VMess - ws]
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD trojan ws REALITY2
+      - AMD  trojan ws REALITY3
+      - 🚀 AMD REALITY [Trojan - ws]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - Hamrah vmess-ws(hel)
-      - 🚀 Hamrah vmess [ws] (hel)
-      - 🚀 Hamrah vmess [grpc] (hel)
-      - 🚀 Hamrah vmess [ws](de)
-      - 🚀 Hamrah vmess [grpc](de)
-      - vmess grpc de
-      - 🚀 reality (AMD) [VMess - tcp]
-      - 🚀 reality (AMD)[VMess - ws]
-      - Hamrah AMD vmess grcp
       - Hamrah vless-ws(hel)
-      - 🚀 Hamrah vless [ws] (hel)
-      - 🚀 Hamrah vless [grpc] (hel)
-      - 🚀 Hamrah vless [ws](de)
-      - 🚀 Hamrah vless [grpc](de)
-      - 🚀 reality (AMD) [VLESS - tcp]
-      - 🚀 reality (AMD) [VLESS - grpc]
       - Hamrah trojan (hel)
-      - 🚀 Hamrah trojan [ws] (hel)
-      - 🚀 Hamrah trojan [grpc] (hel)
-      - 🚀 Hamrah trojan [ws](de)
-      - 🚀 Hamrah trojan [grpc](de)
-      - trojan grpc de
-      - 🚀 reality (AMD) [Trojan - ws]
+      - Hamrah AMD vmess grcp
       - Hamrah AMD Trojan grpc
+      - 🚀 Hamrah vmess [ws](de)
+      - 🚀 Hamrah vmess [ws] (hel)
+      - 🚀 Hamrah vmess [grpc](de)
+      - 🚀 Hamrah vmess [grpc] (hel)
+      - 🚀 Hamrah vless [ws](de)
+      - 🚀 Hamrah vless [ws] (hel)
+      - 🚀 Hamrah vless [grpc](de)
+      - 🚀 Hamrah vless [grpc] (hel)
+      - 🚀 Hamrah trojan [ws](de)
+      - 🚀 Hamrah trojan [ws] (hel)
+      - 🚀 Hamrah trojan [grpc](de)
+      - 🚀 Hamrah trojan [grpc] (hel)
+      - 🚀 AMD REALITY [VMess - ws]
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD trojan ws REALITY2
+      - AMD  trojan ws REALITY3
+      - 🚀 AMD REALITY [Trojan - ws]
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - Hamrah vmess-ws(hel)
-      - 🚀 Hamrah vmess [ws] (hel)
-      - 🚀 Hamrah vmess [grpc] (hel)
-      - 🚀 Hamrah vmess [ws](de)
-      - 🚀 Hamrah vmess [grpc](de)
-      - vmess grpc de
-      - 🚀 reality (AMD) [VMess - tcp]
-      - 🚀 reality (AMD)[VMess - ws]
-      - Hamrah AMD vmess grcp
       - Hamrah vless-ws(hel)
-      - 🚀 Hamrah vless [ws] (hel)
-      - 🚀 Hamrah vless [grpc] (hel)
-      - 🚀 Hamrah vless [ws](de)
-      - 🚀 Hamrah vless [grpc](de)
-      - 🚀 reality (AMD) [VLESS - tcp]
-      - 🚀 reality (AMD) [VLESS - grpc]
       - Hamrah trojan (hel)
-      - 🚀 Hamrah trojan [ws] (hel)
-      - 🚀 Hamrah trojan [grpc] (hel)
-      - 🚀 Hamrah trojan [ws](de)
-      - 🚀 Hamrah trojan [grpc](de)
-      - trojan grpc de
-      - 🚀 reality (AMD) [Trojan - ws]
+      - Hamrah AMD vmess grcp
       - Hamrah AMD Trojan grpc
+      - 🚀 Hamrah vmess [ws](de)
+      - 🚀 Hamrah vmess [ws] (hel)
+      - 🚀 Hamrah vmess [grpc](de)
+      - 🚀 Hamrah vmess [grpc] (hel)
+      - 🚀 Hamrah vless [ws](de)
+      - 🚀 Hamrah vless [ws] (hel)
+      - 🚀 Hamrah vless [grpc](de)
+      - 🚀 Hamrah vless [grpc] (hel)
+      - 🚀 Hamrah trojan [ws](de)
+      - 🚀 Hamrah trojan [ws] (hel)
+      - 🚀 Hamrah trojan [grpc](de)
+      - 🚀 Hamrah trojan [grpc] (hel)
+      - 🚀 AMD REALITY [VMess - ws]
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD trojan ws REALITY2
+      - AMD  trojan ws REALITY3
+      - 🚀 AMD REALITY [Trojan - ws]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - Hamrah vmess-ws(hel)
-      - 🚀 Hamrah vmess [ws] (hel)
-      - 🚀 Hamrah vmess [grpc] (hel)
-      - 🚀 Hamrah vmess [ws](de)
-      - 🚀 Hamrah vmess [grpc](de)
-      - vmess grpc de
-      - 🚀 reality (AMD) [VMess - tcp]
-      - 🚀 reality (AMD)[VMess - ws]
-      - Hamrah AMD vmess grcp
       - Hamrah vless-ws(hel)
-      - 🚀 Hamrah vless [ws] (hel)
-      - 🚀 Hamrah vless [grpc] (hel)
-      - 🚀 Hamrah vless [ws](de)
-      - 🚀 Hamrah vless [grpc](de)
-      - 🚀 reality (AMD) [VLESS - tcp]
-      - 🚀 reality (AMD) [VLESS - grpc]
       - Hamrah trojan (hel)
-      - 🚀 Hamrah trojan [ws] (hel)
-      - 🚀 Hamrah trojan [grpc] (hel)
-      - 🚀 Hamrah trojan [ws](de)
-      - 🚀 Hamrah trojan [grpc](de)
-      - trojan grpc de
-      - 🚀 reality (AMD) [Trojan - ws]
+      - Hamrah AMD vmess grcp
       - Hamrah AMD Trojan grpc
+      - 🚀 Hamrah vmess [ws](de)
+      - 🚀 Hamrah vmess [ws] (hel)
+      - 🚀 Hamrah vmess [grpc](de)
+      - 🚀 Hamrah vmess [grpc] (hel)
+      - 🚀 Hamrah vless [ws](de)
+      - 🚀 Hamrah vless [ws] (hel)
+      - 🚀 Hamrah vless [grpc](de)
+      - 🚀 Hamrah vless [grpc] (hel)
+      - 🚀 Hamrah trojan [ws](de)
+      - 🚀 Hamrah trojan [ws] (hel)
+      - 🚀 Hamrah trojan [grpc](de)
+      - 🚀 Hamrah trojan [grpc] (hel)
+      - 🚀 AMD REALITY [VMess - ws]
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD trojan ws REALITY2
+      - AMD  trojan ws REALITY3
+      - 🚀 AMD REALITY [Trojan - ws]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -246,29 +239,28 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Hamrah vmess-ws(hel)
-      - 🚀 Hamrah vmess [ws] (hel)
-      - 🚀 Hamrah vmess [grpc] (hel)
-      - 🚀 Hamrah vmess [ws](de)
-      - 🚀 Hamrah vmess [grpc](de)
-      - vmess grpc de
-      - 🚀 reality (AMD) [VMess - tcp]
-      - 🚀 reality (AMD)[VMess - ws]
-      - Hamrah AMD vmess grcp
       - Hamrah vless-ws(hel)
-      - 🚀 Hamrah vless [ws] (hel)
-      - 🚀 Hamrah vless [grpc] (hel)
-      - 🚀 Hamrah vless [ws](de)
-      - 🚀 Hamrah vless [grpc](de)
-      - 🚀 reality (AMD) [VLESS - tcp]
-      - 🚀 reality (AMD) [VLESS - grpc]
       - Hamrah trojan (hel)
-      - 🚀 Hamrah trojan [ws] (hel)
-      - 🚀 Hamrah trojan [grpc] (hel)
-      - 🚀 Hamrah trojan [ws](de)
-      - 🚀 Hamrah trojan [grpc](de)
-      - trojan grpc de
-      - 🚀 reality (AMD) [Trojan - ws]
+      - Hamrah AMD vmess grcp
       - Hamrah AMD Trojan grpc
+      - 🚀 Hamrah vmess [ws](de)
+      - 🚀 Hamrah vmess [ws] (hel)
+      - 🚀 Hamrah vmess [grpc](de)
+      - 🚀 Hamrah vmess [grpc] (hel)
+      - 🚀 Hamrah vless [ws](de)
+      - 🚀 Hamrah vless [ws] (hel)
+      - 🚀 Hamrah vless [grpc](de)
+      - 🚀 Hamrah vless [grpc] (hel)
+      - 🚀 Hamrah trojan [ws](de)
+      - 🚀 Hamrah trojan [ws] (hel)
+      - 🚀 Hamrah trojan [grpc](de)
+      - 🚀 Hamrah trojan [grpc] (hel)
+      - 🚀 AMD REALITY [VMess - ws]
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD trojan ws REALITY2
+      - AMD  trojan ws REALITY3
+      - 🚀 AMD REALITY [Trojan - ws]
 
 rules:
 # 本地/局域网地址
