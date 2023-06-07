@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：07-06-2023 21:07:51
+# 创建时间：07-06-2023 21:09:51
 # 使用模版：V2RaySE 默认模版
-# 节点数量：21
+# 节点数量：19
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -30,7 +30,6 @@ dns:
 
 proxies:
   - {"name":"🚀 irancell trojan [ws](de)","type":"trojan","server":"maliran.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marde.shanty.tech"}}}
-  - {"name":"irancell AMD Trojan grpc","type":"trojan","server":"sanamd.mishahana.fun","port":2087,"udp":true,"password":"obsT9g7Ndl","sni":"sanamd.mishahana.fun","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1","h3"]}
   - {"name":"🚀 irancell trojan [grpc](de)","type":"trojan","server":"marde.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
   - {"name":"AMD trojan ws REALITY2","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"www.expat.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"AMD  trojan ws REALITY3","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"iranresearches.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
@@ -43,7 +42,6 @@ proxies:
   - {"name":"HEL shadow tcp  REALITY3","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"VtlCJh_Fqzdv1V7PuOicuw","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🚀 irancell vmess [ws](de)","type":"vmess","server":"maliran.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marde.shanty.tech"}}}
   - {"name":"🚀 irancell vmess [grpc](de)","type":"vmess","server":"maliran.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"none"}}
-  - {"name":"irancell AMD vmess grcp","type":"vmess","server":"sanamd.mishahana.fun","port":2096,"cipher":"auto","uuid":"d2c35d07-afbc-4674-db04-bb3aa150291a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sanamd.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
   - {"name":"AMD vmess ws REALITY2","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.expat.com"}}}
   - {"name":"AMD vmess ws REALITY3","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"iranresearches.ir"}}}
   - {"name":"🚀 AMD REALITY [VMess - ws]","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
@@ -57,7 +55,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
       - 🚀 irancell trojan [grpc](de)
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
@@ -70,7 +67,6 @@ proxy-groups:
       - HEL shadow tcp  REALITY3
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - AMD vmess ws REALITY2
       - AMD vmess ws REALITY3
       - 🚀 AMD REALITY [VMess - ws]
@@ -84,7 +80,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
       - 🚀 irancell trojan [grpc](de)
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
@@ -97,7 +92,6 @@ proxy-groups:
       - HEL shadow tcp  REALITY3
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - AMD vmess ws REALITY2
       - AMD vmess ws REALITY3
       - 🚀 AMD REALITY [VMess - ws]
@@ -111,7 +105,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
       - 🚀 irancell trojan [grpc](de)
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
@@ -124,7 +117,6 @@ proxy-groups:
       - HEL shadow tcp  REALITY3
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - AMD vmess ws REALITY2
       - AMD vmess ws REALITY3
       - 🚀 AMD REALITY [VMess - ws]
@@ -137,7 +129,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
       - 🚀 irancell trojan [grpc](de)
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
@@ -150,7 +141,6 @@ proxy-groups:
       - HEL shadow tcp  REALITY3
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - AMD vmess ws REALITY2
       - AMD vmess ws REALITY3
       - 🚀 AMD REALITY [VMess - ws]
@@ -163,7 +153,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
       - 🚀 irancell trojan [grpc](de)
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
@@ -176,7 +165,6 @@ proxy-groups:
       - HEL shadow tcp  REALITY3
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - AMD vmess ws REALITY2
       - AMD vmess ws REALITY3
       - 🚀 AMD REALITY [VMess - ws]
@@ -189,7 +177,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
       - 🚀 irancell trojan [grpc](de)
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
@@ -202,7 +189,6 @@ proxy-groups:
       - HEL shadow tcp  REALITY3
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - AMD vmess ws REALITY2
       - AMD vmess ws REALITY3
       - 🚀 AMD REALITY [VMess - ws]
@@ -232,7 +218,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
       - 🚀 irancell trojan [grpc](de)
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
@@ -245,7 +230,6 @@ proxy-groups:
       - HEL shadow tcp  REALITY3
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - AMD vmess ws REALITY2
       - AMD vmess ws REALITY3
       - 🚀 AMD REALITY [VMess - ws]
