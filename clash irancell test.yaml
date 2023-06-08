@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：07-06-2023 13:10:48
+# 创建时间：08-06-2023 14:49:32
 # 使用模版：V2RaySE 默认模版
-# 节点数量：18
+# 节点数量：29
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -27,167 +27,243 @@ dns:
     - https://9.9.9.9/dns-query
     - tls://1.0.0.1:853
     - tls://dns.google:853
-
 proxies:
-  - {"name":"irancell vmess-ws(hel)","type":"vmess","server":"maliran2.shanty.tech","port":443,"cipher":"auto","uuid":"b1f56415-7990-458f-db8b-5a03db5f7f81","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"hel1.malikhodaei.online"}}}
-  - {"name":"irancell trojan (hel)","type":"trojan","server":"maliran2.shanty.tech","port":443,"udp":true,"password":"Ecs9HvDj40","sni":"hel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"hel1.malikhodaei.online"}}}
-  - {"name":"irancell AMD vmess grcp","type":"vmess","server":"sanamd.mishahana.fun","port":2096,"cipher":"auto","uuid":"d2c35d07-afbc-4674-db04-bb3aa150291a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sanamd.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
-  - {"name":"irancell AMD Trojan grpc","type":"trojan","server":"sanamd.mishahana.fun","port":2087,"udp":true,"password":"obsT9g7Ndl","sni":"sanamd.mishahana.fun","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1","h3"]}
-  - {"name":"🚀 irancell vmess [ws](de)","type":"vmess","server":"maliran2.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marde.shanty.tech"}}}
-  - {"name":"🚀 irancell vmess [ws] (hel)","type":"vmess","server":"maliran2.shanty.tech","port":2053,"cipher":"auto","uuid":"5789929d-ebf2-4923-b42e-3c82b6e9bbf8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marhel1.malikhodaei.online","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marhel1.malikhodaei.online"}}}
-  - {"name":"🚀 irancell vmess [grpc](de)","type":"vmess","server":"maliran2.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"none"}}
-  - {"name":"🚀 irancell vmess [grpc] (hel)","type":"vmess","server":"maliran2.shanty.tech","port":2053,"cipher":"auto","uuid":"5789929d-ebf2-4923-b42e-3c82b6e9bbf8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marhel1.malikhodaei.online","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"gun"}}
-  - {"name":"🚀 irancell trojan [ws](de)","type":"trojan","server":"maliran2.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marde.shanty.tech"}}}
-  - {"name":"🚀 irancell trojan [ws] (hel)","type":"trojan","server":"maliran2.shanty.tech","port":2053,"udp":true,"password":"U-T7Kvt6pLnaXWl5HGVy4Q","sni":"marhel1.malikhodaei.online","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marhel1.malikhodaei.online"}}}
-  - {"name":"🚀 irancell trojan [grpc](de)","type":"trojan","server":"maliran2.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
-  - {"name":"🚀 irancell trojan [grpc] (hel)","type":"trojan","server":"maliran2.shanty.tech","port":2053,"udp":true,"password":"U-T7Kvt6pLnaXWl5HGVy4Q","sni":"marhel1.malikhodaei.online","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
-  - {"name":"🚀 AMD REALITY [VMess - ws]","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"AMD vmess ws REALITY2","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.expat.com"}}}
-  - {"name":"AMD vmess ws REALITY3","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"iranresearches.ir"}}}
+  - {"name":"🚀 irancell trojan [grpc](de)","type":"trojan","server":"marde.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
+  - {"name":"🚀 HEL REALITY [Trojan - ws]","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"HEL trojan ws REALITY2","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"www.expat.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"HEL trojan ws REALITY3","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"iranresearches.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"HEL trojan ws REALITY4","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"speedtest.net","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"HEL trojan ws REALITY5","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"eset.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"AMD trojan ws REALITY2","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"www.expat.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"AMD  trojan ws REALITY3","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"iranresearches.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🚀 AMD REALITY [Trojan - ws]","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"f72bd7531f47902e.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"AMD  trojan ws REALITY4_1","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"speedtest.net","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"AMD  trojan ws REALITY4_2","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"eset.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🚀 AMD REALITY trojan ws [Trojan - ws]","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"53e29bee9b03d1d6.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🚀 irancell trojan [ws](de)","type":"trojan","server":"maliran2.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marde.shanty.tech"}}}
+  - {"name":"🚀 HEL REALITY [Shadowsocks - tcp]","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"HEL shadow tcp  REALITY2","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"HEL shadow tcp  REALITY3","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"HEL shadow tcp  REALITY4","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"HEL shadow tcp  REALITY5","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚀 HEL REALITY [VMess - ws]","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"HEL vmess ws REALITY2","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.expat.com"}}}
+  - {"name":"HEL vmess ws REALITY3","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"iranresearches.ir"}}}
+  - {"name":"HEL vmess ws REALITY4","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"speedtest.net"}}}
+  - {"name":"HEL vmess ws REALITY5","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"eset.com"}}}
+  - {"name":"AMD vmess ws REALITY2","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.expat.com"}}}
+  - {"name":"AMD vmess ws REALITY3","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"iranresearches.ir"}}}
+  - {"name":"AMD vmess ws REALITY4","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"speedtest.net"}}}
+  - {"name":"AMD vmess ws REALITY5","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"eset.com"}}}
+  - {"name":"🚀 AMD REALITY vmess ws [VMess - ws]","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"🚀 irancell vmess [ws](de)","type":"vmess","server":"maliran2.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marde.shanty.tech"}}}
+  - {"name":"🚀 irancell vmess [grpc](de)","type":"vmess","server":"maliran2.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"none"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - irancell vmess-ws(hel)
-      - irancell trojan (hel)
-      - irancell AMD vmess grcp
-      - irancell AMD Trojan grpc
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [ws] (hel)
-      - 🚀 irancell vmess [grpc](de)
-      - 🚀 irancell vmess [grpc] (hel)
-      - 🚀 irancell trojan [ws](de)
-      - 🚀 irancell trojan [ws] (hel)
       - 🚀 irancell trojan [grpc](de)
-      - 🚀 irancell trojan [grpc] (hel)
-      - 🚀 AMD REALITY [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
+      - 🚀 HEL REALITY [Trojan - ws]
+      - HEL trojan ws REALITY2
+      - HEL trojan ws REALITY3
+      - HEL trojan ws REALITY4
+      - HEL trojan ws REALITY5
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
-      - 🚀 AMD REALITY [Trojan - ws]
+      - AMD  trojan ws REALITY4_1
+      - AMD  trojan ws REALITY4_2
+      - 🚀 AMD REALITY trojan ws [Trojan - ws]
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 HEL REALITY [Shadowsocks - tcp]
+      - HEL shadow tcp  REALITY2
+      - HEL shadow tcp  REALITY3
+      - HEL shadow tcp  REALITY4
+      - HEL shadow tcp  REALITY5
+      - 🚀 HEL REALITY [VMess - ws]
+      - HEL vmess ws REALITY2
+      - HEL vmess ws REALITY3
+      - HEL vmess ws REALITY4
+      - HEL vmess ws REALITY5
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD vmess ws REALITY4
+      - AMD vmess ws REALITY5
+      - 🚀 AMD REALITY vmess ws [VMess - ws]
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - irancell vmess-ws(hel)
-      - irancell trojan (hel)
-      - irancell AMD vmess grcp
-      - irancell AMD Trojan grpc
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [ws] (hel)
-      - 🚀 irancell vmess [grpc](de)
-      - 🚀 irancell vmess [grpc] (hel)
-      - 🚀 irancell trojan [ws](de)
-      - 🚀 irancell trojan [ws] (hel)
       - 🚀 irancell trojan [grpc](de)
-      - 🚀 irancell trojan [grpc] (hel)
-      - 🚀 AMD REALITY [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
+      - 🚀 HEL REALITY [Trojan - ws]
+      - HEL trojan ws REALITY2
+      - HEL trojan ws REALITY3
+      - HEL trojan ws REALITY4
+      - HEL trojan ws REALITY5
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
-      - 🚀 AMD REALITY [Trojan - ws]
+      - AMD  trojan ws REALITY4_1
+      - AMD  trojan ws REALITY4_2
+      - 🚀 AMD REALITY trojan ws [Trojan - ws]
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 HEL REALITY [Shadowsocks - tcp]
+      - HEL shadow tcp  REALITY2
+      - HEL shadow tcp  REALITY3
+      - HEL shadow tcp  REALITY4
+      - HEL shadow tcp  REALITY5
+      - 🚀 HEL REALITY [VMess - ws]
+      - HEL vmess ws REALITY2
+      - HEL vmess ws REALITY3
+      - HEL vmess ws REALITY4
+      - HEL vmess ws REALITY5
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD vmess ws REALITY4
+      - AMD vmess ws REALITY5
+      - 🚀 AMD REALITY vmess ws [VMess - ws]
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - irancell vmess-ws(hel)
-      - irancell trojan (hel)
-      - irancell AMD vmess grcp
-      - irancell AMD Trojan grpc
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [ws] (hel)
-      - 🚀 irancell vmess [grpc](de)
-      - 🚀 irancell vmess [grpc] (hel)
-      - 🚀 irancell trojan [ws](de)
-      - 🚀 irancell trojan [ws] (hel)
       - 🚀 irancell trojan [grpc](de)
-      - 🚀 irancell trojan [grpc] (hel)
-      - 🚀 AMD REALITY [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
+      - 🚀 HEL REALITY [Trojan - ws]
+      - HEL trojan ws REALITY2
+      - HEL trojan ws REALITY3
+      - HEL trojan ws REALITY4
+      - HEL trojan ws REALITY5
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
-      - 🚀 AMD REALITY [Trojan - ws]
+      - AMD  trojan ws REALITY4_1
+      - AMD  trojan ws REALITY4_2
+      - 🚀 AMD REALITY trojan ws [Trojan - ws]
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 HEL REALITY [Shadowsocks - tcp]
+      - HEL shadow tcp  REALITY2
+      - HEL shadow tcp  REALITY3
+      - HEL shadow tcp  REALITY4
+      - HEL shadow tcp  REALITY5
+      - 🚀 HEL REALITY [VMess - ws]
+      - HEL vmess ws REALITY2
+      - HEL vmess ws REALITY3
+      - HEL vmess ws REALITY4
+      - HEL vmess ws REALITY5
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD vmess ws REALITY4
+      - AMD vmess ws REALITY5
+      - 🚀 AMD REALITY vmess ws [VMess - ws]
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - irancell vmess-ws(hel)
-      - irancell trojan (hel)
-      - irancell AMD vmess grcp
-      - irancell AMD Trojan grpc
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [ws] (hel)
-      - 🚀 irancell vmess [grpc](de)
-      - 🚀 irancell vmess [grpc] (hel)
-      - 🚀 irancell trojan [ws](de)
-      - 🚀 irancell trojan [ws] (hel)
       - 🚀 irancell trojan [grpc](de)
-      - 🚀 irancell trojan [grpc] (hel)
-      - 🚀 AMD REALITY [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
+      - 🚀 HEL REALITY [Trojan - ws]
+      - HEL trojan ws REALITY2
+      - HEL trojan ws REALITY3
+      - HEL trojan ws REALITY4
+      - HEL trojan ws REALITY5
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
-      - 🚀 AMD REALITY [Trojan - ws]
+      - AMD  trojan ws REALITY4_1
+      - AMD  trojan ws REALITY4_2
+      - 🚀 AMD REALITY trojan ws [Trojan - ws]
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 HEL REALITY [Shadowsocks - tcp]
+      - HEL shadow tcp  REALITY2
+      - HEL shadow tcp  REALITY3
+      - HEL shadow tcp  REALITY4
+      - HEL shadow tcp  REALITY5
+      - 🚀 HEL REALITY [VMess - ws]
+      - HEL vmess ws REALITY2
+      - HEL vmess ws REALITY3
+      - HEL vmess ws REALITY4
+      - HEL vmess ws REALITY5
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD vmess ws REALITY4
+      - AMD vmess ws REALITY5
+      - 🚀 AMD REALITY vmess ws [VMess - ws]
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - irancell vmess-ws(hel)
-      - irancell trojan (hel)
-      - irancell AMD vmess grcp
-      - irancell AMD Trojan grpc
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [ws] (hel)
-      - 🚀 irancell vmess [grpc](de)
-      - 🚀 irancell vmess [grpc] (hel)
-      - 🚀 irancell trojan [ws](de)
-      - 🚀 irancell trojan [ws] (hel)
       - 🚀 irancell trojan [grpc](de)
-      - 🚀 irancell trojan [grpc] (hel)
-      - 🚀 AMD REALITY [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
+      - 🚀 HEL REALITY [Trojan - ws]
+      - HEL trojan ws REALITY2
+      - HEL trojan ws REALITY3
+      - HEL trojan ws REALITY4
+      - HEL trojan ws REALITY5
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
-      - 🚀 AMD REALITY [Trojan - ws]
+      - AMD  trojan ws REALITY4_1
+      - AMD  trojan ws REALITY4_2
+      - 🚀 AMD REALITY trojan ws [Trojan - ws]
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 HEL REALITY [Shadowsocks - tcp]
+      - HEL shadow tcp  REALITY2
+      - HEL shadow tcp  REALITY3
+      - HEL shadow tcp  REALITY4
+      - HEL shadow tcp  REALITY5
+      - 🚀 HEL REALITY [VMess - ws]
+      - HEL vmess ws REALITY2
+      - HEL vmess ws REALITY3
+      - HEL vmess ws REALITY4
+      - HEL vmess ws REALITY5
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD vmess ws REALITY4
+      - AMD vmess ws REALITY5
+      - 🚀 AMD REALITY vmess ws [VMess - ws]
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - irancell vmess-ws(hel)
-      - irancell trojan (hel)
-      - irancell AMD vmess grcp
-      - irancell AMD Trojan grpc
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [ws] (hel)
-      - 🚀 irancell vmess [grpc](de)
-      - 🚀 irancell vmess [grpc] (hel)
-      - 🚀 irancell trojan [ws](de)
-      - 🚀 irancell trojan [ws] (hel)
       - 🚀 irancell trojan [grpc](de)
-      - 🚀 irancell trojan [grpc] (hel)
-      - 🚀 AMD REALITY [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
+      - 🚀 HEL REALITY [Trojan - ws]
+      - HEL trojan ws REALITY2
+      - HEL trojan ws REALITY3
+      - HEL trojan ws REALITY4
+      - HEL trojan ws REALITY5
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
-      - 🚀 AMD REALITY [Trojan - ws]
+      - AMD  trojan ws REALITY4_1
+      - AMD  trojan ws REALITY4_2
+      - 🚀 AMD REALITY trojan ws [Trojan - ws]
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 HEL REALITY [Shadowsocks - tcp]
+      - HEL shadow tcp  REALITY2
+      - HEL shadow tcp  REALITY3
+      - HEL shadow tcp  REALITY4
+      - HEL shadow tcp  REALITY5
+      - 🚀 HEL REALITY [VMess - ws]
+      - HEL vmess ws REALITY2
+      - HEL vmess ws REALITY3
+      - HEL vmess ws REALITY4
+      - HEL vmess ws REALITY5
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD vmess ws REALITY4
+      - AMD vmess ws REALITY5
+      - 🚀 AMD REALITY vmess ws [VMess - ws]
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -210,24 +286,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - irancell vmess-ws(hel)
-      - irancell trojan (hel)
-      - irancell AMD vmess grcp
-      - irancell AMD Trojan grpc
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [ws] (hel)
-      - 🚀 irancell vmess [grpc](de)
-      - 🚀 irancell vmess [grpc] (hel)
-      - 🚀 irancell trojan [ws](de)
-      - 🚀 irancell trojan [ws] (hel)
       - 🚀 irancell trojan [grpc](de)
-      - 🚀 irancell trojan [grpc] (hel)
-      - 🚀 AMD REALITY [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
+      - 🚀 HEL REALITY [Trojan - ws]
+      - HEL trojan ws REALITY2
+      - HEL trojan ws REALITY3
+      - HEL trojan ws REALITY4
+      - HEL trojan ws REALITY5
       - AMD trojan ws REALITY2
       - AMD  trojan ws REALITY3
-      - 🚀 AMD REALITY [Trojan - ws]
+      - AMD  trojan ws REALITY4_1
+      - AMD  trojan ws REALITY4_2
+      - 🚀 AMD REALITY trojan ws [Trojan - ws]
+      - 🚀 irancell trojan [ws](de)
+      - 🚀 HEL REALITY [Shadowsocks - tcp]
+      - HEL shadow tcp  REALITY2
+      - HEL shadow tcp  REALITY3
+      - HEL shadow tcp  REALITY4
+      - HEL shadow tcp  REALITY5
+      - 🚀 HEL REALITY [VMess - ws]
+      - HEL vmess ws REALITY2
+      - HEL vmess ws REALITY3
+      - HEL vmess ws REALITY4
+      - HEL vmess ws REALITY5
+      - AMD vmess ws REALITY2
+      - AMD vmess ws REALITY3
+      - AMD vmess ws REALITY4
+      - AMD vmess ws REALITY5
+      - 🚀 AMD REALITY vmess ws [VMess - ws]
+      - 🚀 irancell vmess [ws](de)
+      - 🚀 irancell vmess [grpc](de)
 
 rules:
 # 本地/局域网地址
