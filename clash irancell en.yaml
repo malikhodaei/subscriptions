@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：08-06-2023 14:41:23
+# 创建时间：08-06-2023 14:48:05
 # 使用模版：V2RaySE 默认模版
-# 节点数量：30
+# 节点数量：29
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -31,7 +31,6 @@ dns:
 proxies:
   - {"name":"🚀 irancell vmess [ws](de)","type":"vmess","server":"maliran.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marde.shanty.tech"}}}
   - {"name":"🚀 irancell vmess [grpc](de)","type":"vmess","server":"maliran.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"none"}}
-  - {"name":"irancell AMD vmess grcp","type":"vmess","server":"maliran.shanty.tech","port":2096,"cipher":"auto","uuid":"d2c35d07-afbc-4674-db04-bb3aa150291a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sanamd.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
   - {"name":"🚀 HEL REALITY [VMess - ws]","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
   - {"name":"HEL vmess ws REALITY2","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.expat.com"}}}
   - {"name":"HEL vmess ws REALITY3","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"iranresearches.ir"}}}
@@ -67,7 +66,6 @@ proxy-groups:
       - DIRECT
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - 🚀 HEL REALITY [VMess - ws]
       - HEL vmess ws REALITY2
       - HEL vmess ws REALITY3
@@ -103,7 +101,6 @@ proxy-groups:
     proxies:
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - 🚀 HEL REALITY [VMess - ws]
       - HEL vmess ws REALITY2
       - HEL vmess ws REALITY3
@@ -139,7 +136,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - 🚀 HEL REALITY [VMess - ws]
       - HEL vmess ws REALITY2
       - HEL vmess ws REALITY3
@@ -174,7 +170,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - 🚀 HEL REALITY [VMess - ws]
       - HEL vmess ws REALITY2
       - HEL vmess ws REALITY3
@@ -209,7 +204,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - 🚀 HEL REALITY [VMess - ws]
       - HEL vmess ws REALITY2
       - HEL vmess ws REALITY3
@@ -244,7 +238,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - 🚀 HEL REALITY [VMess - ws]
       - HEL vmess ws REALITY2
       - HEL vmess ws REALITY3
@@ -296,7 +289,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🚀 irancell vmess [ws](de)
       - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
       - 🚀 HEL REALITY [VMess - ws]
       - HEL vmess ws REALITY2
       - HEL vmess ws REALITY3
