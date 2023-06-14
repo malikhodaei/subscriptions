@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：14-06-2023 22:08:06
+# 创建时间：15-06-2023 01:06:50
 # 使用模版：V2RaySE 默认模版
-# 节点数量：60
+# 节点数量：62
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -64,6 +64,7 @@ proxies:
   - {"name":"💪 PAR vmess ws REALITY3","type":"vmess","server":"marpar.mishahana.fun","port":8080,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"iranresearches.ir"}}}
   - {"name":"💪 PAR vmess ws REALITY4","type":"vmess","server":"marpar.mishahana.fun","port":8080,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"speedtest.net"}}}
   - {"name":"💪 PAR vmess ws REALITY5","type":"vmess","server":"marpar.mishahana.fun","port":8080,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"eset.com"}}}
+  - {"name":"🔥 PAR vmess grpc","type":"vmess","server":"maliran.shanty.tech","port":2096,"cipher":"auto","uuid":"d06cec29-3970-4e1d-dd0d-ec875b82de63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sanpar.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
   - {"name":"🚀 HEL REALITY [Shadowsocks - tcp]","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
   - {"name":"💪 HEL shadow tcp  REALITY2","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
   - {"name":"💪 HEL shadow tcp  REALITY3","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
@@ -89,6 +90,7 @@ proxies:
   - {"name":"💪 PAR trojan ws REALITY3","type":"trojan","server":"marpar.mishahana.fun","port":2083,"udp":true,"password":"1bWDQKC1rMP6GlrgyKjYVA","sni":"iranresearches.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"💪 PAR trojan ws REALITY4","type":"trojan","server":"marpar.mishahana.fun","port":2083,"udp":true,"password":"1bWDQKC1rMP6GlrgyKjYVA","sni":"speedtest.net","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"💪 PAR trojan ws REALITY5","type":"trojan","server":"marpar.mishahana.fun","port":2083,"udp":true,"password":"1bWDQKC1rMP6GlrgyKjYVA","sni":"eset.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🔥 PAR Trojan grpc","type":"trojan","server":"maliran.shanty.tech","port":2087,"udp":true,"password":"cmsFXxbfLz","sni":"sanpar.mishahana.fun","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1"]}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -130,6 +132,7 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY5
+      - 🔥 PAR vmess grpc
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 💪 HEL shadow tcp  REALITY2
       - 💪 HEL shadow tcp  REALITY3
@@ -155,6 +158,7 @@ proxy-groups:
       - 💪 PAR trojan ws REALITY3
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY5
+      - 🔥 PAR Trojan grpc
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -196,6 +200,7 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY5
+      - 🔥 PAR vmess grpc
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 💪 HEL shadow tcp  REALITY2
       - 💪 HEL shadow tcp  REALITY3
@@ -221,6 +226,7 @@ proxy-groups:
       - 💪 PAR trojan ws REALITY3
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY5
+      - 🔥 PAR Trojan grpc
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -262,6 +268,7 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY5
+      - 🔥 PAR vmess grpc
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 💪 HEL shadow tcp  REALITY2
       - 💪 HEL shadow tcp  REALITY3
@@ -287,6 +294,7 @@ proxy-groups:
       - 💪 PAR trojan ws REALITY3
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY5
+      - 🔥 PAR Trojan grpc
   - name: 📲 电报信息
     type: select
     proxies:
@@ -327,6 +335,7 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY5
+      - 🔥 PAR vmess grpc
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 💪 HEL shadow tcp  REALITY2
       - 💪 HEL shadow tcp  REALITY3
@@ -352,6 +361,7 @@ proxy-groups:
       - 💪 PAR trojan ws REALITY3
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY5
+      - 🔥 PAR Trojan grpc
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -392,6 +402,7 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY5
+      - 🔥 PAR vmess grpc
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 💪 HEL shadow tcp  REALITY2
       - 💪 HEL shadow tcp  REALITY3
@@ -417,6 +428,7 @@ proxy-groups:
       - 💪 PAR trojan ws REALITY3
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY5
+      - 🔥 PAR Trojan grpc
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -457,6 +469,7 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY5
+      - 🔥 PAR vmess grpc
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 💪 HEL shadow tcp  REALITY2
       - 💪 HEL shadow tcp  REALITY3
@@ -482,6 +495,7 @@ proxy-groups:
       - 💪 PAR trojan ws REALITY3
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY5
+      - 🔥 PAR Trojan grpc
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -539,6 +553,7 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY5
+      - 🔥 PAR vmess grpc
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 💪 HEL shadow tcp  REALITY2
       - 💪 HEL shadow tcp  REALITY3
@@ -564,6 +579,7 @@ proxy-groups:
       - 💪 PAR trojan ws REALITY3
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY5
+      - 🔥 PAR Trojan grpc
 
 rules:
 # 本地/局域网地址
