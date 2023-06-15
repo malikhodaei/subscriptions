@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：15-06-2023 10:21:53
+# 创建时间：15-06-2023 10:32:48
 # 使用模版：V2RaySE 默认模版
-# 节点数量：62
+# 节点数量：47
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -31,14 +31,11 @@ dns:
 proxies:
   - {"name":"🚀 irancell trojan [grpc](de)","type":"trojan","server":"marde.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
   - {"name":"🚀 Irancell PAR [VMess - ws]","type":"vmess","server":"marpar.mishahana.fun","port":8080,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🚀 Irancell PAR [VMess - tcp]","type":"vmess","server":"marpar.mishahana.fun","port":8084,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🚀 Irancell PAR [Trojan - ws]","type":"trojan","server":"marpar.mishahana.fun","port":2083,"udp":true,"password":"1bWDQKC1rMP6GlrgyKjYVA","sni":"1d69d54c4db8f33c.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"🚀 HEL REALITY [VMess - ws]","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🚀 HEL REALITY [VMess - tcp]","type":"vmess","server":"marhel.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🚀 HEL REALITY [Trojan - ws]","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"🚀 HEL REALITY [Shadowsocks - tcp]","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🚀 AMD REALITY vmess ws [VMess - ws]","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🚀 AMD REALITY vmess tcp [VMess - tcp]","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🚀 AMD REALITY trojan ws [Trojan - ws]","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"53e29bee9b03d1d6.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"🔥 vmess grpc de","type":"vmess","server":"maliran.shanty.tech","port":2083,"cipher":"auto","uuid":"be5ac3a2-166c-4b05-ea98-4e322a5332f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"fsde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"tg","grpc-mode":"none"}}
   - {"name":"🔥 trojan grpc de","type":"trojan","server":"maliran.shanty.tech","port":2087,"udp":true,"password":"s8ZcVxaiWf","sni":"fsde.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"},"alpn":["h2","http/1.1"]}
@@ -55,10 +52,6 @@ proxies:
   - {"name":"💪 PAR vmess ws REALITY4","type":"vmess","server":"marpar.mishahana.fun","port":8080,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"speedtest.net"}}}
   - {"name":"💪 PAR vmess ws REALITY3","type":"vmess","server":"marpar.mishahana.fun","port":8080,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"iranresearches.ir"}}}
   - {"name":"💪 PAR vmess ws REALITY2","type":"vmess","server":"marpar.mishahana.fun","port":8080,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.expat.com"}}}
-  - {"name":"💪 PAR vmess tcp REALITY5","type":"vmess","server":"marpar.mishahana.fun","port":8084,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 PAR vmess tcp REALITY4","type":"vmess","server":"marpar.mishahana.fun","port":8084,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 PAR vmess tcp REALITY3","type":"vmess","server":"marpar.mishahana.fun","port":8084,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 PAR vmess tcp REALITY2","type":"vmess","server":"marpar.mishahana.fun","port":8084,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"💪 PAR trojan ws REALITY5","type":"trojan","server":"marpar.mishahana.fun","port":2083,"udp":true,"password":"1bWDQKC1rMP6GlrgyKjYVA","sni":"eset.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"💪 PAR trojan ws REALITY4","type":"trojan","server":"marpar.mishahana.fun","port":2083,"udp":true,"password":"1bWDQKC1rMP6GlrgyKjYVA","sni":"speedtest.net","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"💪 PAR trojan ws REALITY3","type":"trojan","server":"marpar.mishahana.fun","port":2083,"udp":true,"password":"1bWDQKC1rMP6GlrgyKjYVA","sni":"iranresearches.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
@@ -67,10 +60,6 @@ proxies:
   - {"name":"💪 HEL vmess ws REALITY4","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"speedtest.net"}}}
   - {"name":"💪 HEL vmess ws REALITY3","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"iranresearches.ir"}}}
   - {"name":"💪 HEL vmess ws REALITY2","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.expat.com"}}}
-  - {"name":"💪 HEL vmess tcp REALITY5","type":"vmess","server":"marhel.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 HEL vmess tcp REALITY4","type":"vmess","server":"marhel.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 HEL vmess tcp REALITY3","type":"vmess","server":"marhel.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 HEL vmess tcp REALITY2","type":"vmess","server":"marhel.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"💪 HEL trojan ws REALITY5","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"eset.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"💪 HEL trojan ws REALITY4","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"speedtest.net","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"💪 HEL trojan ws REALITY3","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"iranresearches.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
@@ -83,10 +72,6 @@ proxies:
   - {"name":"💪 AMD vmess ws REALITY4","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"speedtest.net"}}}
   - {"name":"💪 AMD vmess ws REALITY3","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"iranresearches.ir"}}}
   - {"name":"💪 AMD vmess ws REALITY2","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.expat.com"}}}
-  - {"name":"💪 AMD vmess tcp REALITY5","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 AMD vmess tcp REALITY4","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 AMD vmess tcp REALITY3","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 AMD vmess tcp REALITY2","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"💪 AMD trojan ws REALITY2","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"www.expat.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"💪 AMD  trojan ws REALITY4_1","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"speedtest.net","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"💪 AMD  trojan ws REALITY4_2","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"eset.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
@@ -99,14 +84,11 @@ proxy-groups:
       - DIRECT
       - 🚀 irancell trojan [grpc](de)
       - 🚀 Irancell PAR [VMess - ws]
-      - 🚀 Irancell PAR [VMess - tcp]
       - 🚀 Irancell PAR [Trojan - ws]
       - 🚀 HEL REALITY [VMess - ws]
-      - 🚀 HEL REALITY [VMess - tcp]
       - 🚀 HEL REALITY [Trojan - ws]
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
       - 🚀 AMD REALITY trojan ws [Trojan - ws]
       - 🔥 vmess grpc de
       - 🔥 trojan grpc de
@@ -123,10 +105,6 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY2
-      - 💪 PAR vmess tcp REALITY5
-      - 💪 PAR vmess tcp REALITY4
-      - 💪 PAR vmess tcp REALITY3
-      - 💪 PAR vmess tcp REALITY2
       - 💪 PAR trojan ws REALITY5
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY3
@@ -135,10 +113,6 @@ proxy-groups:
       - 💪 HEL vmess ws REALITY4
       - 💪 HEL vmess ws REALITY3
       - 💪 HEL vmess ws REALITY2
-      - 💪 HEL vmess tcp REALITY5
-      - 💪 HEL vmess tcp REALITY4
-      - 💪 HEL vmess tcp REALITY3
-      - 💪 HEL vmess tcp REALITY2
       - 💪 HEL trojan ws REALITY5
       - 💪 HEL trojan ws REALITY4
       - 💪 HEL trojan ws REALITY3
@@ -151,10 +125,6 @@ proxy-groups:
       - 💪 AMD vmess ws REALITY4
       - 💪 AMD vmess ws REALITY3
       - 💪 AMD vmess ws REALITY2
-      - 💪 AMD vmess tcp REALITY5
-      - 💪 AMD vmess tcp REALITY4
-      - 💪 AMD vmess tcp REALITY3
-      - 💪 AMD vmess tcp REALITY2
       - 💪 AMD trojan ws REALITY2
       - 💪 AMD  trojan ws REALITY4_1
       - 💪 AMD  trojan ws REALITY4_2
@@ -167,14 +137,11 @@ proxy-groups:
     proxies:
       - 🚀 irancell trojan [grpc](de)
       - 🚀 Irancell PAR [VMess - ws]
-      - 🚀 Irancell PAR [VMess - tcp]
       - 🚀 Irancell PAR [Trojan - ws]
       - 🚀 HEL REALITY [VMess - ws]
-      - 🚀 HEL REALITY [VMess - tcp]
       - 🚀 HEL REALITY [Trojan - ws]
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
       - 🚀 AMD REALITY trojan ws [Trojan - ws]
       - 🔥 vmess grpc de
       - 🔥 trojan grpc de
@@ -191,10 +158,6 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY2
-      - 💪 PAR vmess tcp REALITY5
-      - 💪 PAR vmess tcp REALITY4
-      - 💪 PAR vmess tcp REALITY3
-      - 💪 PAR vmess tcp REALITY2
       - 💪 PAR trojan ws REALITY5
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY3
@@ -203,10 +166,6 @@ proxy-groups:
       - 💪 HEL vmess ws REALITY4
       - 💪 HEL vmess ws REALITY3
       - 💪 HEL vmess ws REALITY2
-      - 💪 HEL vmess tcp REALITY5
-      - 💪 HEL vmess tcp REALITY4
-      - 💪 HEL vmess tcp REALITY3
-      - 💪 HEL vmess tcp REALITY2
       - 💪 HEL trojan ws REALITY5
       - 💪 HEL trojan ws REALITY4
       - 💪 HEL trojan ws REALITY3
@@ -219,10 +178,6 @@ proxy-groups:
       - 💪 AMD vmess ws REALITY4
       - 💪 AMD vmess ws REALITY3
       - 💪 AMD vmess ws REALITY2
-      - 💪 AMD vmess tcp REALITY5
-      - 💪 AMD vmess tcp REALITY4
-      - 💪 AMD vmess tcp REALITY3
-      - 💪 AMD vmess tcp REALITY2
       - 💪 AMD trojan ws REALITY2
       - 💪 AMD  trojan ws REALITY4_1
       - 💪 AMD  trojan ws REALITY4_2
@@ -235,14 +190,11 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 irancell trojan [grpc](de)
       - 🚀 Irancell PAR [VMess - ws]
-      - 🚀 Irancell PAR [VMess - tcp]
       - 🚀 Irancell PAR [Trojan - ws]
       - 🚀 HEL REALITY [VMess - ws]
-      - 🚀 HEL REALITY [VMess - tcp]
       - 🚀 HEL REALITY [Trojan - ws]
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
       - 🚀 AMD REALITY trojan ws [Trojan - ws]
       - 🔥 vmess grpc de
       - 🔥 trojan grpc de
@@ -259,10 +211,6 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY2
-      - 💪 PAR vmess tcp REALITY5
-      - 💪 PAR vmess tcp REALITY4
-      - 💪 PAR vmess tcp REALITY3
-      - 💪 PAR vmess tcp REALITY2
       - 💪 PAR trojan ws REALITY5
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY3
@@ -271,10 +219,6 @@ proxy-groups:
       - 💪 HEL vmess ws REALITY4
       - 💪 HEL vmess ws REALITY3
       - 💪 HEL vmess ws REALITY2
-      - 💪 HEL vmess tcp REALITY5
-      - 💪 HEL vmess tcp REALITY4
-      - 💪 HEL vmess tcp REALITY3
-      - 💪 HEL vmess tcp REALITY2
       - 💪 HEL trojan ws REALITY5
       - 💪 HEL trojan ws REALITY4
       - 💪 HEL trojan ws REALITY3
@@ -287,10 +231,6 @@ proxy-groups:
       - 💪 AMD vmess ws REALITY4
       - 💪 AMD vmess ws REALITY3
       - 💪 AMD vmess ws REALITY2
-      - 💪 AMD vmess tcp REALITY5
-      - 💪 AMD vmess tcp REALITY4
-      - 💪 AMD vmess tcp REALITY3
-      - 💪 AMD vmess tcp REALITY2
       - 💪 AMD trojan ws REALITY2
       - 💪 AMD  trojan ws REALITY4_1
       - 💪 AMD  trojan ws REALITY4_2
@@ -302,14 +242,11 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 irancell trojan [grpc](de)
       - 🚀 Irancell PAR [VMess - ws]
-      - 🚀 Irancell PAR [VMess - tcp]
       - 🚀 Irancell PAR [Trojan - ws]
       - 🚀 HEL REALITY [VMess - ws]
-      - 🚀 HEL REALITY [VMess - tcp]
       - 🚀 HEL REALITY [Trojan - ws]
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
       - 🚀 AMD REALITY trojan ws [Trojan - ws]
       - 🔥 vmess grpc de
       - 🔥 trojan grpc de
@@ -326,10 +263,6 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY2
-      - 💪 PAR vmess tcp REALITY5
-      - 💪 PAR vmess tcp REALITY4
-      - 💪 PAR vmess tcp REALITY3
-      - 💪 PAR vmess tcp REALITY2
       - 💪 PAR trojan ws REALITY5
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY3
@@ -338,10 +271,6 @@ proxy-groups:
       - 💪 HEL vmess ws REALITY4
       - 💪 HEL vmess ws REALITY3
       - 💪 HEL vmess ws REALITY2
-      - 💪 HEL vmess tcp REALITY5
-      - 💪 HEL vmess tcp REALITY4
-      - 💪 HEL vmess tcp REALITY3
-      - 💪 HEL vmess tcp REALITY2
       - 💪 HEL trojan ws REALITY5
       - 💪 HEL trojan ws REALITY4
       - 💪 HEL trojan ws REALITY3
@@ -354,10 +283,6 @@ proxy-groups:
       - 💪 AMD vmess ws REALITY4
       - 💪 AMD vmess ws REALITY3
       - 💪 AMD vmess ws REALITY2
-      - 💪 AMD vmess tcp REALITY5
-      - 💪 AMD vmess tcp REALITY4
-      - 💪 AMD vmess tcp REALITY3
-      - 💪 AMD vmess tcp REALITY2
       - 💪 AMD trojan ws REALITY2
       - 💪 AMD  trojan ws REALITY4_1
       - 💪 AMD  trojan ws REALITY4_2
@@ -369,14 +294,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🚀 irancell trojan [grpc](de)
       - 🚀 Irancell PAR [VMess - ws]
-      - 🚀 Irancell PAR [VMess - tcp]
       - 🚀 Irancell PAR [Trojan - ws]
       - 🚀 HEL REALITY [VMess - ws]
-      - 🚀 HEL REALITY [VMess - tcp]
       - 🚀 HEL REALITY [Trojan - ws]
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
       - 🚀 AMD REALITY trojan ws [Trojan - ws]
       - 🔥 vmess grpc de
       - 🔥 trojan grpc de
@@ -393,10 +315,6 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY2
-      - 💪 PAR vmess tcp REALITY5
-      - 💪 PAR vmess tcp REALITY4
-      - 💪 PAR vmess tcp REALITY3
-      - 💪 PAR vmess tcp REALITY2
       - 💪 PAR trojan ws REALITY5
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY3
@@ -405,10 +323,6 @@ proxy-groups:
       - 💪 HEL vmess ws REALITY4
       - 💪 HEL vmess ws REALITY3
       - 💪 HEL vmess ws REALITY2
-      - 💪 HEL vmess tcp REALITY5
-      - 💪 HEL vmess tcp REALITY4
-      - 💪 HEL vmess tcp REALITY3
-      - 💪 HEL vmess tcp REALITY2
       - 💪 HEL trojan ws REALITY5
       - 💪 HEL trojan ws REALITY4
       - 💪 HEL trojan ws REALITY3
@@ -421,10 +335,6 @@ proxy-groups:
       - 💪 AMD vmess ws REALITY4
       - 💪 AMD vmess ws REALITY3
       - 💪 AMD vmess ws REALITY2
-      - 💪 AMD vmess tcp REALITY5
-      - 💪 AMD vmess tcp REALITY4
-      - 💪 AMD vmess tcp REALITY3
-      - 💪 AMD vmess tcp REALITY2
       - 💪 AMD trojan ws REALITY2
       - 💪 AMD  trojan ws REALITY4_1
       - 💪 AMD  trojan ws REALITY4_2
@@ -436,14 +346,11 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 irancell trojan [grpc](de)
       - 🚀 Irancell PAR [VMess - ws]
-      - 🚀 Irancell PAR [VMess - tcp]
       - 🚀 Irancell PAR [Trojan - ws]
       - 🚀 HEL REALITY [VMess - ws]
-      - 🚀 HEL REALITY [VMess - tcp]
       - 🚀 HEL REALITY [Trojan - ws]
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
       - 🚀 AMD REALITY trojan ws [Trojan - ws]
       - 🔥 vmess grpc de
       - 🔥 trojan grpc de
@@ -460,10 +367,6 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY2
-      - 💪 PAR vmess tcp REALITY5
-      - 💪 PAR vmess tcp REALITY4
-      - 💪 PAR vmess tcp REALITY3
-      - 💪 PAR vmess tcp REALITY2
       - 💪 PAR trojan ws REALITY5
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY3
@@ -472,10 +375,6 @@ proxy-groups:
       - 💪 HEL vmess ws REALITY4
       - 💪 HEL vmess ws REALITY3
       - 💪 HEL vmess ws REALITY2
-      - 💪 HEL vmess tcp REALITY5
-      - 💪 HEL vmess tcp REALITY4
-      - 💪 HEL vmess tcp REALITY3
-      - 💪 HEL vmess tcp REALITY2
       - 💪 HEL trojan ws REALITY5
       - 💪 HEL trojan ws REALITY4
       - 💪 HEL trojan ws REALITY3
@@ -488,10 +387,6 @@ proxy-groups:
       - 💪 AMD vmess ws REALITY4
       - 💪 AMD vmess ws REALITY3
       - 💪 AMD vmess ws REALITY2
-      - 💪 AMD vmess tcp REALITY5
-      - 💪 AMD vmess tcp REALITY4
-      - 💪 AMD vmess tcp REALITY3
-      - 💪 AMD vmess tcp REALITY2
       - 💪 AMD trojan ws REALITY2
       - 💪 AMD  trojan ws REALITY4_1
       - 💪 AMD  trojan ws REALITY4_2
@@ -520,14 +415,11 @@ proxy-groups:
       - ♻️ 自动选择
       - 🚀 irancell trojan [grpc](de)
       - 🚀 Irancell PAR [VMess - ws]
-      - 🚀 Irancell PAR [VMess - tcp]
       - 🚀 Irancell PAR [Trojan - ws]
       - 🚀 HEL REALITY [VMess - ws]
-      - 🚀 HEL REALITY [VMess - tcp]
       - 🚀 HEL REALITY [Trojan - ws]
       - 🚀 HEL REALITY [Shadowsocks - tcp]
       - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
       - 🚀 AMD REALITY trojan ws [Trojan - ws]
       - 🔥 vmess grpc de
       - 🔥 trojan grpc de
@@ -544,10 +436,6 @@ proxy-groups:
       - 💪 PAR vmess ws REALITY4
       - 💪 PAR vmess ws REALITY3
       - 💪 PAR vmess ws REALITY2
-      - 💪 PAR vmess tcp REALITY5
-      - 💪 PAR vmess tcp REALITY4
-      - 💪 PAR vmess tcp REALITY3
-      - 💪 PAR vmess tcp REALITY2
       - 💪 PAR trojan ws REALITY5
       - 💪 PAR trojan ws REALITY4
       - 💪 PAR trojan ws REALITY3
@@ -556,10 +444,6 @@ proxy-groups:
       - 💪 HEL vmess ws REALITY4
       - 💪 HEL vmess ws REALITY3
       - 💪 HEL vmess ws REALITY2
-      - 💪 HEL vmess tcp REALITY5
-      - 💪 HEL vmess tcp REALITY4
-      - 💪 HEL vmess tcp REALITY3
-      - 💪 HEL vmess tcp REALITY2
       - 💪 HEL trojan ws REALITY5
       - 💪 HEL trojan ws REALITY4
       - 💪 HEL trojan ws REALITY3
@@ -572,10 +456,6 @@ proxy-groups:
       - 💪 AMD vmess ws REALITY4
       - 💪 AMD vmess ws REALITY3
       - 💪 AMD vmess ws REALITY2
-      - 💪 AMD vmess tcp REALITY5
-      - 💪 AMD vmess tcp REALITY4
-      - 💪 AMD vmess tcp REALITY3
-      - 💪 AMD vmess tcp REALITY2
       - 💪 AMD trojan ws REALITY2
       - 💪 AMD  trojan ws REALITY4_1
       - 💪 AMD  trojan ws REALITY4_2
