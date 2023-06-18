@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：18-06-2023 10:30:39
+# 客户端：Clash
+# 创建时间：18-06-2023 10:31:52
 # 使用模版：V2RaySE 默认模版
-# 节点数量：20
+# 节点数量：17
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -32,13 +31,10 @@ dns:
 proxies:
   - {"name":"🚀 DE REALITY [VMess - ws]","type":"vmess","server":"marde.mishahana.fun","port":8080,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
   - {"name":"🚀 DE REALITY [VMess - tcp]","type":"vmess","server":"marde.mishahana.fun","port":8081,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🚀 DE REALITY [VLESS - tcp]","type":"vless","server":"marde.mishahana.fun","port":8443,"udp":true,"uuid":"a9ebff35-43f7-49dd-a796-326c28edd52a","tls":true,"servername":"httpredir.debian.org","network":"tcp","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
-  - {"name":"🚀 DE REALITY  [VLESS - grpc]","type":"vless","server":"marde.mishahana.fun","port":2053,"udp":true,"uuid":"a9ebff35-43f7-49dd-a796-326c28edd52a","tls":true,"servername":"cdn-fastly-v6.deb.debian.org","network":"grpc","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
   - {"name":"🚀 DE REALITY  [Trojan - ws]","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"610cec2b35065c16.metric.gstatic.com","skip-cert-verify":true,"network":"ws"}
   - {"name":"💪 DE vmess ws REALITY6","type":"vmess","server":"marde.mishahana.fun","port":8080,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
   - {"name":"💪 DE vmess ws REALITY5","type":"vmess","server":"marde.mishahana.fun","port":8080,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
   - {"name":"💪 DE vmess ws REALITY4","type":"vmess","server":"marde.mishahana.fun","port":8080,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"💪 DE vmess ws REALITY3","type":"vmess","server":"marde.mishahana.fun","port":8080,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
   - {"name":"💪 DE vmess ws REALITY2","type":"vmess","server":"marde.mishahana.fun","port":8080,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
   - {"name":"💪 DE vmess tcp REALITY6","type":"vmess","server":"marde.mishahana.fun","port":8081,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"💪 DE vmess tcp REALITY5","type":"vmess","server":"marde.mishahana.fun","port":8081,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
@@ -58,13 +54,10 @@ proxy-groups:
       - DIRECT
       - 🚀 DE REALITY [VMess - ws]
       - 🚀 DE REALITY [VMess - tcp]
-      - 🚀 DE REALITY [VLESS - tcp]
-      - 🚀 DE REALITY  [VLESS - grpc]
       - 🚀 DE REALITY  [Trojan - ws]
       - 💪 DE vmess ws REALITY6
       - 💪 DE vmess ws REALITY5
       - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY3
       - 💪 DE vmess ws REALITY2
       - 💪 DE vmess tcp REALITY6
       - 💪 DE vmess tcp REALITY5
@@ -84,13 +77,10 @@ proxy-groups:
     proxies:
       - 🚀 DE REALITY [VMess - ws]
       - 🚀 DE REALITY [VMess - tcp]
-      - 🚀 DE REALITY [VLESS - tcp]
-      - 🚀 DE REALITY  [VLESS - grpc]
       - 🚀 DE REALITY  [Trojan - ws]
       - 💪 DE vmess ws REALITY6
       - 💪 DE vmess ws REALITY5
       - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY3
       - 💪 DE vmess ws REALITY2
       - 💪 DE vmess tcp REALITY6
       - 💪 DE vmess tcp REALITY5
@@ -110,13 +100,10 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 DE REALITY [VMess - ws]
       - 🚀 DE REALITY [VMess - tcp]
-      - 🚀 DE REALITY [VLESS - tcp]
-      - 🚀 DE REALITY  [VLESS - grpc]
       - 🚀 DE REALITY  [Trojan - ws]
       - 💪 DE vmess ws REALITY6
       - 💪 DE vmess ws REALITY5
       - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY3
       - 💪 DE vmess ws REALITY2
       - 💪 DE vmess tcp REALITY6
       - 💪 DE vmess tcp REALITY5
@@ -135,13 +122,10 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 DE REALITY [VMess - ws]
       - 🚀 DE REALITY [VMess - tcp]
-      - 🚀 DE REALITY [VLESS - tcp]
-      - 🚀 DE REALITY  [VLESS - grpc]
       - 🚀 DE REALITY  [Trojan - ws]
       - 💪 DE vmess ws REALITY6
       - 💪 DE vmess ws REALITY5
       - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY3
       - 💪 DE vmess ws REALITY2
       - 💪 DE vmess tcp REALITY6
       - 💪 DE vmess tcp REALITY5
@@ -160,13 +144,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🚀 DE REALITY [VMess - ws]
       - 🚀 DE REALITY [VMess - tcp]
-      - 🚀 DE REALITY [VLESS - tcp]
-      - 🚀 DE REALITY  [VLESS - grpc]
       - 🚀 DE REALITY  [Trojan - ws]
       - 💪 DE vmess ws REALITY6
       - 💪 DE vmess ws REALITY5
       - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY3
       - 💪 DE vmess ws REALITY2
       - 💪 DE vmess tcp REALITY6
       - 💪 DE vmess tcp REALITY5
@@ -185,13 +166,10 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 DE REALITY [VMess - ws]
       - 🚀 DE REALITY [VMess - tcp]
-      - 🚀 DE REALITY [VLESS - tcp]
-      - 🚀 DE REALITY  [VLESS - grpc]
       - 🚀 DE REALITY  [Trojan - ws]
       - 💪 DE vmess ws REALITY6
       - 💪 DE vmess ws REALITY5
       - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY3
       - 💪 DE vmess ws REALITY2
       - 💪 DE vmess tcp REALITY6
       - 💪 DE vmess tcp REALITY5
@@ -227,13 +205,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🚀 DE REALITY [VMess - ws]
       - 🚀 DE REALITY [VMess - tcp]
-      - 🚀 DE REALITY [VLESS - tcp]
-      - 🚀 DE REALITY  [VLESS - grpc]
       - 🚀 DE REALITY  [Trojan - ws]
       - 💪 DE vmess ws REALITY6
       - 💪 DE vmess ws REALITY5
       - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY3
       - 💪 DE vmess ws REALITY2
       - 💪 DE vmess tcp REALITY6
       - 💪 DE vmess tcp REALITY5
