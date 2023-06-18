@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：18-06-2023 10:31:52
+# 创建时间：18-06-2023 11:01:09
 # 使用模版：V2RaySE 默认模版
-# 节点数量：17
+# 节点数量：8
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -29,158 +29,95 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🚀 DE REALITY [VMess - ws]","type":"vmess","server":"marde.mishahana.fun","port":8080,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🚀 DE REALITY [VMess - tcp]","type":"vmess","server":"marde.mishahana.fun","port":8081,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🚀 DE REALITY  [Trojan - ws]","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"610cec2b35065c16.metric.gstatic.com","skip-cert-verify":true,"network":"ws"}
-  - {"name":"💪 DE vmess ws REALITY6","type":"vmess","server":"marde.mishahana.fun","port":8080,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"💪 DE vmess ws REALITY5","type":"vmess","server":"marde.mishahana.fun","port":8080,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"💪 DE vmess ws REALITY4","type":"vmess","server":"marde.mishahana.fun","port":8080,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"💪 DE vmess ws REALITY2","type":"vmess","server":"marde.mishahana.fun","port":8080,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"💪 DE vmess tcp REALITY6","type":"vmess","server":"marde.mishahana.fun","port":8081,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 DE vmess tcp REALITY5","type":"vmess","server":"marde.mishahana.fun","port":8081,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 DE vmess tcp REALITY4","type":"vmess","server":"marde.mishahana.fun","port":8081,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 DE vmess tcp REALITY3","type":"vmess","server":"marde.mishahana.fun","port":8081,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 DE vmess tcp REALITY2","type":"vmess","server":"marde.mishahana.fun","port":8081,"cipher":"auto","uuid":"97ec9f64-e72a-4e3e-b69a-231edab7dddb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 DE trojan REALITY6","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"oanda.com","skip-cert-verify":true,"network":"ws"}
-  - {"name":"💪 DE trojan REALITY5","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"eset.com","skip-cert-verify":true,"network":"ws"}
-  - {"name":"💪 DE trojan REALITY4","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"speedtest.net","skip-cert-verify":true,"network":"ws"}
-  - {"name":"💪 DE trojan REALITY3","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"iranresearches.ir","skip-cert-verify":true,"network":"ws"}
   - {"name":"💪 DE trojan REALITY2","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"www.expat.com","skip-cert-verify":true,"network":"ws"}
+  - {"name":"💪 DE trojan REALITY3","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"iranresearches.ir","skip-cert-verify":true,"network":"ws"}
+  - {"name":"💪 DE trojan REALITY4","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"speedtest.net","skip-cert-verify":true,"network":"ws"}
+  - {"name":"💪 DE trojan REALITY5","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"eset.com","skip-cert-verify":true,"network":"ws"}
+  - {"name":"💪 DE trojan REALITY6","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"oanda.com","skip-cert-verify":true,"network":"ws"}
+  - {"name":"🔥 DE trojan grcp","type":"trojan","server":"maliran.shanty.tech","port":2096,"udp":true,"password":"ZVLLCm74uj","sni":"sande.mishahana.fun","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"sande.mishahana.fun"},"alpn":["h2","http/1.1"]}
+  - {"name":"🔥 DE trojan ws","type":"trojan","server":"maliran.shanty.tech","port":2087,"udp":true,"password":"zg4spg4IMJ","sni":"sande.mishahana.fun","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sande.mishahana.fun"}},"alpn":["h2","http/1.1"]}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🚀 DE REALITY [VMess - ws]
-      - 🚀 DE REALITY [VMess - tcp]
       - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE vmess ws REALITY6
-      - 💪 DE vmess ws REALITY5
-      - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY2
-      - 💪 DE vmess tcp REALITY6
-      - 💪 DE vmess tcp REALITY5
-      - 💪 DE vmess tcp REALITY4
-      - 💪 DE vmess tcp REALITY3
-      - 💪 DE vmess tcp REALITY2
-      - 💪 DE trojan REALITY6
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY3
       - 💪 DE trojan REALITY2
+      - 💪 DE trojan REALITY3
+      - 💪 DE trojan REALITY4
+      - 💪 DE trojan REALITY5
+      - 💪 DE trojan REALITY6
+      - 🔥 DE trojan grcp
+      - 🔥 DE trojan ws
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🚀 DE REALITY [VMess - ws]
-      - 🚀 DE REALITY [VMess - tcp]
       - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE vmess ws REALITY6
-      - 💪 DE vmess ws REALITY5
-      - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY2
-      - 💪 DE vmess tcp REALITY6
-      - 💪 DE vmess tcp REALITY5
-      - 💪 DE vmess tcp REALITY4
-      - 💪 DE vmess tcp REALITY3
-      - 💪 DE vmess tcp REALITY2
-      - 💪 DE trojan REALITY6
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY3
       - 💪 DE trojan REALITY2
+      - 💪 DE trojan REALITY3
+      - 💪 DE trojan REALITY4
+      - 💪 DE trojan REALITY5
+      - 💪 DE trojan REALITY6
+      - 🔥 DE trojan grcp
+      - 🔥 DE trojan ws
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🚀 DE REALITY [VMess - ws]
-      - 🚀 DE REALITY [VMess - tcp]
       - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE vmess ws REALITY6
-      - 💪 DE vmess ws REALITY5
-      - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY2
-      - 💪 DE vmess tcp REALITY6
-      - 💪 DE vmess tcp REALITY5
-      - 💪 DE vmess tcp REALITY4
-      - 💪 DE vmess tcp REALITY3
-      - 💪 DE vmess tcp REALITY2
-      - 💪 DE trojan REALITY6
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY3
       - 💪 DE trojan REALITY2
+      - 💪 DE trojan REALITY3
+      - 💪 DE trojan REALITY4
+      - 💪 DE trojan REALITY5
+      - 💪 DE trojan REALITY6
+      - 🔥 DE trojan grcp
+      - 🔥 DE trojan ws
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 DE REALITY [VMess - ws]
-      - 🚀 DE REALITY [VMess - tcp]
       - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE vmess ws REALITY6
-      - 💪 DE vmess ws REALITY5
-      - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY2
-      - 💪 DE vmess tcp REALITY6
-      - 💪 DE vmess tcp REALITY5
-      - 💪 DE vmess tcp REALITY4
-      - 💪 DE vmess tcp REALITY3
-      - 💪 DE vmess tcp REALITY2
-      - 💪 DE trojan REALITY6
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY3
       - 💪 DE trojan REALITY2
+      - 💪 DE trojan REALITY3
+      - 💪 DE trojan REALITY4
+      - 💪 DE trojan REALITY5
+      - 💪 DE trojan REALITY6
+      - 🔥 DE trojan grcp
+      - 🔥 DE trojan ws
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🚀 DE REALITY [VMess - ws]
-      - 🚀 DE REALITY [VMess - tcp]
       - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE vmess ws REALITY6
-      - 💪 DE vmess ws REALITY5
-      - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY2
-      - 💪 DE vmess tcp REALITY6
-      - 💪 DE vmess tcp REALITY5
-      - 💪 DE vmess tcp REALITY4
-      - 💪 DE vmess tcp REALITY3
-      - 💪 DE vmess tcp REALITY2
-      - 💪 DE trojan REALITY6
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY3
       - 💪 DE trojan REALITY2
+      - 💪 DE trojan REALITY3
+      - 💪 DE trojan REALITY4
+      - 💪 DE trojan REALITY5
+      - 💪 DE trojan REALITY6
+      - 🔥 DE trojan grcp
+      - 🔥 DE trojan ws
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 DE REALITY [VMess - ws]
-      - 🚀 DE REALITY [VMess - tcp]
       - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE vmess ws REALITY6
-      - 💪 DE vmess ws REALITY5
-      - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY2
-      - 💪 DE vmess tcp REALITY6
-      - 💪 DE vmess tcp REALITY5
-      - 💪 DE vmess tcp REALITY4
-      - 💪 DE vmess tcp REALITY3
-      - 💪 DE vmess tcp REALITY2
-      - 💪 DE trojan REALITY6
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY3
       - 💪 DE trojan REALITY2
+      - 💪 DE trojan REALITY3
+      - 💪 DE trojan REALITY4
+      - 💪 DE trojan REALITY5
+      - 💪 DE trojan REALITY6
+      - 🔥 DE trojan grcp
+      - 🔥 DE trojan ws
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -203,23 +140,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🚀 DE REALITY [VMess - ws]
-      - 🚀 DE REALITY [VMess - tcp]
       - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE vmess ws REALITY6
-      - 💪 DE vmess ws REALITY5
-      - 💪 DE vmess ws REALITY4
-      - 💪 DE vmess ws REALITY2
-      - 💪 DE vmess tcp REALITY6
-      - 💪 DE vmess tcp REALITY5
-      - 💪 DE vmess tcp REALITY4
-      - 💪 DE vmess tcp REALITY3
-      - 💪 DE vmess tcp REALITY2
-      - 💪 DE trojan REALITY6
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY3
       - 💪 DE trojan REALITY2
+      - 💪 DE trojan REALITY3
+      - 💪 DE trojan REALITY4
+      - 💪 DE trojan REALITY5
+      - 💪 DE trojan REALITY6
+      - 🔥 DE trojan grcp
+      - 🔥 DE trojan ws
 
 rules:
 # 本地/局域网地址
