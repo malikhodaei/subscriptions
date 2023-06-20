@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：18-06-2023 11:01:09
+# 创建时间：20-06-2023 10:13:12
 # 使用模版：V2RaySE 默认模版
-# 节点数量：8
+# 节点数量：5
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -29,95 +29,74 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🚀 DE REALITY  [Trojan - ws]","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"610cec2b35065c16.metric.gstatic.com","skip-cert-verify":true,"network":"ws"}
-  - {"name":"💪 DE trojan REALITY2","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"www.expat.com","skip-cert-verify":true,"network":"ws"}
-  - {"name":"💪 DE trojan REALITY3","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"iranresearches.ir","skip-cert-verify":true,"network":"ws"}
-  - {"name":"💪 DE trojan REALITY4","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"speedtest.net","skip-cert-verify":true,"network":"ws"}
-  - {"name":"💪 DE trojan REALITY5","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"eset.com","skip-cert-verify":true,"network":"ws"}
-  - {"name":"💪 DE trojan REALITY6","type":"trojan","server":"marde.mishahana.fun","port":2083,"udp":true,"password":"ejrKRYaZVcO_QsLqdVy1ig","sni":"oanda.com","skip-cert-verify":true,"network":"ws"}
-  - {"name":"🔥 DE trojan grcp","type":"trojan","server":"maliran.shanty.tech","port":2096,"udp":true,"password":"ZVLLCm74uj","sni":"sande.mishahana.fun","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"sande.mishahana.fun"},"alpn":["h2","http/1.1"]}
-  - {"name":"🔥 DE trojan ws","type":"trojan","server":"maliran.shanty.tech","port":2087,"udp":true,"password":"zg4spg4IMJ","sni":"sande.mishahana.fun","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sande.mishahana.fun"}},"alpn":["h2","http/1.1"]}
+  - {"name":"💪 AMD trojan ws","type":"trojan","server":"maliran.shanty.tech","port":2083,"udp":true,"password":"Uq-HxgNnmTqloVJaIn7Zzw","sni":"maramd.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"headers":{"host":"maramd.shanty.tech"}}}
+  - {"name":"💪 AMD trojan ws 2","type":"trojan","server":"maliran.shanty.tech","port":2083,"udp":true,"password":"Uq-HxgNnmTqloVJaIn7Zzw","sni":"maramd.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"maramd.shanty.tech"}}}
+  - {"name":"🚀 AMD vmess tcp [VMess - tcp]","type":"vmess","server":"79.137.205.195","port":8081,"cipher":"auto","uuid":"12cfce06-cadc-4ae3-8c56-032852c745f4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🚀 AMD vmess ws  [VMess - ws]","type":"vmess","server":"79.137.205.195","port":8080,"cipher":"auto","uuid":"12cfce06-cadc-4ae3-8c56-032852c745f4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"🚀  AMD trojan ws  [Trojan - ws]","type":"trojan","server":"79.137.205.195","port":2083,"udp":true,"password":"Uq-HxgNnmTqloVJaIn7Zzw","sni":"gstatic.com","skip-cert-verify":true,"network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE trojan REALITY2
-      - 💪 DE trojan REALITY3
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY6
-      - 🔥 DE trojan grcp
-      - 🔥 DE trojan ws
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws 2
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE trojan REALITY2
-      - 💪 DE trojan REALITY3
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY6
-      - 🔥 DE trojan grcp
-      - 🔥 DE trojan ws
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws 2
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE trojan REALITY2
-      - 💪 DE trojan REALITY3
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY6
-      - 🔥 DE trojan grcp
-      - 🔥 DE trojan ws
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws 2
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE trojan REALITY2
-      - 💪 DE trojan REALITY3
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY6
-      - 🔥 DE trojan grcp
-      - 🔥 DE trojan ws
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws 2
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE trojan REALITY2
-      - 💪 DE trojan REALITY3
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY6
-      - 🔥 DE trojan grcp
-      - 🔥 DE trojan ws
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws 2
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE trojan REALITY2
-      - 💪 DE trojan REALITY3
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY6
-      - 🔥 DE trojan grcp
-      - 🔥 DE trojan ws
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws 2
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,14 +119,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🚀 DE REALITY  [Trojan - ws]
-      - 💪 DE trojan REALITY2
-      - 💪 DE trojan REALITY3
-      - 💪 DE trojan REALITY4
-      - 💪 DE trojan REALITY5
-      - 💪 DE trojan REALITY6
-      - 🔥 DE trojan grcp
-      - 🔥 DE trojan ws
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws 2
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
 
 rules:
 # 本地/局域网地址
