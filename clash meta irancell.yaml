@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：08-06-2023 14:28:32
+# 创建时间：21-06-2023 14:04:04
 # 使用模版：V2RaySE 默认模版
-# 节点数量：50
+# 节点数量：54
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -22,389 +22,417 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🚀 irancell vmess [ws](de)","type":"vmess","server":"maliran.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/mw","headers":{"host":"marde.shanty.tech"}}}
-  - {"name":"🚀 irancell vmess [grpc](de)","type":"vmess","server":"maliran.shanty.tech","port":2053,"cipher":"auto","uuid":"ca696544-4c78-478b-8421-e22857713ade","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"marde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"mg","grpc-mode":"none"}}
-  - {"name":"irancell AMD vmess grcp","type":"vmess","server":"maliran.shanty.tech","port":2096,"cipher":"auto","uuid":"d2c35d07-afbc-4674-db04-bb3aa150291a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sanamd.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
-  - {"name":"🚀 HEL REALITY [VMess - tcp]","type":"vmess","server":"marhel.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"HEL vmess tcp REALITY2","type":"vmess","server":"marhel.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"HEL vmess tcp REALITY3","type":"vmess","server":"marhel.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"HEL vmess tcp REALITY4","type":"vmess","server":"marhel.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"HEL vmess tcp REALITY5","type":"vmess","server":"marhel.mishahana.fun","port":8081,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🚀 HEL REALITY [VMess - ws]","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"HEL vmess ws REALITY2","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.expat.com"}}}
-  - {"name":"HEL vmess ws REALITY3","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"iranresearches.ir"}}}
-  - {"name":"HEL vmess ws REALITY4","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"speedtest.net"}}}
-  - {"name":"HEL vmess ws REALITY5","type":"vmess","server":"marhel.mishahana.fun","port":8080,"cipher":"auto","uuid":"c2fa7875-8ce1-40ab-b65e-c8f086736793","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"eset.com"}}}
-  - {"name":"🚀 AMD REALITY vmess ws [VMess - ws]","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"AMD vmess ws REALITY2","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.expat.com"}}}
-  - {"name":"AMD vmess ws REALITY3","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"iranresearches.ir"}}}
-  - {"name":"AMD vmess ws REALITY4","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"speedtest.net"}}}
-  - {"name":"AMD vmess ws REALITY5","type":"vmess","server":"maramd.mishahana.fun","port":8080,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"eset.com"}}}
-  - {"name":"🚀 AMD REALITY vmess tcp [VMess - tcp]","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"AMD vmess tcp REALITY2","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"AMD vmess tcp REALITY3","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"AMD vmess tcp REALITY4","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"AMD vmess tcp REALITY5","type":"vmess","server":"maramd.mishahana.fun","port":8081,"cipher":"auto","uuid":"e6e5268f-4aa9-4ec3-accb-e52f246a6613","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"HEL vmess grcp","type":"vmess","server":"maliran.shanty.tech","port":2096,"cipher":"auto","uuid":"964e7f63-50a0-46db-ec07-26410ee0504a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sanhel.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
-  - {"name":"vmess grpc de","type":"vmess","server":"maliran.shanty.tech","port":2083,"cipher":"auto","uuid":"be5ac3a2-166c-4b05-ea98-4e322a5332f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"fsde.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"none"}}
-  - {"name":"🚀 HEL REALITY [Shadowsocks - tcp]","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"HEL shadow tcp  REALITY2","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"HEL shadow tcp  REALITY3","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"HEL shadow tcp  REALITY4","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"HEL shadow tcp  REALITY5","type":"ss","server":"marhel.mishahana.fun","port":1080,"password":"T360_LHyOVkHnWv5iYcUjw","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🚀 irancell vless [ws](de)","type":"vless","server":"maliran.shanty.tech","port":2053,"uuid":"fa09fbee-e081-4b63-8493-afb893b9c346","tls":true,"servername":"marde.shanty.tech","network":"ws","ws-opts":{"path":"/lw","headers":{"host":"marde.shanty.tech"}}}
-  - {"name":"🚀 irancell vless [grpc](de)","type":"vless","server":"maliran.shanty.tech","port":2053,"uuid":"fa09fbee-e081-4b63-8493-afb893b9c346","tls":true,"servername":"marde.shanty.tech","network":"grpc"}
-  - {"name":"🚀 HEL REALITY [VLESS - tcp]","type":"vless","server":"marhel.mishahana.fun","port":8443,"udp":true,"uuid":"4bb7449f-720d-4966-8afe-358d7f54cf53","tls":true,"servername":"cdn-fastly.deb.debian.org","network":"tcp","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
-  - {"name":"🚀 HEL REALITY [VLESS - grpc]","type":"vless","server":"marhel.mishahana.fun","port":2053,"udp":true,"uuid":"4bb7449f-720d-4966-8afe-358d7f54cf53","tls":true,"servername":"ftp.ipv6.debian.org","network":"grpc","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
-  - {"name":"🚀 AMD REALITY vless grpc [VLESS - grpc]","type":"vless","server":"maramd.mishahana.fun","port":2053,"udp":true,"uuid":"f0a96fd8-5f22-431a-adc1-6bfdffcb0369","tls":true,"servername":"cdn-fastly.deb.debian.org","network":"grpc","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
-  - {"name":"🚀 irancell trojan [ws](de)","type":"trojan","server":"maliran.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tw","headers":{"host":"marde.shanty.tech"}}}
-  - {"name":"irancell AMD Trojan grpc","type":"trojan","server":"maliran.shanty.tech","port":2087,"udp":true,"password":"obsT9g7Ndl","sni":"sanamd.mishahana.fun","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1","h3"]}
-  - {"name":"🚀 irancell trojan [grpc](de)","type":"trojan","server":"marde.shanty.tech","port":2053,"udp":true,"password":"Ui-qYU8SNQ4hE4PYQMOumg","sni":"marde.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"}}
-  - {"name":"🚀 HEL REALITY [Trojan - ws]","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"HEL trojan ws REALITY2","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"www.expat.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"HEL trojan ws REALITY3","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"iranresearches.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"HEL trojan ws REALITY4","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"speedtest.net","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"HEL trojan ws REALITY5","type":"trojan","server":"marhel.mishahana.fun","port":2083,"udp":true,"password":"UXI1GollRVvSz74ycczjbw","sni":"eset.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🚀 AMD REALITY trojan ws [Trojan - ws]","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"53e29bee9b03d1d6.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"AMD trojan ws REALITY2","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"www.expat.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"AMD  trojan ws REALITY3","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"iranresearches.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"AMD  trojan ws REALITY4_1","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"speedtest.net","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"AMD  trojan ws REALITY4_2","type":"trojan","server":"maramd.mishahana.fun","port":2083,"udp":true,"password":"uT5xeMQ_za-HZ7QOoetG-A","sni":"eset.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"HEL Trojan grpc","type":"trojan","server":"maliran.shanty.tech","port":2087,"udp":true,"password":"x0ff5cyB2D","sni":"sanhel.mishahana.fun","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1"]}
-  - {"name":"trojan grpc de","type":"trojan","server":"maliran.shanty.tech","port":2087,"udp":true,"password":"s8ZcVxaiWf","sni":"fsde.shanty.tech","skip-cert-verify":true,"network":"grpc","alpn":["h2","http/1.1"]}
+  - {"name":"🚀 Irancell PAR [Trojan - ws]","type":"trojan","server":"marpar.mishahana.fun","port":2083,"udp":true,"password":"1bWDQKC1rMP6GlrgyKjYVA","sni":"1d69d54c4db8f33c.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🚀  AMD trojan ws  [Trojan - ws]","type":"trojan","server":"79.137.205.195","port":2083,"udp":true,"password":"Uq-HxgNnmTqloVJaIn7Zzw","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🔥 PAR Trojan grpc","type":"trojan","server":"maliran.shanty.tech","port":2087,"udp":true,"password":"cmsFXxbfLz","sni":"sanpar.mishahana.fun","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"tg"},"alpn":["h2","http/1.1"]}
+  - {"name":"💪 PAR trojan ws REALITY5","type":"trojan","server":"marpar.mishahana.fun","port":2083,"udp":true,"password":"1bWDQKC1rMP6GlrgyKjYVA","sni":"eset.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"💪 PAR trojan ws REALITY4","type":"trojan","server":"marpar.mishahana.fun","port":2083,"udp":true,"password":"1bWDQKC1rMP6GlrgyKjYVA","sni":"speedtest.net","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"💪 PAR trojan ws REALITY3","type":"trojan","server":"marpar.mishahana.fun","port":2083,"udp":true,"password":"1bWDQKC1rMP6GlrgyKjYVA","sni":"iranresearches.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"💪 PAR trojan ws REALITY2","type":"trojan","server":"marpar.mishahana.fun","port":2083,"udp":true,"password":"1bWDQKC1rMP6GlrgyKjYVA","sni":"www.expat.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"💪 AMD trojan ws 2","type":"trojan","server":"maliran.shanty.tech","port":2083,"udp":true,"password":"Uq-HxgNnmTqloVJaIn7Zzw","sni":"maramd.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"maramd.shanty.tech"}}}
+  - {"name":"💪 AMD trojan ws ir2_1","type":"trojan","server":"maliran2.shanty.tech","port":2083,"udp":true,"password":"Uq-HxgNnmTqloVJaIn7Zzw","sni":"maramd.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"maramd.shanty.tech"}}}
+  - {"name":"💪 AMD trojan ws","type":"trojan","server":"maliran.shanty.tech","port":2083,"udp":true,"password":"Uq-HxgNnmTqloVJaIn7Zzw","sni":"maramd.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"maramd.shanty.tech"}}}
+  - {"name":"💪 AMD trojan ws ir2_2","type":"trojan","server":"maliran2.shanty.tech","port":2083,"udp":true,"password":"Uq-HxgNnmTqloVJaIn7Zzw","sni":"maramd.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"maramd.shanty.tech"}}}
+  - {"name":"🔥 HEL torjan ws","type":"trojan","server":"maliran.shanty.tech","port":443,"udp":true,"password":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","sni":"helhid.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/2TYd3rhbMqAYUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}},"alpn":["h2"]}
+  - {"name":"🔥 HEL trojan grpc","type":"trojan","server":"maliran.shanty.tech","port":443,"udp":true,"password":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","sni":"helhid.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"2TYd3rhbMqAYHUcltbePSovjx"},"alpn":["h2"]}
+  - {"name":"🔥 HEL trojan ws direct","type":"trojan","server":"maliran.shanty.tech","port":443,"udp":true,"password":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","sni":"helhid.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/2TYd3rhbMqAYUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}},"alpn":["http/1.1"]}
+  - {"name":"🔥 HEL trojan grpc tls","type":"trojan","server":"maliran.shanty.tech","port":443,"udp":true,"password":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","sni":"helhid.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"2TYd3rhbMqAYHUcltbePSovjx"},"alpn":["http/1.1"]}
+  - {"name":"🔥 HEL torjan ws 2","type":"trojan","server":"maliran2.shanty.tech","port":443,"udp":true,"password":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","sni":"helhid.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/2TYd3rhbMqAYUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}},"alpn":["h2"]}
+  - {"name":"🔥 HEL trojan grpc 2","type":"trojan","server":"maliran2.shanty.tech","port":443,"udp":true,"password":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","sni":"helhid.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"2TYd3rhbMqAYHUcltbePSovjx"},"alpn":["h2"]}
+  - {"name":"🔥 HEL trojan ws direct 2","type":"trojan","server":"maliran2.shanty.tech","port":443,"udp":true,"password":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","sni":"helhid.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/2TYd3rhbMqAYUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}},"alpn":["http/1.1"]}
+  - {"name":"🔥 HEL trojan grpc tls 2","type":"trojan","server":"maliran2.shanty.tech","port":443,"udp":true,"password":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","sni":"helhid.shanty.tech","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"2TYd3rhbMqAYHUcltbePSovjx"},"alpn":["http/1.1"]}
+  - {"name":"🚀 Irancell PAR [VLESS - tcp]","type":"vless","server":"marpar.mishahana.fun","port":8443,"udp":true,"uuid":"96cac9a0-5199-42aa-8206-21702572267e","tls":true,"servername":"cdn-fastly-v6.deb.debian.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
+  - {"name":"🚀 Irancell PAR [VLESS - grpc]","type":"vless","server":"marpar.mishahana.fun","port":2053,"udp":true,"uuid":"96cac9a0-5199-42aa-8206-21702572267e","tls":true,"servername":"httpredir.debian.org","network":"grpc","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
+  - {"name":"🚀  AMD vless tcp REALITY [VLESS - tcp]","type":"vless","server":"79.137.205.195","port":8443,"udp":true,"uuid":"0fed2e7b-e740-4ff9-84f5-9c985c150195","tls":true,"servername":"ftp.debian.org","network":"tcp","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
+  - {"name":"🚀  AMD vless grpc REALITY [VLESS - grpc]","type":"vless","server":"79.137.205.195","port":2053,"udp":true,"uuid":"0fed2e7b-e740-4ff9-84f5-9c985c150195","tls":true,"servername":"cdn-fastly.deb.debian.org","network":"grpc","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
+  - {"name":"🔥 HEL trojan vless REALITY","type":"vless","server":"65.109.210.201","port":443,"udp":true,"uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","tls":true,"servername":"www.saaid.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Ha1sOVanaLa_UvtdfwmFZ8HpOB5an5obxYln7SQb0kk","short-id":"5b"},"client-fingerprint":"chrome"}
+  - {"name":"🔥 HEL trojan vless ws","type":"vless","server":"maliran.shanty.tech","port":443,"uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","tls":true,"servername":"helhid.shanty.tech","network":"ws","ws-opts":{"path":"/PmaoQpTQUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}},"client-fingerprint":"chrome"}
+  - {"name":"🔥 HEL trojan vless grpc direct","type":"vless","server":"maliran.shanty.tech","port":443,"uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","tls":true,"servername":"helhid.shanty.tech","network":"grpc","client-fingerprint":"chrome"}
+  - {"name":"🔥 HEL trojan vless ws direct","type":"vless","server":"maliran.shanty.tech","port":443,"uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","tls":true,"servername":"helhid.shanty.tech","network":"ws","ws-opts":{"path":"/PmaoQpTQUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}},"client-fingerprint":"chrome"}
+  - {"name":"🔥 HEL trojan vless grpc tls","type":"vless","server":"maliran.shanty.tech","port":443,"uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","tls":true,"servername":"helhid.shanty.tech","network":"grpc","client-fingerprint":"chrome"}
+  - {"name":"🔥 HEL trojan vless http","type":"vless","server":"65.109.210.201","port":80,"uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","tls":false,"servername":"helhid.shanty.tech","network":"ws","ws-opts":{"path":"/PmaoQpTQUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}},"client-fingerprint":"chrome"}
+  - {"name":"🔥 HEL trojan vless ws 2","type":"vless","server":"maliran2.shanty.tech","port":443,"uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","tls":true,"servername":"helhid.shanty.tech","network":"ws","ws-opts":{"path":"/PmaoQpTQUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}},"client-fingerprint":"chrome"}
+  - {"name":"🔥 HEL trojan vless grpc direct 2","type":"vless","server":"maliran2.shanty.tech","port":443,"uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","tls":true,"servername":"helhid.shanty.tech","network":"grpc","client-fingerprint":"chrome"}
+  - {"name":"🔥 HEL trojan vless ws direct 2","type":"vless","server":"maliran2.shanty.tech","port":443,"uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","tls":true,"servername":"helhid.shanty.tech","network":"ws","ws-opts":{"path":"/PmaoQpTQUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}},"client-fingerprint":"chrome"}
+  - {"name":"🔥 HEL trojan vless grpc tls 2","type":"vless","server":"maliran2.shanty.tech","port":443,"uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","tls":true,"servername":"helhid.shanty.tech","network":"grpc","client-fingerprint":"chrome"}
+  - {"name":"🚀 Irancell PAR [VMess - ws]","type":"vmess","server":"marpar.mishahana.fun","port":8080,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"🚀 Irancell PAR [VMess - tcp]","type":"vmess","server":"marpar.mishahana.fun","port":8084,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🚀 AMD vmess ws  [VMess - ws]","type":"vmess","server":"79.137.205.195","port":8080,"cipher":"auto","uuid":"12cfce06-cadc-4ae3-8c56-032852c745f4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"🚀 AMD vmess tcp [VMess - tcp]","type":"vmess","server":"79.137.205.195","port":8081,"cipher":"auto","uuid":"12cfce06-cadc-4ae3-8c56-032852c745f4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🔥 PAR vmess grpc","type":"vmess","server":"maliran.shanty.tech","port":2096,"cipher":"auto","uuid":"d06cec29-3970-4e1d-dd0d-ec875b82de63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sanpar.mishahana.fun","network":"grpc","grpc-opts":{"grpc-service-name":"tg","grpc-mode":"none"}}
+  - {"name":"💪 PAR vmess ws REALITY5","type":"vmess","server":"marpar.mishahana.fun","port":8080,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"eset.com"}}}
+  - {"name":"💪 PAR vmess ws REALITY4","type":"vmess","server":"marpar.mishahana.fun","port":8080,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"speedtest.net"}}}
+  - {"name":"💪 PAR vmess ws REALITY3","type":"vmess","server":"marpar.mishahana.fun","port":8080,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"iranresearches.ir"}}}
+  - {"name":"💪 PAR vmess ws REALITY2","type":"vmess","server":"marpar.mishahana.fun","port":8080,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.expat.com"}}}
+  - {"name":"💪 PAR vmess tcp REALITY5","type":"vmess","server":"marpar.mishahana.fun","port":8084,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"💪 PAR vmess tcp REALITY4","type":"vmess","server":"marpar.mishahana.fun","port":8084,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"💪 PAR vmess tcp REALITY3","type":"vmess","server":"marpar.mishahana.fun","port":8084,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"💪 PAR vmess tcp REALITY2","type":"vmess","server":"marpar.mishahana.fun","port":8084,"cipher":"auto","uuid":"480b0398-9d7e-4f13-b476-f33ed17c0ba4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🔥 HEL trojan vmess ws_1","type":"vmess","server":"maliran.shanty.tech","port":443,"cipher":"chacha20-poly1305","uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"helhid.shanty.tech","network":"ws","ws-opts":{"path":"/5S24hUjFxAWCFpqUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}}}
+  - {"name":"🔥 HEL trojan vmess grpc direct","type":"vmess","server":"65.109.210.201","port":443,"cipher":"chacha20-poly1305","uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"helhid.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"5S24hUjFxAWCFpqHUcltbePSovjx","grpc-mode":"gun"}}
+  - {"name":"🔥 HEL trojan vmess ws_2","type":"vmess","server":"maliran.shanty.tech","port":443,"cipher":"chacha20-poly1305","uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"helhid.shanty.tech","network":"ws","ws-opts":{"path":"/5S24hUjFxAWCFpqUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}}}
+  - {"name":"🔥 HEL trojan vmess grcp","type":"vmess","server":"maliran.shanty.tech","port":443,"cipher":"chacha20-poly1305","uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"helhid.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"5S24hUjFxAWCFpqHUcltbePSovjx","grpc-mode":"gun"}}
+  - {"name":"🔥 HEL trojan vmess ws direct","type":"vmess","server":"65.109.210.201","port":80,"cipher":"chacha20-poly1305","uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"helhid.shanty.tech","network":"ws","ws-opts":{"path":"/5S24hUjFxAWCFpqUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}}}
+  - {"name":"🔥 HEL trojan vmess ws 2_1","type":"vmess","server":"maliran2.shanty.tech","port":443,"cipher":"chacha20-poly1305","uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"helhid.shanty.tech","network":"ws","ws-opts":{"path":"/5S24hUjFxAWCFpqUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}}}
+  - {"name":"🔥 HEL trojan vmess ws 2_2","type":"vmess","server":"maliran2.shanty.tech","port":443,"cipher":"chacha20-poly1305","uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"helhid.shanty.tech","network":"ws","ws-opts":{"path":"/5S24hUjFxAWCFpqUiNhIc4W1AOGUs","headers":{"host":"helhid.shanty.tech"}}}
+  - {"name":"🔥 HEL trojan vmess grcp 2","type":"vmess","server":"maliran2.shanty.tech","port":443,"cipher":"chacha20-poly1305","uuid":"fc445c64-0e4a-4334-aa32-b4452ef6ac84","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"helhid.shanty.tech","network":"grpc","grpc-opts":{"grpc-service-name":"5S24hUjFxAWCFpqHUcltbePSovjx","grpc-mode":"gun"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
-      - 🚀 HEL REALITY [VMess - tcp]
-      - HEL vmess tcp REALITY2
-      - HEL vmess tcp REALITY3
-      - HEL vmess tcp REALITY4
-      - HEL vmess tcp REALITY5
-      - 🚀 HEL REALITY [VMess - ws]
-      - HEL vmess ws REALITY2
-      - HEL vmess ws REALITY3
-      - HEL vmess ws REALITY4
-      - HEL vmess ws REALITY5
-      - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
-      - AMD vmess ws REALITY4
-      - AMD vmess ws REALITY5
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
-      - AMD vmess tcp REALITY2
-      - AMD vmess tcp REALITY3
-      - AMD vmess tcp REALITY4
-      - AMD vmess tcp REALITY5
-      - HEL vmess grcp
-      - vmess grpc de
-      - 🚀 HEL REALITY [Shadowsocks - tcp]
-      - HEL shadow tcp  REALITY2
-      - HEL shadow tcp  REALITY3
-      - HEL shadow tcp  REALITY4
-      - HEL shadow tcp  REALITY5
-      - 🚀 irancell vless [ws](de)
-      - 🚀 irancell vless [grpc](de)
-      - 🚀 HEL REALITY [VLESS - tcp]
-      - 🚀 HEL REALITY [VLESS - grpc]
-      - 🚀 AMD REALITY vless grpc [VLESS - grpc]
-      - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
-      - 🚀 irancell trojan [grpc](de)
-      - 🚀 HEL REALITY [Trojan - ws]
-      - HEL trojan ws REALITY2
-      - HEL trojan ws REALITY3
-      - HEL trojan ws REALITY4
-      - HEL trojan ws REALITY5
-      - 🚀 AMD REALITY trojan ws [Trojan - ws]
-      - AMD trojan ws REALITY2
-      - AMD  trojan ws REALITY3
-      - AMD  trojan ws REALITY4_1
-      - AMD  trojan ws REALITY4_2
-      - HEL Trojan grpc
-      - trojan grpc de
+      - 🚀 Irancell PAR [Trojan - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
+      - 🔥 PAR Trojan grpc
+      - 💪 PAR trojan ws REALITY5
+      - 💪 PAR trojan ws REALITY4
+      - 💪 PAR trojan ws REALITY3
+      - 💪 PAR trojan ws REALITY2
+      - 💪 AMD trojan ws 2
+      - 💪 AMD trojan ws ir2_1
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws ir2_2
+      - 🔥 HEL torjan ws
+      - 🔥 HEL trojan grpc
+      - 🔥 HEL trojan ws direct
+      - 🔥 HEL trojan grpc tls
+      - 🔥 HEL torjan ws 2
+      - 🔥 HEL trojan grpc 2
+      - 🔥 HEL trojan ws direct 2
+      - 🔥 HEL trojan grpc tls 2
+      - 🚀 Irancell PAR [VLESS - tcp]
+      - 🚀 Irancell PAR [VLESS - grpc]
+      - 🚀  AMD vless tcp REALITY [VLESS - tcp]
+      - 🚀  AMD vless grpc REALITY [VLESS - grpc]
+      - 🔥 HEL trojan vless REALITY
+      - 🔥 HEL trojan vless ws
+      - 🔥 HEL trojan vless grpc direct
+      - 🔥 HEL trojan vless ws direct
+      - 🔥 HEL trojan vless grpc tls
+      - 🔥 HEL trojan vless http
+      - 🔥 HEL trojan vless ws 2
+      - 🔥 HEL trojan vless grpc direct 2
+      - 🔥 HEL trojan vless ws direct 2
+      - 🔥 HEL trojan vless grpc tls 2
+      - 🚀 Irancell PAR [VMess - ws]
+      - 🚀 Irancell PAR [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🔥 PAR vmess grpc
+      - 💪 PAR vmess ws REALITY5
+      - 💪 PAR vmess ws REALITY4
+      - 💪 PAR vmess ws REALITY3
+      - 💪 PAR vmess ws REALITY2
+      - 💪 PAR vmess tcp REALITY5
+      - 💪 PAR vmess tcp REALITY4
+      - 💪 PAR vmess tcp REALITY3
+      - 💪 PAR vmess tcp REALITY2
+      - 🔥 HEL trojan vmess ws_1
+      - 🔥 HEL trojan vmess grpc direct
+      - 🔥 HEL trojan vmess ws_2
+      - 🔥 HEL trojan vmess grcp
+      - 🔥 HEL trojan vmess ws direct
+      - 🔥 HEL trojan vmess ws 2_1
+      - 🔥 HEL trojan vmess ws 2_2
+      - 🔥 HEL trojan vmess grcp 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
-      - 🚀 HEL REALITY [VMess - tcp]
-      - HEL vmess tcp REALITY2
-      - HEL vmess tcp REALITY3
-      - HEL vmess tcp REALITY4
-      - HEL vmess tcp REALITY5
-      - 🚀 HEL REALITY [VMess - ws]
-      - HEL vmess ws REALITY2
-      - HEL vmess ws REALITY3
-      - HEL vmess ws REALITY4
-      - HEL vmess ws REALITY5
-      - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
-      - AMD vmess ws REALITY4
-      - AMD vmess ws REALITY5
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
-      - AMD vmess tcp REALITY2
-      - AMD vmess tcp REALITY3
-      - AMD vmess tcp REALITY4
-      - AMD vmess tcp REALITY5
-      - HEL vmess grcp
-      - vmess grpc de
-      - 🚀 HEL REALITY [Shadowsocks - tcp]
-      - HEL shadow tcp  REALITY2
-      - HEL shadow tcp  REALITY3
-      - HEL shadow tcp  REALITY4
-      - HEL shadow tcp  REALITY5
-      - 🚀 irancell vless [ws](de)
-      - 🚀 irancell vless [grpc](de)
-      - 🚀 HEL REALITY [VLESS - tcp]
-      - 🚀 HEL REALITY [VLESS - grpc]
-      - 🚀 AMD REALITY vless grpc [VLESS - grpc]
-      - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
-      - 🚀 irancell trojan [grpc](de)
-      - 🚀 HEL REALITY [Trojan - ws]
-      - HEL trojan ws REALITY2
-      - HEL trojan ws REALITY3
-      - HEL trojan ws REALITY4
-      - HEL trojan ws REALITY5
-      - 🚀 AMD REALITY trojan ws [Trojan - ws]
-      - AMD trojan ws REALITY2
-      - AMD  trojan ws REALITY3
-      - AMD  trojan ws REALITY4_1
-      - AMD  trojan ws REALITY4_2
-      - HEL Trojan grpc
-      - trojan grpc de
+      - 🚀 Irancell PAR [Trojan - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
+      - 🔥 PAR Trojan grpc
+      - 💪 PAR trojan ws REALITY5
+      - 💪 PAR trojan ws REALITY4
+      - 💪 PAR trojan ws REALITY3
+      - 💪 PAR trojan ws REALITY2
+      - 💪 AMD trojan ws 2
+      - 💪 AMD trojan ws ir2_1
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws ir2_2
+      - 🔥 HEL torjan ws
+      - 🔥 HEL trojan grpc
+      - 🔥 HEL trojan ws direct
+      - 🔥 HEL trojan grpc tls
+      - 🔥 HEL torjan ws 2
+      - 🔥 HEL trojan grpc 2
+      - 🔥 HEL trojan ws direct 2
+      - 🔥 HEL trojan grpc tls 2
+      - 🚀 Irancell PAR [VLESS - tcp]
+      - 🚀 Irancell PAR [VLESS - grpc]
+      - 🚀  AMD vless tcp REALITY [VLESS - tcp]
+      - 🚀  AMD vless grpc REALITY [VLESS - grpc]
+      - 🔥 HEL trojan vless REALITY
+      - 🔥 HEL trojan vless ws
+      - 🔥 HEL trojan vless grpc direct
+      - 🔥 HEL trojan vless ws direct
+      - 🔥 HEL trojan vless grpc tls
+      - 🔥 HEL trojan vless http
+      - 🔥 HEL trojan vless ws 2
+      - 🔥 HEL trojan vless grpc direct 2
+      - 🔥 HEL trojan vless ws direct 2
+      - 🔥 HEL trojan vless grpc tls 2
+      - 🚀 Irancell PAR [VMess - ws]
+      - 🚀 Irancell PAR [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🔥 PAR vmess grpc
+      - 💪 PAR vmess ws REALITY5
+      - 💪 PAR vmess ws REALITY4
+      - 💪 PAR vmess ws REALITY3
+      - 💪 PAR vmess ws REALITY2
+      - 💪 PAR vmess tcp REALITY5
+      - 💪 PAR vmess tcp REALITY4
+      - 💪 PAR vmess tcp REALITY3
+      - 💪 PAR vmess tcp REALITY2
+      - 🔥 HEL trojan vmess ws_1
+      - 🔥 HEL trojan vmess grpc direct
+      - 🔥 HEL trojan vmess ws_2
+      - 🔥 HEL trojan vmess grcp
+      - 🔥 HEL trojan vmess ws direct
+      - 🔥 HEL trojan vmess ws 2_1
+      - 🔥 HEL trojan vmess ws 2_2
+      - 🔥 HEL trojan vmess grcp 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
-      - 🚀 HEL REALITY [VMess - tcp]
-      - HEL vmess tcp REALITY2
-      - HEL vmess tcp REALITY3
-      - HEL vmess tcp REALITY4
-      - HEL vmess tcp REALITY5
-      - 🚀 HEL REALITY [VMess - ws]
-      - HEL vmess ws REALITY2
-      - HEL vmess ws REALITY3
-      - HEL vmess ws REALITY4
-      - HEL vmess ws REALITY5
-      - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
-      - AMD vmess ws REALITY4
-      - AMD vmess ws REALITY5
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
-      - AMD vmess tcp REALITY2
-      - AMD vmess tcp REALITY3
-      - AMD vmess tcp REALITY4
-      - AMD vmess tcp REALITY5
-      - HEL vmess grcp
-      - vmess grpc de
-      - 🚀 HEL REALITY [Shadowsocks - tcp]
-      - HEL shadow tcp  REALITY2
-      - HEL shadow tcp  REALITY3
-      - HEL shadow tcp  REALITY4
-      - HEL shadow tcp  REALITY5
-      - 🚀 irancell vless [ws](de)
-      - 🚀 irancell vless [grpc](de)
-      - 🚀 HEL REALITY [VLESS - tcp]
-      - 🚀 HEL REALITY [VLESS - grpc]
-      - 🚀 AMD REALITY vless grpc [VLESS - grpc]
-      - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
-      - 🚀 irancell trojan [grpc](de)
-      - 🚀 HEL REALITY [Trojan - ws]
-      - HEL trojan ws REALITY2
-      - HEL trojan ws REALITY3
-      - HEL trojan ws REALITY4
-      - HEL trojan ws REALITY5
-      - 🚀 AMD REALITY trojan ws [Trojan - ws]
-      - AMD trojan ws REALITY2
-      - AMD  trojan ws REALITY3
-      - AMD  trojan ws REALITY4_1
-      - AMD  trojan ws REALITY4_2
-      - HEL Trojan grpc
-      - trojan grpc de
+      - 🚀 Irancell PAR [Trojan - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
+      - 🔥 PAR Trojan grpc
+      - 💪 PAR trojan ws REALITY5
+      - 💪 PAR trojan ws REALITY4
+      - 💪 PAR trojan ws REALITY3
+      - 💪 PAR trojan ws REALITY2
+      - 💪 AMD trojan ws 2
+      - 💪 AMD trojan ws ir2_1
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws ir2_2
+      - 🔥 HEL torjan ws
+      - 🔥 HEL trojan grpc
+      - 🔥 HEL trojan ws direct
+      - 🔥 HEL trojan grpc tls
+      - 🔥 HEL torjan ws 2
+      - 🔥 HEL trojan grpc 2
+      - 🔥 HEL trojan ws direct 2
+      - 🔥 HEL trojan grpc tls 2
+      - 🚀 Irancell PAR [VLESS - tcp]
+      - 🚀 Irancell PAR [VLESS - grpc]
+      - 🚀  AMD vless tcp REALITY [VLESS - tcp]
+      - 🚀  AMD vless grpc REALITY [VLESS - grpc]
+      - 🔥 HEL trojan vless REALITY
+      - 🔥 HEL trojan vless ws
+      - 🔥 HEL trojan vless grpc direct
+      - 🔥 HEL trojan vless ws direct
+      - 🔥 HEL trojan vless grpc tls
+      - 🔥 HEL trojan vless http
+      - 🔥 HEL trojan vless ws 2
+      - 🔥 HEL trojan vless grpc direct 2
+      - 🔥 HEL trojan vless ws direct 2
+      - 🔥 HEL trojan vless grpc tls 2
+      - 🚀 Irancell PAR [VMess - ws]
+      - 🚀 Irancell PAR [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🔥 PAR vmess grpc
+      - 💪 PAR vmess ws REALITY5
+      - 💪 PAR vmess ws REALITY4
+      - 💪 PAR vmess ws REALITY3
+      - 💪 PAR vmess ws REALITY2
+      - 💪 PAR vmess tcp REALITY5
+      - 💪 PAR vmess tcp REALITY4
+      - 💪 PAR vmess tcp REALITY3
+      - 💪 PAR vmess tcp REALITY2
+      - 🔥 HEL trojan vmess ws_1
+      - 🔥 HEL trojan vmess grpc direct
+      - 🔥 HEL trojan vmess ws_2
+      - 🔥 HEL trojan vmess grcp
+      - 🔥 HEL trojan vmess ws direct
+      - 🔥 HEL trojan vmess ws 2_1
+      - 🔥 HEL trojan vmess ws 2_2
+      - 🔥 HEL trojan vmess grcp 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
-      - 🚀 HEL REALITY [VMess - tcp]
-      - HEL vmess tcp REALITY2
-      - HEL vmess tcp REALITY3
-      - HEL vmess tcp REALITY4
-      - HEL vmess tcp REALITY5
-      - 🚀 HEL REALITY [VMess - ws]
-      - HEL vmess ws REALITY2
-      - HEL vmess ws REALITY3
-      - HEL vmess ws REALITY4
-      - HEL vmess ws REALITY5
-      - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
-      - AMD vmess ws REALITY4
-      - AMD vmess ws REALITY5
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
-      - AMD vmess tcp REALITY2
-      - AMD vmess tcp REALITY3
-      - AMD vmess tcp REALITY4
-      - AMD vmess tcp REALITY5
-      - HEL vmess grcp
-      - vmess grpc de
-      - 🚀 HEL REALITY [Shadowsocks - tcp]
-      - HEL shadow tcp  REALITY2
-      - HEL shadow tcp  REALITY3
-      - HEL shadow tcp  REALITY4
-      - HEL shadow tcp  REALITY5
-      - 🚀 irancell vless [ws](de)
-      - 🚀 irancell vless [grpc](de)
-      - 🚀 HEL REALITY [VLESS - tcp]
-      - 🚀 HEL REALITY [VLESS - grpc]
-      - 🚀 AMD REALITY vless grpc [VLESS - grpc]
-      - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
-      - 🚀 irancell trojan [grpc](de)
-      - 🚀 HEL REALITY [Trojan - ws]
-      - HEL trojan ws REALITY2
-      - HEL trojan ws REALITY3
-      - HEL trojan ws REALITY4
-      - HEL trojan ws REALITY5
-      - 🚀 AMD REALITY trojan ws [Trojan - ws]
-      - AMD trojan ws REALITY2
-      - AMD  trojan ws REALITY3
-      - AMD  trojan ws REALITY4_1
-      - AMD  trojan ws REALITY4_2
-      - HEL Trojan grpc
-      - trojan grpc de
+      - 🚀 Irancell PAR [Trojan - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
+      - 🔥 PAR Trojan grpc
+      - 💪 PAR trojan ws REALITY5
+      - 💪 PAR trojan ws REALITY4
+      - 💪 PAR trojan ws REALITY3
+      - 💪 PAR trojan ws REALITY2
+      - 💪 AMD trojan ws 2
+      - 💪 AMD trojan ws ir2_1
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws ir2_2
+      - 🔥 HEL torjan ws
+      - 🔥 HEL trojan grpc
+      - 🔥 HEL trojan ws direct
+      - 🔥 HEL trojan grpc tls
+      - 🔥 HEL torjan ws 2
+      - 🔥 HEL trojan grpc 2
+      - 🔥 HEL trojan ws direct 2
+      - 🔥 HEL trojan grpc tls 2
+      - 🚀 Irancell PAR [VLESS - tcp]
+      - 🚀 Irancell PAR [VLESS - grpc]
+      - 🚀  AMD vless tcp REALITY [VLESS - tcp]
+      - 🚀  AMD vless grpc REALITY [VLESS - grpc]
+      - 🔥 HEL trojan vless REALITY
+      - 🔥 HEL trojan vless ws
+      - 🔥 HEL trojan vless grpc direct
+      - 🔥 HEL trojan vless ws direct
+      - 🔥 HEL trojan vless grpc tls
+      - 🔥 HEL trojan vless http
+      - 🔥 HEL trojan vless ws 2
+      - 🔥 HEL trojan vless grpc direct 2
+      - 🔥 HEL trojan vless ws direct 2
+      - 🔥 HEL trojan vless grpc tls 2
+      - 🚀 Irancell PAR [VMess - ws]
+      - 🚀 Irancell PAR [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🔥 PAR vmess grpc
+      - 💪 PAR vmess ws REALITY5
+      - 💪 PAR vmess ws REALITY4
+      - 💪 PAR vmess ws REALITY3
+      - 💪 PAR vmess ws REALITY2
+      - 💪 PAR vmess tcp REALITY5
+      - 💪 PAR vmess tcp REALITY4
+      - 💪 PAR vmess tcp REALITY3
+      - 💪 PAR vmess tcp REALITY2
+      - 🔥 HEL trojan vmess ws_1
+      - 🔥 HEL trojan vmess grpc direct
+      - 🔥 HEL trojan vmess ws_2
+      - 🔥 HEL trojan vmess grcp
+      - 🔥 HEL trojan vmess ws direct
+      - 🔥 HEL trojan vmess ws 2_1
+      - 🔥 HEL trojan vmess ws 2_2
+      - 🔥 HEL trojan vmess grcp 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
-      - 🚀 HEL REALITY [VMess - tcp]
-      - HEL vmess tcp REALITY2
-      - HEL vmess tcp REALITY3
-      - HEL vmess tcp REALITY4
-      - HEL vmess tcp REALITY5
-      - 🚀 HEL REALITY [VMess - ws]
-      - HEL vmess ws REALITY2
-      - HEL vmess ws REALITY3
-      - HEL vmess ws REALITY4
-      - HEL vmess ws REALITY5
-      - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
-      - AMD vmess ws REALITY4
-      - AMD vmess ws REALITY5
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
-      - AMD vmess tcp REALITY2
-      - AMD vmess tcp REALITY3
-      - AMD vmess tcp REALITY4
-      - AMD vmess tcp REALITY5
-      - HEL vmess grcp
-      - vmess grpc de
-      - 🚀 HEL REALITY [Shadowsocks - tcp]
-      - HEL shadow tcp  REALITY2
-      - HEL shadow tcp  REALITY3
-      - HEL shadow tcp  REALITY4
-      - HEL shadow tcp  REALITY5
-      - 🚀 irancell vless [ws](de)
-      - 🚀 irancell vless [grpc](de)
-      - 🚀 HEL REALITY [VLESS - tcp]
-      - 🚀 HEL REALITY [VLESS - grpc]
-      - 🚀 AMD REALITY vless grpc [VLESS - grpc]
-      - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
-      - 🚀 irancell trojan [grpc](de)
-      - 🚀 HEL REALITY [Trojan - ws]
-      - HEL trojan ws REALITY2
-      - HEL trojan ws REALITY3
-      - HEL trojan ws REALITY4
-      - HEL trojan ws REALITY5
-      - 🚀 AMD REALITY trojan ws [Trojan - ws]
-      - AMD trojan ws REALITY2
-      - AMD  trojan ws REALITY3
-      - AMD  trojan ws REALITY4_1
-      - AMD  trojan ws REALITY4_2
-      - HEL Trojan grpc
-      - trojan grpc de
+      - 🚀 Irancell PAR [Trojan - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
+      - 🔥 PAR Trojan grpc
+      - 💪 PAR trojan ws REALITY5
+      - 💪 PAR trojan ws REALITY4
+      - 💪 PAR trojan ws REALITY3
+      - 💪 PAR trojan ws REALITY2
+      - 💪 AMD trojan ws 2
+      - 💪 AMD trojan ws ir2_1
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws ir2_2
+      - 🔥 HEL torjan ws
+      - 🔥 HEL trojan grpc
+      - 🔥 HEL trojan ws direct
+      - 🔥 HEL trojan grpc tls
+      - 🔥 HEL torjan ws 2
+      - 🔥 HEL trojan grpc 2
+      - 🔥 HEL trojan ws direct 2
+      - 🔥 HEL trojan grpc tls 2
+      - 🚀 Irancell PAR [VLESS - tcp]
+      - 🚀 Irancell PAR [VLESS - grpc]
+      - 🚀  AMD vless tcp REALITY [VLESS - tcp]
+      - 🚀  AMD vless grpc REALITY [VLESS - grpc]
+      - 🔥 HEL trojan vless REALITY
+      - 🔥 HEL trojan vless ws
+      - 🔥 HEL trojan vless grpc direct
+      - 🔥 HEL trojan vless ws direct
+      - 🔥 HEL trojan vless grpc tls
+      - 🔥 HEL trojan vless http
+      - 🔥 HEL trojan vless ws 2
+      - 🔥 HEL trojan vless grpc direct 2
+      - 🔥 HEL trojan vless ws direct 2
+      - 🔥 HEL trojan vless grpc tls 2
+      - 🚀 Irancell PAR [VMess - ws]
+      - 🚀 Irancell PAR [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🔥 PAR vmess grpc
+      - 💪 PAR vmess ws REALITY5
+      - 💪 PAR vmess ws REALITY4
+      - 💪 PAR vmess ws REALITY3
+      - 💪 PAR vmess ws REALITY2
+      - 💪 PAR vmess tcp REALITY5
+      - 💪 PAR vmess tcp REALITY4
+      - 💪 PAR vmess tcp REALITY3
+      - 💪 PAR vmess tcp REALITY2
+      - 🔥 HEL trojan vmess ws_1
+      - 🔥 HEL trojan vmess grpc direct
+      - 🔥 HEL trojan vmess ws_2
+      - 🔥 HEL trojan vmess grcp
+      - 🔥 HEL trojan vmess ws direct
+      - 🔥 HEL trojan vmess ws 2_1
+      - 🔥 HEL trojan vmess ws 2_2
+      - 🔥 HEL trojan vmess grcp 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
-      - 🚀 HEL REALITY [VMess - tcp]
-      - HEL vmess tcp REALITY2
-      - HEL vmess tcp REALITY3
-      - HEL vmess tcp REALITY4
-      - HEL vmess tcp REALITY5
-      - 🚀 HEL REALITY [VMess - ws]
-      - HEL vmess ws REALITY2
-      - HEL vmess ws REALITY3
-      - HEL vmess ws REALITY4
-      - HEL vmess ws REALITY5
-      - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
-      - AMD vmess ws REALITY4
-      - AMD vmess ws REALITY5
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
-      - AMD vmess tcp REALITY2
-      - AMD vmess tcp REALITY3
-      - AMD vmess tcp REALITY4
-      - AMD vmess tcp REALITY5
-      - HEL vmess grcp
-      - vmess grpc de
-      - 🚀 HEL REALITY [Shadowsocks - tcp]
-      - HEL shadow tcp  REALITY2
-      - HEL shadow tcp  REALITY3
-      - HEL shadow tcp  REALITY4
-      - HEL shadow tcp  REALITY5
-      - 🚀 irancell vless [ws](de)
-      - 🚀 irancell vless [grpc](de)
-      - 🚀 HEL REALITY [VLESS - tcp]
-      - 🚀 HEL REALITY [VLESS - grpc]
-      - 🚀 AMD REALITY vless grpc [VLESS - grpc]
-      - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
-      - 🚀 irancell trojan [grpc](de)
-      - 🚀 HEL REALITY [Trojan - ws]
-      - HEL trojan ws REALITY2
-      - HEL trojan ws REALITY3
-      - HEL trojan ws REALITY4
-      - HEL trojan ws REALITY5
-      - 🚀 AMD REALITY trojan ws [Trojan - ws]
-      - AMD trojan ws REALITY2
-      - AMD  trojan ws REALITY3
-      - AMD  trojan ws REALITY4_1
-      - AMD  trojan ws REALITY4_2
-      - HEL Trojan grpc
-      - trojan grpc de
+      - 🚀 Irancell PAR [Trojan - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
+      - 🔥 PAR Trojan grpc
+      - 💪 PAR trojan ws REALITY5
+      - 💪 PAR trojan ws REALITY4
+      - 💪 PAR trojan ws REALITY3
+      - 💪 PAR trojan ws REALITY2
+      - 💪 AMD trojan ws 2
+      - 💪 AMD trojan ws ir2_1
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws ir2_2
+      - 🔥 HEL torjan ws
+      - 🔥 HEL trojan grpc
+      - 🔥 HEL trojan ws direct
+      - 🔥 HEL trojan grpc tls
+      - 🔥 HEL torjan ws 2
+      - 🔥 HEL trojan grpc 2
+      - 🔥 HEL trojan ws direct 2
+      - 🔥 HEL trojan grpc tls 2
+      - 🚀 Irancell PAR [VLESS - tcp]
+      - 🚀 Irancell PAR [VLESS - grpc]
+      - 🚀  AMD vless tcp REALITY [VLESS - tcp]
+      - 🚀  AMD vless grpc REALITY [VLESS - grpc]
+      - 🔥 HEL trojan vless REALITY
+      - 🔥 HEL trojan vless ws
+      - 🔥 HEL trojan vless grpc direct
+      - 🔥 HEL trojan vless ws direct
+      - 🔥 HEL trojan vless grpc tls
+      - 🔥 HEL trojan vless http
+      - 🔥 HEL trojan vless ws 2
+      - 🔥 HEL trojan vless grpc direct 2
+      - 🔥 HEL trojan vless ws direct 2
+      - 🔥 HEL trojan vless grpc tls 2
+      - 🚀 Irancell PAR [VMess - ws]
+      - 🚀 Irancell PAR [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🔥 PAR vmess grpc
+      - 💪 PAR vmess ws REALITY5
+      - 💪 PAR vmess ws REALITY4
+      - 💪 PAR vmess ws REALITY3
+      - 💪 PAR vmess ws REALITY2
+      - 💪 PAR vmess tcp REALITY5
+      - 💪 PAR vmess tcp REALITY4
+      - 💪 PAR vmess tcp REALITY3
+      - 💪 PAR vmess tcp REALITY2
+      - 🔥 HEL trojan vmess ws_1
+      - 🔥 HEL trojan vmess grpc direct
+      - 🔥 HEL trojan vmess ws_2
+      - 🔥 HEL trojan vmess grcp
+      - 🔥 HEL trojan vmess ws direct
+      - 🔥 HEL trojan vmess ws 2_1
+      - 🔥 HEL trojan vmess ws 2_2
+      - 🔥 HEL trojan vmess grcp 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -427,56 +455,60 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🚀 irancell vmess [ws](de)
-      - 🚀 irancell vmess [grpc](de)
-      - irancell AMD vmess grcp
-      - 🚀 HEL REALITY [VMess - tcp]
-      - HEL vmess tcp REALITY2
-      - HEL vmess tcp REALITY3
-      - HEL vmess tcp REALITY4
-      - HEL vmess tcp REALITY5
-      - 🚀 HEL REALITY [VMess - ws]
-      - HEL vmess ws REALITY2
-      - HEL vmess ws REALITY3
-      - HEL vmess ws REALITY4
-      - HEL vmess ws REALITY5
-      - 🚀 AMD REALITY vmess ws [VMess - ws]
-      - AMD vmess ws REALITY2
-      - AMD vmess ws REALITY3
-      - AMD vmess ws REALITY4
-      - AMD vmess ws REALITY5
-      - 🚀 AMD REALITY vmess tcp [VMess - tcp]
-      - AMD vmess tcp REALITY2
-      - AMD vmess tcp REALITY3
-      - AMD vmess tcp REALITY4
-      - AMD vmess tcp REALITY5
-      - HEL vmess grcp
-      - vmess grpc de
-      - 🚀 HEL REALITY [Shadowsocks - tcp]
-      - HEL shadow tcp  REALITY2
-      - HEL shadow tcp  REALITY3
-      - HEL shadow tcp  REALITY4
-      - HEL shadow tcp  REALITY5
-      - 🚀 irancell vless [ws](de)
-      - 🚀 irancell vless [grpc](de)
-      - 🚀 HEL REALITY [VLESS - tcp]
-      - 🚀 HEL REALITY [VLESS - grpc]
-      - 🚀 AMD REALITY vless grpc [VLESS - grpc]
-      - 🚀 irancell trojan [ws](de)
-      - irancell AMD Trojan grpc
-      - 🚀 irancell trojan [grpc](de)
-      - 🚀 HEL REALITY [Trojan - ws]
-      - HEL trojan ws REALITY2
-      - HEL trojan ws REALITY3
-      - HEL trojan ws REALITY4
-      - HEL trojan ws REALITY5
-      - 🚀 AMD REALITY trojan ws [Trojan - ws]
-      - AMD trojan ws REALITY2
-      - AMD  trojan ws REALITY3
-      - AMD  trojan ws REALITY4_1
-      - AMD  trojan ws REALITY4_2
-      - HEL Trojan grpc
-      - trojan grpc de
+      - 🚀 Irancell PAR [Trojan - ws]
+      - 🚀  AMD trojan ws  [Trojan - ws]
+      - 🔥 PAR Trojan grpc
+      - 💪 PAR trojan ws REALITY5
+      - 💪 PAR trojan ws REALITY4
+      - 💪 PAR trojan ws REALITY3
+      - 💪 PAR trojan ws REALITY2
+      - 💪 AMD trojan ws 2
+      - 💪 AMD trojan ws ir2_1
+      - 💪 AMD trojan ws
+      - 💪 AMD trojan ws ir2_2
+      - 🔥 HEL torjan ws
+      - 🔥 HEL trojan grpc
+      - 🔥 HEL trojan ws direct
+      - 🔥 HEL trojan grpc tls
+      - 🔥 HEL torjan ws 2
+      - 🔥 HEL trojan grpc 2
+      - 🔥 HEL trojan ws direct 2
+      - 🔥 HEL trojan grpc tls 2
+      - 🚀 Irancell PAR [VLESS - tcp]
+      - 🚀 Irancell PAR [VLESS - grpc]
+      - 🚀  AMD vless tcp REALITY [VLESS - tcp]
+      - 🚀  AMD vless grpc REALITY [VLESS - grpc]
+      - 🔥 HEL trojan vless REALITY
+      - 🔥 HEL trojan vless ws
+      - 🔥 HEL trojan vless grpc direct
+      - 🔥 HEL trojan vless ws direct
+      - 🔥 HEL trojan vless grpc tls
+      - 🔥 HEL trojan vless http
+      - 🔥 HEL trojan vless ws 2
+      - 🔥 HEL trojan vless grpc direct 2
+      - 🔥 HEL trojan vless ws direct 2
+      - 🔥 HEL trojan vless grpc tls 2
+      - 🚀 Irancell PAR [VMess - ws]
+      - 🚀 Irancell PAR [VMess - tcp]
+      - 🚀 AMD vmess ws  [VMess - ws]
+      - 🚀 AMD vmess tcp [VMess - tcp]
+      - 🔥 PAR vmess grpc
+      - 💪 PAR vmess ws REALITY5
+      - 💪 PAR vmess ws REALITY4
+      - 💪 PAR vmess ws REALITY3
+      - 💪 PAR vmess ws REALITY2
+      - 💪 PAR vmess tcp REALITY5
+      - 💪 PAR vmess tcp REALITY4
+      - 💪 PAR vmess tcp REALITY3
+      - 💪 PAR vmess tcp REALITY2
+      - 🔥 HEL trojan vmess ws_1
+      - 🔥 HEL trojan vmess grpc direct
+      - 🔥 HEL trojan vmess ws_2
+      - 🔥 HEL trojan vmess grcp
+      - 🔥 HEL trojan vmess ws direct
+      - 🔥 HEL trojan vmess ws 2_1
+      - 🔥 HEL trojan vmess ws 2_2
+      - 🔥 HEL trojan vmess grcp 2
 
 rules:
 # 本地/局域网地址
@@ -2415,7 +2447,7 @@ rules:
 # YouTubeMusic
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
-#,USER-AGENT,AbemaTV*,🌍 国外媒体
+#   - USER-AGENT,AbemaTV*,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
   - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
@@ -2424,7 +2456,7 @@ rules:
   - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
-#,USER-AGENT,All4*,🌍 国外媒体
+#   - USER-AGENT,All4*,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
   - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -2446,14 +2478,14 @@ rules:
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
-#,URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
-#,USER-AGENT,AppleNews*,🌍 国外媒体
-#,USER-AGENT,com.apple.news*,🌍 国外媒体
+#   - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
+#   - USER-AGENT,AppleNews*,🌍 国外媒体
+#   - USER-AGENT,com.apple.news*,🌍 国外媒体
   - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
   - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tv.apple.com,🌍 国外媒体
-#,USER-AGENT,BBCiPlayer*,🌍 国外媒体
+#   - USER-AGENT,BBCiPlayer*,🌍 国外媒体
   - DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
   - DOMAIN-KEYWORD,uk-live,🌍 国外媒体
   - DOMAIN,aod-dash-uk-live.akamaized.net,🌍 国外媒体
@@ -2468,13 +2500,13 @@ rules:
   - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
   - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
   - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
-#,USER-AGENT,Anime*,🌍 国外媒体
+#   - USER-AGENT,Anime*,🌍 国外媒体
   - DOMAIN,bahamut.akamaized.net,🌍 国外媒体
   - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
-#,USER-AGENT,DAZN*,🌍 国外媒体
+#   - USER-AGENT,DAZN*,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
@@ -2486,14 +2518,14 @@ rules:
   - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
   - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
-#,USER-AGENT,Deezer*,🌍 国外媒体
+#   - USER-AGENT,Deezer*,🌍 国外媒体
   - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,disco-api.com,🌍 国外媒体
   - DOMAIN-SUFFIX,discovery.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-#,USER-AGENT,Disney*,🌍 国外媒体
-#,USER-AGENT,Disney+*,🌍 国外媒体
+#   - USER-AGENT,Disney*,🌍 国外媒体
+#   - USER-AGENT,Disney+*,🌍 国外媒体
   - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
   - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
   - DOMAIN-SUFFIX,bam.nr-data.net,🌍 国外媒体
@@ -2514,24 +2546,24 @@ rules:
   - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,js-agent.newrelic.com,🌍 国外媒体
-#,USER-AGENT,encoreTVB*,🌍 国外媒体
+#   - USER-AGENT,encoreTVB*,🌍 国外媒体
   - DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 国外媒体
   - DOMAIN,content.jwplatform.com,🌍 国外媒体
   - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
   - DOMAIN,videos-f.jwpsrv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
-#,USER-AGENT,FOX%20NOW*,🌍 国外媒体
+#   - USER-AGENT,FOX%20NOW*,🌍 国外媒体
   - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-#,USER-AGENT,HBO%20NOW*,🌍 国外媒体
-#,USER-AGENT,HBOMAX*,🌍 国外媒体
+#   - USER-AGENT,HBO%20NOW*,🌍 国外媒体
+#   - USER-AGENT,HBOMAX*,🌍 国外媒体
   - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-#,USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
+#   - USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
   - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
@@ -2552,7 +2584,7 @@ rules:
   - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
-#,USER-AGENT,HWTVMobile*,🌍 国外媒体
+#   - USER-AGENT,HWTVMobile*,🌍 国外媒体
   - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,cws-hulu.conviva.com,🌍 国外媒体
@@ -2568,12 +2600,12 @@ rules:
   - DOMAIN-SUFFIX,prod.hjholdings.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,streaks.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,yb.uncn.jp,🌍 国外媒体
-#,USER-AGENT,ITV_Player*,🌍 国外媒体
+#   - USER-AGENT,ITV_Player*,🌍 国外媒体
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
   - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
-#,USER-AGENT,JOOX*,🌍 国外媒体
-#,USER-AGENT,WeMusic*,🌍 国外媒体
+#   - USER-AGENT,JOOX*,🌍 国外媒体
+#   - USER-AGENT,WeMusic*,🌍 国外媒体
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
   - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
   - DOMAIN-KEYWORD,japonx,🌍 国外媒体
@@ -2589,32 +2621,32 @@ rules:
   - DOMAIN-SUFFIX,kfs.io,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
-#,USER-AGENT,KKTV*,🌍 国外媒体
-#,USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
+#   - USER-AGENT,KKTV*,🌍 国外媒体
+#   - USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
   - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
   - DOMAIN,theater-kktv.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
-#,USER-AGENT,LINE%20TV*,🌍 国外媒体
-#,USER-AGENT,LINE*,🌍 国外媒体
+#   - USER-AGENT,LINE%20TV*,🌍 国外媒体
+#   - USER-AGENT,LINE*,🌍 国外媒体
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,linetv.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,profile.line-scdn.net,🌍 国外媒体
-#,USER-AGENT,My5*,🌍 国外媒体
+#   - USER-AGENT,My5*,🌍 国外媒体
   - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
   - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
-#,USER-AGENT,mytv*,🌍 国外媒体
+#   - USER-AGENT,mytv*,🌍 国外媒体
   - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
   - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
   - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
-#,USER-AGENT,Argo*,🌍 国外媒体
+#   - USER-AGENT,Argo*,🌍 国外媒体
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
   - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
@@ -2654,24 +2686,24 @@ rules:
   - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
   - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
   - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
-#,USER-AGENT,Niconico*,🌍 国外媒体
+#   - USER-AGENT,Niconico*,🌍 国外媒体
   - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
   - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
-#,USER-AGENT,PBS*,🌍 国外媒体
+#   - USER-AGENT,PBS*,🌍 国外媒体
   - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
-#,USER-AGENT,Pandora*,🌍 国外媒体
+#   - USER-AGENT,Pandora*,🌍 国外媒体
   - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phprcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhub.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhubpremium.com,🌍 国外媒体
   - DOMAIN-SUFFIX,qobuz.com,🌍 国外媒体
-#,USER-AGENT,SoundCloud*,🌍 国外媒体
+#   - USER-AGENT,SoundCloud*,🌍 国外媒体
   - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
   - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
-#,USER-AGENT,Spotify*,🌍 国外媒体
+#   - USER-AGENT,Spotify*,🌍 国外媒体
   - DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
   - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
@@ -2680,14 +2712,14 @@ rules:
   - DOMAIN-SUFFIX,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.net,🌍 国外媒体
-#,USER-AGENT,TIDAL*,🌍 国外媒体
+#   - USER-AGENT,TIDAL*,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
-#,USER-AGENT,TaiwanGood*,🌍 国外媒体
+#   - USER-AGENT,TaiwanGood*,🌍 国外媒体
   - DOMAIN,hamifans.emome.net,🌍 国外媒体
   - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
-#,USER-AGENT,TikTok*,🌍 国外媒体
+#   - USER-AGENT,TikTok*,🌍 国外媒体
   - DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
   - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
@@ -2705,7 +2737,7 @@ rules:
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
-#,USER-AGENT,Viu*,🌍 国外媒体
+#   - USER-AGENT,Viu*,🌍 国外媒体
   - PROCESS-NAME,com.viu.pad,🌍 国外媒体
   - PROCESS-NAME,com.viu.phone,🌍 国外媒体
   - PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
@@ -2721,9 +2753,9 @@ rules:
   - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
-#,USER-AGENT,*youtube*,🌍 国外媒体
-#,USER-AGENT,YouTube*,🌍 国外媒体
-#,USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
+#   - USER-AGENT,*youtube*,🌍 国外媒体
+#   - USER-AGENT,YouTube*,🌍 国外媒体
+#   - USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
   - DOMAIN-KEYWORD,youtube,🌍 国外媒体
   - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
   - DOMAIN,yt3.ggpht.com,🌍 国外媒体
@@ -2738,10 +2770,10 @@ rules:
   - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
   - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
-#,USER-AGENT,*YouTubeMusic*,🌍 国外媒体
-#,USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
-#,USER-AGENT,YouTubeMusic*,🌍 国外媒体
-#,USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
+#   - USER-AGENT,*YouTubeMusic*,🌍 国外媒体
+#   - USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
+#   - USER-AGENT,YouTubeMusic*,🌍 国外媒体
+#   - USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
   - DOMAIN,music.youtube.com,🌍 国外媒体
 # Telegram
 #PROCESS-NAME,Telegram.exe
