@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：21-06-2023 17:59:35
+# 创建时间：21-06-2023 18:06:41
 # 使用模版：V2RaySE 默认模版
-# 节点数量：6
+# 节点数量：4
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -29,81 +29,67 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🚀 STO vmess tcp [VMess - tcp]","type":"vmess","server":"5.42.82.32","port":8081,"cipher":"auto","uuid":"f31b61c1-219e-4fad-848f-9be9e4a55131","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"💪 STO vmess tcp 2","type":"vmess","server":"5.42.82.32","port":8081,"cipher":"auto","uuid":"f31b61c1-219e-4fad-848f-9be9e4a55131","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🚀 STO vmess ws [VMess - ws]","type":"vmess","server":"5.42.82.32","port":8080,"cipher":"auto","uuid":"f31b61c1-219e-4fad-848f-9be9e4a55131","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
   - {"name":"🚀 STO trojan ws [Trojan - ws]","type":"trojan","server":"5.42.82.32","port":2083,"udp":true,"password":"HH2xAxBydzpx_04dqtJPPQ","sni":"gstatic.com","skip-cert-verify":true,"network":"ws"}
   - {"name":"💪 STO trojan ws 2","type":"trojan","server":"maliran.shanty.tech","port":2083,"udp":true,"password":"HH2xAxBydzpx_04dqtJPPQ","sni":"marsto.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"headers":{"host":"marsto.shanty.tech"}}}
-  - {"name":"🚀 STO shadow [Shadowsocks - tcp]","type":"ss","server":"5.42.82.32","port":1080,"password":"XtsYEv3bvOq54uKsaPMXeQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"💪 STO trojan ws 3","type":"trojan","server":"maliran2.shanty.tech","port":2083,"udp":true,"password":"HH2xAxBydzpx_04dqtJPPQ","sni":"marsto.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"headers":{"host":"marsto.shanty.tech"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🚀 STO vmess tcp [VMess - tcp]
-      - 💪 STO vmess tcp 2
       - 🚀 STO vmess ws [VMess - ws]
       - 🚀 STO trojan ws [Trojan - ws]
       - 💪 STO trojan ws 2
-      - 🚀 STO shadow [Shadowsocks - tcp]
+      - 💪 STO trojan ws 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🚀 STO vmess tcp [VMess - tcp]
-      - 💪 STO vmess tcp 2
       - 🚀 STO vmess ws [VMess - ws]
       - 🚀 STO trojan ws [Trojan - ws]
       - 💪 STO trojan ws 2
-      - 🚀 STO shadow [Shadowsocks - tcp]
+      - 💪 STO trojan ws 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🚀 STO vmess tcp [VMess - tcp]
-      - 💪 STO vmess tcp 2
       - 🚀 STO vmess ws [VMess - ws]
       - 🚀 STO trojan ws [Trojan - ws]
       - 💪 STO trojan ws 2
-      - 🚀 STO shadow [Shadowsocks - tcp]
+      - 💪 STO trojan ws 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 STO vmess tcp [VMess - tcp]
-      - 💪 STO vmess tcp 2
       - 🚀 STO vmess ws [VMess - ws]
       - 🚀 STO trojan ws [Trojan - ws]
       - 💪 STO trojan ws 2
-      - 🚀 STO shadow [Shadowsocks - tcp]
+      - 💪 STO trojan ws 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🚀 STO vmess tcp [VMess - tcp]
-      - 💪 STO vmess tcp 2
       - 🚀 STO vmess ws [VMess - ws]
       - 🚀 STO trojan ws [Trojan - ws]
       - 💪 STO trojan ws 2
-      - 🚀 STO shadow [Shadowsocks - tcp]
+      - 💪 STO trojan ws 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 STO vmess tcp [VMess - tcp]
-      - 💪 STO vmess tcp 2
       - 🚀 STO vmess ws [VMess - ws]
       - 🚀 STO trojan ws [Trojan - ws]
       - 💪 STO trojan ws 2
-      - 🚀 STO shadow [Shadowsocks - tcp]
+      - 💪 STO trojan ws 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -126,12 +112,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🚀 STO vmess tcp [VMess - tcp]
-      - 💪 STO vmess tcp 2
       - 🚀 STO vmess ws [VMess - ws]
       - 🚀 STO trojan ws [Trojan - ws]
       - 💪 STO trojan ws 2
-      - 🚀 STO shadow [Shadowsocks - tcp]
+      - 💪 STO trojan ws 3
 
 rules:
 # 本地/局域网地址
