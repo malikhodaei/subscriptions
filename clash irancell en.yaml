@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：10-07-2023 01:02:34
+# 创建时间：11-08-2023 20:18:14
 # 使用模版：V2RaySE 默认模版
-# 节点数量：12
+# 节点数量：6
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -29,123 +29,81 @@ dns:
     - tls://dns.google:85
 
 proxies:
-  - {"name":"🚀 AMD   [VMess - ws]_1","type":"vmess","server":"79.137.205.195","port":8080,"cipher":"auto","uuid":"f01540b9-8afb-4d80-9139-de40e45a8068","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🚀 STO vmess ws [VMess - ws]","type":"vmess","server":"5.42.82.32","port":8080,"cipher":"auto","uuid":"f31b61c1-219e-4fad-848f-9be9e4a55131","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🚀 AMD   [VMess - ws]_2","type":"vmess","server":"79.137.205.195","port":8080,"cipher":"auto","uuid":"f01540b9-8afb-4d80-9139-de40e45a8068","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🚀 PAR  [VMess - ws]","type":"vmess","server":"par.mishahana.fun","port":8080,"cipher":"auto","uuid":"a0401316-b6da-49a2-9b22-ce08201237cc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🚀PAR 2  [VMess - ws]","type":"vmess","server":"45.15.157.72","port":8080,"cipher":"auto","uuid":"5b4d04bb-43ce-4b2f-9178-a9e80fd59a9f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🚀 AMD   [Trojan - ws]_1","type":"trojan","server":"79.137.205.195","port":2083,"udp":true,"password":"uM0It4axRbWVislTbzSqwg","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"💪 STO trojan ws 2","type":"trojan","server":"maliran.shanty.tech","port":2083,"udp":true,"password":"HH2xAxBydzpx_04dqtJPPQ","sni":"marsto.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"marsto.shanty.tech"}}}
-  - {"name":"💪 STO trojan ws 3","type":"trojan","server":"maliran2.shanty.tech","port":2083,"udp":true,"password":"HH2xAxBydzpx_04dqtJPPQ","sni":"marsto.shanty.tech","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"marsto.shanty.tech"}}}
-  - {"name":"🚀 STO trojan ws [Trojan - ws]","type":"trojan","server":"5.42.82.32","port":2083,"udp":true,"password":"HH2xAxBydzpx_04dqtJPPQ","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🚀 PAR [Trojan - ws]","type":"trojan","server":"par.mishahana.fun","port":2083,"udp":true,"password":"3sAEjOjtwbgLVr-ohdYyrA","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🚀 AMD   [Trojan - ws]_2","type":"trojan","server":"79.137.205.195","port":2083,"udp":true,"password":"uM0It4axRbWVislTbzSqwg","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🚀PAR 2   [Trojan - ws]","type":"trojan","server":"45.15.157.72","port":2083,"udp":true,"password":"eo0WQbiq2Ug9TLfqmnmfuw","sni":"2a9e2064d3ac935d.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🚀 AMD   [VMess - ws]","type":"vmess","server":"79.137.205.195","port":8080,"cipher":"auto","uuid":"f01540b9-8afb-4d80-9139-de40e45a8068","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"🚀 PARIS (ali) [VMess - ws]","type":"vmess","server":"193.233.133.241","port":8080,"cipher":"auto","uuid":"f0651ae1-dd8a-4330-994d-2ab5d4992a26","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"🚀 STOB (ali) [VMess - ws]","type":"vmess","server":"5.42.72.107","port":8080,"cipher":"auto","uuid":"4c6438b9-90b1-4573-bdd9-69f406462f4f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"🚀 AMD   [Trojan - ws]","type":"trojan","server":"79.137.205.195","port":2083,"udp":true,"password":"uM0It4axRbWVislTbzSqwg","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🚀 STOB (ali) [Trojan - ws]","type":"trojan","server":"5.42.72.107","port":2083,"udp":true,"password":"S2mJVOhzmWIBJWqS5BEe-A","sni":"aa13abf1c72d5330.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🚀 PARIS (ali) [Trojan - ws]","type":"trojan","server":"193.233.133.241","port":2083,"udp":true,"password":"ct1OharXkOG6ay2xllkOPA","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🚀 AMD   [VMess - ws]_1
-      - 🚀 STO vmess ws [VMess - ws]
-      - 🚀 AMD   [VMess - ws]_2
-      - 🚀 PAR  [VMess - ws]
-      - 🚀PAR 2  [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]_1
-      - 💪 STO trojan ws 2
-      - 💪 STO trojan ws 3
-      - 🚀 STO trojan ws [Trojan - ws]
-      - 🚀 PAR [Trojan - ws]
-      - 🚀 AMD   [Trojan - ws]_2
-      - 🚀PAR 2   [Trojan - ws]
+      - 🚀 AMD   [VMess - ws]
+      - 🚀 PARIS (ali) [VMess - ws]
+      - 🚀 STOB (ali) [VMess - ws]
+      - 🚀 AMD   [Trojan - ws]
+      - 🚀 STOB (ali) [Trojan - ws]
+      - 🚀 PARIS (ali) [Trojan - ws]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🚀 AMD   [VMess - ws]_1
-      - 🚀 STO vmess ws [VMess - ws]
-      - 🚀 AMD   [VMess - ws]_2
-      - 🚀 PAR  [VMess - ws]
-      - 🚀PAR 2  [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]_1
-      - 💪 STO trojan ws 2
-      - 💪 STO trojan ws 3
-      - 🚀 STO trojan ws [Trojan - ws]
-      - 🚀 PAR [Trojan - ws]
-      - 🚀 AMD   [Trojan - ws]_2
-      - 🚀PAR 2   [Trojan - ws]
+      - 🚀 AMD   [VMess - ws]
+      - 🚀 PARIS (ali) [VMess - ws]
+      - 🚀 STOB (ali) [VMess - ws]
+      - 🚀 AMD   [Trojan - ws]
+      - 🚀 STOB (ali) [Trojan - ws]
+      - 🚀 PARIS (ali) [Trojan - ws]
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🚀 AMD   [VMess - ws]_1
-      - 🚀 STO vmess ws [VMess - ws]
-      - 🚀 AMD   [VMess - ws]_2
-      - 🚀 PAR  [VMess - ws]
-      - 🚀PAR 2  [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]_1
-      - 💪 STO trojan ws 2
-      - 💪 STO trojan ws 3
-      - 🚀 STO trojan ws [Trojan - ws]
-      - 🚀 PAR [Trojan - ws]
-      - 🚀 AMD   [Trojan - ws]_2
-      - 🚀PAR 2   [Trojan - ws]
+      - 🚀 AMD   [VMess - ws]
+      - 🚀 PARIS (ali) [VMess - ws]
+      - 🚀 STOB (ali) [VMess - ws]
+      - 🚀 AMD   [Trojan - ws]
+      - 🚀 STOB (ali) [Trojan - ws]
+      - 🚀 PARIS (ali) [Trojan - ws]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 AMD   [VMess - ws]_1
-      - 🚀 STO vmess ws [VMess - ws]
-      - 🚀 AMD   [VMess - ws]_2
-      - 🚀 PAR  [VMess - ws]
-      - 🚀PAR 2  [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]_1
-      - 💪 STO trojan ws 2
-      - 💪 STO trojan ws 3
-      - 🚀 STO trojan ws [Trojan - ws]
-      - 🚀 PAR [Trojan - ws]
-      - 🚀 AMD   [Trojan - ws]_2
-      - 🚀PAR 2   [Trojan - ws]
+      - 🚀 AMD   [VMess - ws]
+      - 🚀 PARIS (ali) [VMess - ws]
+      - 🚀 STOB (ali) [VMess - ws]
+      - 🚀 AMD   [Trojan - ws]
+      - 🚀 STOB (ali) [Trojan - ws]
+      - 🚀 PARIS (ali) [Trojan - ws]
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🚀 AMD   [VMess - ws]_1
-      - 🚀 STO vmess ws [VMess - ws]
-      - 🚀 AMD   [VMess - ws]_2
-      - 🚀 PAR  [VMess - ws]
-      - 🚀PAR 2  [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]_1
-      - 💪 STO trojan ws 2
-      - 💪 STO trojan ws 3
-      - 🚀 STO trojan ws [Trojan - ws]
-      - 🚀 PAR [Trojan - ws]
-      - 🚀 AMD   [Trojan - ws]_2
-      - 🚀PAR 2   [Trojan - ws]
+      - 🚀 AMD   [VMess - ws]
+      - 🚀 PARIS (ali) [VMess - ws]
+      - 🚀 STOB (ali) [VMess - ws]
+      - 🚀 AMD   [Trojan - ws]
+      - 🚀 STOB (ali) [Trojan - ws]
+      - 🚀 PARIS (ali) [Trojan - ws]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 AMD   [VMess - ws]_1
-      - 🚀 STO vmess ws [VMess - ws]
-      - 🚀 AMD   [VMess - ws]_2
-      - 🚀 PAR  [VMess - ws]
-      - 🚀PAR 2  [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]_1
-      - 💪 STO trojan ws 2
-      - 💪 STO trojan ws 3
-      - 🚀 STO trojan ws [Trojan - ws]
-      - 🚀 PAR [Trojan - ws]
-      - 🚀 AMD   [Trojan - ws]_2
-      - 🚀PAR 2   [Trojan - ws]
+      - 🚀 AMD   [VMess - ws]
+      - 🚀 PARIS (ali) [VMess - ws]
+      - 🚀 STOB (ali) [VMess - ws]
+      - 🚀 AMD   [Trojan - ws]
+      - 🚀 STOB (ali) [Trojan - ws]
+      - 🚀 PARIS (ali) [Trojan - ws]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -168,18 +126,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🚀 AMD   [VMess - ws]_1
-      - 🚀 STO vmess ws [VMess - ws]
-      - 🚀 AMD   [VMess - ws]_2
-      - 🚀 PAR  [VMess - ws]
-      - 🚀PAR 2  [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]_1
-      - 💪 STO trojan ws 2
-      - 💪 STO trojan ws 3
-      - 🚀 STO trojan ws [Trojan - ws]
-      - 🚀 PAR [Trojan - ws]
-      - 🚀 AMD   [Trojan - ws]_2
-      - 🚀PAR 2   [Trojan - ws]
+      - 🚀 AMD   [VMess - ws]
+      - 🚀 PARIS (ali) [VMess - ws]
+      - 🚀 STOB (ali) [VMess - ws]
+      - 🚀 AMD   [Trojan - ws]
+      - 🚀 STOB (ali) [Trojan - ws]
+      - 🚀 PARIS (ali) [Trojan - ws]
 
 rules:
 # 本地/局域网地址
