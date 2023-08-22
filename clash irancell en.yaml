@@ -1,109 +1,87 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：11-08-2023 20:18:14
+# 创建时间：22-08-2023 09:10:35
 # 使用模版：V2RaySE 默认模版
-# 节点数量：6
+# 节点数量：4
 ####################################
 mixed-port: 7890
 allow-lan: true
 log-level: info
 external-controller: 0.0.0.0:9090
-tcp-concurrent: 4
-
 dns:
   enabled: true
   nameserver:
-    - 178.22.122.100
-    - 185.51.200.2
-    - https://1.1.1.1/dns-query
-    - https://9.9.9.9/dns-query
-    - 8.8.8.8
-    
+    - 119.29.29.29
+    - 223.5.5.5
   fallback:
-    - 178.22.122.100
-    - 185.51.200.2
-    - https://1.1.1.1/dns-query
-    - https://9.9.9.9/dns-query
+    - 8.8.8.8
+    - 8.8.4.4
     - tls://1.0.0.1:853
-    - tls://dns.google:85
+    - tls://dns.google:853
 
 proxies:
-  - {"name":"🚀 AMD   [VMess - ws]","type":"vmess","server":"79.137.205.195","port":8080,"cipher":"auto","uuid":"f01540b9-8afb-4d80-9139-de40e45a8068","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🚀 PARIS (ali) [VMess - ws]","type":"vmess","server":"193.233.133.241","port":8080,"cipher":"auto","uuid":"f0651ae1-dd8a-4330-994d-2ab5d4992a26","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🚀 STOB (ali) [VMess - ws]","type":"vmess","server":"5.42.72.107","port":8080,"cipher":"auto","uuid":"4c6438b9-90b1-4573-bdd9-69f406462f4f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
-  - {"name":"🚀 AMD   [Trojan - ws]","type":"trojan","server":"79.137.205.195","port":2083,"udp":true,"password":"uM0It4axRbWVislTbzSqwg","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🚀 STOB (ali) [Trojan - ws]","type":"trojan","server":"5.42.72.107","port":2083,"udp":true,"password":"S2mJVOhzmWIBJWqS5BEe-A","sni":"aa13abf1c72d5330.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🚀 PARIS (ali) [Trojan - ws]","type":"trojan","server":"193.233.133.241","port":2083,"udp":true,"password":"ct1OharXkOG6ay2xllkOPA","sni":"gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🚀 STOD [VMess - tcp]","type":"vmess","server":"5.42.75.176","port":8081,"cipher":"auto","uuid":"4080ef66-31f7-4cf5-b0a4-c031a8450783","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🚀 STOD  [VMess - ws]","type":"vmess","server":"5.42.75.176","port":8080,"cipher":"auto","uuid":"4080ef66-31f7-4cf5-b0a4-c031a8450783","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"google.com"}}}
+  - {"name":"🚀  STOD [Trojan - ws]","type":"trojan","server":"5.42.75.176","port":2083,"udp":true,"password":"8qNBRyrvXFlGzcyLGweqLg","sni":"b732457906c121bf.metric.gstatic.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🚀 STOD [Shadowsocks - tcp]","type":"ss","server":"5.42.75.176","port":1080,"password":"RgZhNjxxFXAxXtwasrf10Q","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🚀 AMD   [VMess - ws]
-      - 🚀 PARIS (ali) [VMess - ws]
-      - 🚀 STOB (ali) [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]
-      - 🚀 STOB (ali) [Trojan - ws]
-      - 🚀 PARIS (ali) [Trojan - ws]
+      - 🚀 STOD [VMess - tcp]
+      - 🚀 STOD  [VMess - ws]
+      - 🚀  STOD [Trojan - ws]
+      - 🚀 STOD [Shadowsocks - tcp]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🚀 AMD   [VMess - ws]
-      - 🚀 PARIS (ali) [VMess - ws]
-      - 🚀 STOB (ali) [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]
-      - 🚀 STOB (ali) [Trojan - ws]
-      - 🚀 PARIS (ali) [Trojan - ws]
+      - 🚀 STOD [VMess - tcp]
+      - 🚀 STOD  [VMess - ws]
+      - 🚀  STOD [Trojan - ws]
+      - 🚀 STOD [Shadowsocks - tcp]
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🚀 AMD   [VMess - ws]
-      - 🚀 PARIS (ali) [VMess - ws]
-      - 🚀 STOB (ali) [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]
-      - 🚀 STOB (ali) [Trojan - ws]
-      - 🚀 PARIS (ali) [Trojan - ws]
+      - 🚀 STOD [VMess - tcp]
+      - 🚀 STOD  [VMess - ws]
+      - 🚀  STOD [Trojan - ws]
+      - 🚀 STOD [Shadowsocks - tcp]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 AMD   [VMess - ws]
-      - 🚀 PARIS (ali) [VMess - ws]
-      - 🚀 STOB (ali) [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]
-      - 🚀 STOB (ali) [Trojan - ws]
-      - 🚀 PARIS (ali) [Trojan - ws]
+      - 🚀 STOD [VMess - tcp]
+      - 🚀 STOD  [VMess - ws]
+      - 🚀  STOD [Trojan - ws]
+      - 🚀 STOD [Shadowsocks - tcp]
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🚀 AMD   [VMess - ws]
-      - 🚀 PARIS (ali) [VMess - ws]
-      - 🚀 STOB (ali) [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]
-      - 🚀 STOB (ali) [Trojan - ws]
-      - 🚀 PARIS (ali) [Trojan - ws]
+      - 🚀 STOD [VMess - tcp]
+      - 🚀 STOD  [VMess - ws]
+      - 🚀  STOD [Trojan - ws]
+      - 🚀 STOD [Shadowsocks - tcp]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🚀 AMD   [VMess - ws]
-      - 🚀 PARIS (ali) [VMess - ws]
-      - 🚀 STOB (ali) [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]
-      - 🚀 STOB (ali) [Trojan - ws]
-      - 🚀 PARIS (ali) [Trojan - ws]
+      - 🚀 STOD [VMess - tcp]
+      - 🚀 STOD  [VMess - ws]
+      - 🚀  STOD [Trojan - ws]
+      - 🚀 STOD [Shadowsocks - tcp]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -126,12 +104,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🚀 AMD   [VMess - ws]
-      - 🚀 PARIS (ali) [VMess - ws]
-      - 🚀 STOB (ali) [VMess - ws]
-      - 🚀 AMD   [Trojan - ws]
-      - 🚀 STOB (ali) [Trojan - ws]
-      - 🚀 PARIS (ali) [Trojan - ws]
+      - 🚀 STOD [VMess - tcp]
+      - 🚀 STOD  [VMess - ws]
+      - 🚀  STOD [Trojan - ws]
+      - 🚀 STOD [Shadowsocks - tcp]
 
 rules:
 # 本地/局域网地址
