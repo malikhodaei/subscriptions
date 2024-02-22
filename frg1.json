@@ -47,26 +47,31 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
             "address": "hel.mishahana.fun",
-            "level": 1,
-            "flow": "",
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "PPoN9dHxDS",
-            "port": 2087
+            "port": 8443,
+            "users": [
+              {
+                "id": "1faa8182-fe88-418f-ec97-157c130e162f",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "HEL.MIShAHANA.FuN",
+          "serverName": "heL.mIshAhANA.Fun",
           "alpn": [
             "h2",
             "http/1.1"
@@ -74,11 +79,9 @@
           "fingerprint": "chrome",
           "show": false
         },
-        "wsSettings": {
-          "path": "/tws",
-          "headers": {
-            "Host": "HEL.MIShAHANA.FuN"
-          }
+        "grpcSettings": {
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment",
@@ -101,7 +104,7 @@
         "domainStrategy": "AsIs",
         "fragment": {
           "packets": "tlshello",
-          "length": "10-17",
+          "length": "50-100",
           "interval": "1-2"
         }
       },
